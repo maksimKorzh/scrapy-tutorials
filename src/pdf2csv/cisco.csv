@@ -1,0 +1,23 @@
+Catalyst,9200L MultiGigabit Ethernet switch models,16.12.2,not supporte
+9200,(C9200L-24PXG-2Y | C9200L-24PXG-4X | C9200L-
+,48PXG-2Y | C9200L-48PXG-4X)
+,9200L (all other models),16.9.4,not supporte
+,9200 (all models),16.12.2,not supporte
+Catalyst,9300 (all models),16.9.4,not supporte
+9300
+,9300L (all models),16.12.2,not supporte
+,9300-24S | 9300-48S,16.12.2,not supporte
+,9300-24UB | 9300-24UXB | 9300-48UB,16.12.2,not supporte
+Catalyst,Supervisor 1XL 25G uplinks (C9400-SUP-1XL-Y) in any,16.9.4,16.12.2
+9400,9400 chassis
+,Supervisor Engine-1 or Supervisor Engine-1XL in 9404,16.9.4,16.9.4
+,chassis
+,Supervisor Engine-1 or Supervisor Engine-1XL in 9407,16.9.4,16.9.4
+,chassis
+,Supervisor Engine-1 or Supervisor Engine-1XL in 9410,16.9.4,16.12.2
+,chassis
+,C9400-LC-48H line card in any chassis,16.12.2,16.12.2
+Catalyst,9500 high performance models,16.9.4,16.12.2
+9500,(C9500-32C | C9500-32QC | C9500-48Y4C | C9500-
+,24Y4C)
+""
