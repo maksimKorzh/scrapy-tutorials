@@ -1,0 +1,3269 @@
+{
+  "price": "$430,000",
+  "address": "1415 Orange Blossom Ter SE,\u00a0Atlanta, GA 30316",
+  "bedrooms": "3",
+  "bathrooms": "3",
+  "floor_area": "1,814 sqft",
+  "zestimate": "$398,118",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Pamela Haggerty",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "2003",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "4 spaces",
+    "HOA": "None",
+    "Lot": "4,356 sqft",
+    "Price/sqft": "$237"
+  },
+  "tax_history": {
+    "Tax assessed value": "$359,500",
+    "Annual tax amount": "$6,623"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "1 /10 Ronald E McNair Discover Learning Academy Elementary School Grades:  PK-5 Distance:  1.6 mi",
+    "3 /10 Mcnair Middle School Grades:  6-8 Distance:  2.2 mi",
+    "3 /10 Mcnair High School Grades:  9-12 Distance:  1.2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.722824,
+    "longitude": -84.33259
+  }
+}
+{
+  "price": "$460,000",
+  "address": "2242 Harry Brooks Dr NW,\u00a0Atlanta, GA 30318",
+  "bedrooms": "3",
+  "bathrooms": "3",
+  "floor_area": "2,148 sqft",
+  "zestimate": "$453,752",
+  "description": "A short drive from the Bellwood Quarry Park, you'll find this 3/2.5 southern classic. Its quaint front porch swing overlooks passersby strolling the sidewalks of a friendly tree-lined subdivision convenient to everything in the popular Upper Westside. Inside you'll find an open floorplan featuring brick fireplace, spacious dining & a bright white kitchen with stainless steel appliances, granite counters & island. Oversized master features tray ceiling, soaking tub with separate shower & dual vanities. Hardwood & tile throughout. The large fenced yard is adjacent to the communal playground & pavilion.",
+  "agent_info": {
+    "agent_name": "Rachel Farren",
+    "agent_phone": "(770) 605-6905"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "2001",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "$52/month",
+    "Lot": "7,056 sqft",
+    "Price/sqft": "$214"
+  },
+  "tax_history": {
+    "Tax assessed value": "$397,400",
+    "Annual tax amount": "$5,730"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Bolton Academy Grades:  PK-5 Distance:  0.1 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  3.3 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  3.3 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.816377,
+    "longitude": -84.457694
+  }
+}
+{
+  "price": "$610,000",
+  "address": "209 Clay St SE,\u00a0Atlanta, GA 30317",
+  "bedrooms": "4",
+  "bathrooms": "4",
+  "floor_area": "2,200 sqft",
+  "zestimate": "$492,834View Details",
+  "description": "OWN A PIECE OF ATLANTA HISTORY! Here's your chance to own a piece of history minutes from downtown Atlanta. This beautiful craftsman home is where the battle of Atlanta began. Built in 1947 the home has been remodeled to feature 4 bedrooms with the master being on the main. 3 full baths and 1 half bath. The open concept floor plan in this home provides a great amount of space for any size family. The kitchen features state of the art appliances and is perfect for those who enjoy cooking.There's lots of natural lighting and so much more!!!",
+  "agent_info": {
+    "agent_name": "Brent Griffin",
+    "agent_phone": "3"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1947",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Carport",
+    "HOA": "None",
+    "Lot": "8,712 sqft",
+    "Price/sqft": "$277"
+  },
+  "tax_history": {
+    "Tax assessed value": "$112,800",
+    "Annual tax amount": "$2,411"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Toomer Elementary School Grades:  PK-5 Distance:  0.5 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  0.6 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.747614,
+    "longitude": -84.330833
+  }
+}
+{
+  "price": "$297,900",
+  "address": "209 Hilltop Dr SW,\u00a0Atlanta, GA 30315",
+  "bedrooms": "3",
+  "bathrooms": "3",
+  "floor_area": "1,776 sqft",
+  "zestimate": "$289,388",
+  "description": null,
+  "agent_info": {
+    "agent_name": "DARLENE COTTON",
+    "agent_phone": "(404) 246-1555"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "2006",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "0.34 acres",
+    "Price/sqft": "$168"
+  },
+  "tax_history": {
+    "Tax assessed value": "$108,100",
+    "Annual tax amount": "$539"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Slater Elementary School Grades:  PK-5 Distance:  1.2 mi",
+    "2 /10 Price Middle School Grades:  6-8 Distance:  0.8 mi",
+    "7 /10 Early College High School At Carver Grades:  9-12 Distance:  1.3 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.699406,
+    "longitude": -84.396057
+  }
+}
+{
+  "price": "$340,000",
+  "address": "1591 Sylvan Rd SW,\u00a0Atlanta, GA 30310",
+  "bedrooms": "3",
+  "bathrooms": "3",
+  "floor_area": "1,700 sqft",
+  "zestimate": "For saleView Zestimate\u00ae",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Andrew Nelson",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1925",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "Lot": "7,492 sqft",
+    "Price/sqft": "$200"
+  },
+  "tax_history": {
+    "Tax assessed value": "$102,900",
+    "Annual tax amount": "$1,465"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 Perkerson Elementary School Grades:  PK-5 Distance:  0.9 mi",
+    "4 /10 Sylvan Hills Middle School Grades:  6-8 Distance:  1.5 mi",
+    "7 /10 Early College High School At Carver Grades:  9-12 Distance:  1.9 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.711391,
+    "longitude": -84.418486
+  }
+}
+{
+  "price": "$399,900",
+  "address": "453 Kendrick Ave SE,\u00a0Atlanta, GA 30315",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,008 sqft",
+  "zestimate": "$399,900",
+  "description": "Listen to the lions roar as you sit on your front porch, just a street away from the Atlanta Zoo. Located in one of the sought after historic districts and walking distance to the new Grant Parkway gateway. The 2/2 has been completely renovated! Features a large master suite, spacious backyard with detached garage. New roof, hardi siding on 3 sides, new appliances, cabinets and granite in kitchen. Owner financing and lease purchase available! No showings until further notice.",
+  "agent_info": {
+    "agent_name": "Jessica Stansel",
+    "agent_phone": "11"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1940",
+    "Heating": "Forced air, Other",
+    "Cooling": "Central",
+    "Parking": "1 space",
+    "HOA": "None",
+    "Lot": "6,499 sqft",
+    "Price/sqft": "$397"
+  },
+  "tax_history": {
+    "Tax assessed value": "$239,200",
+    "Annual tax amount": "$2,982"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Parkside Elementary School Grades:  PK-5 Distance:  0.6 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  2.7 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  0.9 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.729072,
+    "longitude": -84.372507
+  }
+}
+{
+  "price": "$600,000",
+  "address": "575 Linwood Ave NE,\u00a0Atlanta, GA 30306",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,435 sqft",
+  "zestimate": "$588,905",
+  "description": "Complete renovation on the best street in Poncey Highland! Modern finishes accentuate all the original bungalow charm. This home is close to everything--directly across from Freedom Park Trail, .25 miles from the Beltline, and .5 miles to Ponce City Market. Restored original hardwood flooring flows throughout the house. The abundance of natural light and two bonus spaces make working from home a breeze. Easy to build upwards with an already-plumbed finished attic space. Rare interior-access basement. Big back yard is perfect for entertaining. In-town living at its best!",
+  "agent_info": {
+    "agent_name": "Kyle Jackson",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1920",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "7,649 sqft",
+    "Price/sqft": "$418"
+  },
+  "tax_history": {
+    "Tax assessed value": "$962,000",
+    "Annual tax amount": "$6,100"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "8 /10 Springdale Park Elementary School Grades:  K-5 Distance:  0.7 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  0.8 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  1.1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.770171,
+    "longitude": -84.356558
+  }
+}
+{
+  "price": "$925,000",
+  "address": "452 Ivy Park Ln NE,\u00a0Atlanta, GA 30342",
+  "bedrooms": "4",
+  "bathrooms": "4",
+  "floor_area": "2,818 sqft",
+  "zestimate": "For sale",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Emily H Tate",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Townhouse",
+    "Year built": "1986",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Attached Garage",
+    "Lot": "5,227 sqft",
+    "Price/sqft": "$328"
+  },
+  "tax_history": {
+    "Tax assessed value": "$614,800",
+    "Annual tax amount": "$8,803"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "7 /10 Smith Elementary School Grades:  K-5 Distance:  0.4 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  2.5 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  2.5 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.852791,
+    "longitude": -84.372569
+  }
+}
+{
+  "price": "$247,900",
+  "address": "2388 Hosea Williams Dr SE,\u00a0Atlanta, GA 30317",
+  "bedrooms": "3",
+  "bathrooms": "1",
+  "floor_area": "1,125 sqft",
+  "zestimate": "None\u00a0",
+  "description": "Prime Location*** East Lake Community! Leisure Walk from EL Golf Club/Oakhurst Village. Property is adjacent to Hosea & 2nd Commercial District @ intersection of Hosea and 2nd Avenue. Minutes from East Lake Golf Course and Downtown Atlanta. Possibilities of this opportunity is endless. Great for seasoned developer w/ strong vision. Home is in need of repair or could possibly be considered a new development project. Lots nearby and general area is loaded with New Construction Projects. Potential Commercial Zoning CALL TODAY!!! NO LKBX Appointment Only",
+  "agent_info": {
+    "agent_name": "Jeff Daniels",
+    "agent_phone": "2"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1986",
+    "Heating": "No Data",
+    "Cooling": "No Data",
+    "Parking": "No Data",
+    "HOA": "None",
+    "Lot": "8,712 sqft",
+    "Price/sqft": "$220"
+  },
+  "tax_history": {},
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Toomer Elementary School Grades:  PK-5 Distance:  1.7 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  2.2 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  3.8 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.751216,
+    "longitude": -84.301924
+  }
+}
+{
+  "price": "$1,350,000",
+  "address": "2741 Atwood Rd NE,\u00a0Atlanta, GA 30305",
+  "bedrooms": "5",
+  "bathrooms": "3",
+  "floor_area": "3,180 sqft",
+  "zestimate": "For saleView Zestimate\u00ae",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Alden Potts",
+    "agent_phone": "17"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1936",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "0.27 acres",
+    "Price/sqft": "$425"
+  },
+  "tax_history": {
+    "Tax assessed value": "$1,000,000",
+    "Annual tax amount": "$14,506"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Garden Hills Elementary School Grades:  PK-5 Distance:  0.5 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  2.2 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  2.2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.829349,
+    "longitude": -84.371678
+  }
+}
+{
+  "price": "$239,000",
+  "address": "2927 Chilhowee Dr,\u00a0Atlanta, GA 30331",
+  "bedrooms": "4",
+  "bathrooms": "3",
+  "floor_area": "2,676 sqft",
+  "zestimate": "$219,483",
+  "description": "Beautifully maintained brick font home in the sought after Legacy at Cascading Creek community. This home boasts new paint and carpet throughout, hardwoods, stainless steel appliances, bedroom on main, and more. Private backyard with concrete patio on a quiet cul-de-sac lot. This home is a MUST SEE!",
+  "agent_info": {
+    "agent_name": "Chris Ashkouti",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "2006",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "$45/month",
+    "Lot": "9,583 sqft",
+    "Price/sqft": "$89"
+  },
+  "tax_history": {
+    "Tax assessed value": "$189,500",
+    "Annual tax amount": "$1,614"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "4 /10 Cliftondale Elementary School Grades:  PK-5 Distance:  1.1 mi",
+    "4 /10 Sandtown Middle School Grades:  6-8 Distance:  3.9 mi",
+    "6 /10 Westlake High School Grades:  9-12 Distance:  2.8 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.674754,
+    "longitude": -84.618903
+  }
+}
+{
+  "price": "$374,900",
+  "address": "563 Memorial Dr SE UNIT 304,\u00a0Atlanta, GA 30312",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,069 sqft",
+  "zestimate": "For sale",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Latania McKenzie",
+    "agent_phone": "(678) 612-6543"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2007",
+    "Heating": "Heat pump",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "$25/month",
+    "Price/sqft": "$351"
+  },
+  "tax_history": {
+    "Tax assessed value": "$315,300",
+    "Annual tax amount": "$3,061"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Parkside Elementary School Grades:  PK-5 Distance:  0.7 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  2.1 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  0.6 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.746372,
+    "longitude": -84.369262
+  }
+}
+{
+  "price": "$290,000",
+  "address": "480 John Wesley Dobbs Ave NE UNIT 424,\u00a0Atlanta, GA 30312",
+  "bedrooms": "2",
+  "bathrooms": "1",
+  "floor_area": "1,025 sqft",
+  "zestimate": "$282,901",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Lee Taylor",
+    "agent_phone": "4.9"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2007",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "4 spaces",
+    "HOA": "$382/month",
+    "Price/sqft": "$283"
+  },
+  "tax_history": {
+    "Tax assessed value": "$279,400",
+    "Annual tax amount": "$2,622"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Hope Hill Elementary School Grades:  PK-5 Distance:  0.2 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  1.5 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  1.3 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.759524,
+    "longitude": -84.371297
+  }
+}
+{
+  "price": "$220,000",
+  "address": "1361 Woodland Ter SW,\u00a0Atlanta, GA 30311",
+  "bedrooms": "2",
+  "bathrooms": "1",
+  "floor_area": "987 sqft",
+  "zestimate": "$212,198",
+  "description": "Recently Renovated 2 bed 1 bath Cute Bungalow ITP. Close to 285, The West End, Cascade Nature Preserve and Mercedes Benz Stadium. Perfect for a 1st time home buyer, airbnb investment or investor looking to add to their portfolio. Sits on more than 1/2 acre lot and backs up to the Cascade Nature Preserve. Also Close to shopping and Dining with easy access to the airport. Showing will be available 5/1",
+  "agent_info": {
+    "agent_name": "Edward Lee",
+    "agent_phone": "(708) 250-1510"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1955",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Detached Garage",
+    "HOA": "None",
+    "Lot": "0.69 acres",
+    "Price/sqft": "$223"
+  },
+  "tax_history": {
+    "Tax assessed value": "$305,200",
+    "Annual tax amount": "$1,415"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 Kimberly Elementary School Grades:  PK-5 Distance:  1.4 mi",
+    "3 /10 Bunche Middle School Grades:  6-8 Distance:  3.7 mi",
+    "3 /10 Therrell High School Grades:  9-12 Distance:  1.6 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.718572,
+    "longitude": -84.474124
+  }
+}
+{
+  "price": "$529,000",
+  "address": "92 Battlefield Ave SE,\u00a0Atlanta, GA 30317",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "floor_area": "1,612 sqft",
+  "zestimate": "$486,212",
+  "description": "Fantastic opportunity to own a beautifully updated home in the coveted community of Edgewood. This home provides privacy and security with a fenced yard and a remote gate leading to a two car attached garage. Enter from the rocking chair front porch to view a wonderfully open floor plan where the great room adjoins the bright kitchen. Two inviting bedrooms and a full bath are also located on the main. The upper level boasts a well-lit master suite complete with sitting area and a large custom closet. The basement offers amble room for storage and parking. 2020-05-01",
+  "agent_info": {
+    "agent_name": "Laura Mehl",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "2005",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "Lot": "8,712 sqft",
+    "Price/sqft": "$328"
+  },
+  "tax_history": {
+    "Tax assessed value": "$441,300",
+    "Annual tax amount": "$4,935"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Toomer Elementary School Grades:  PK-5 Distance:  1.2 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  0.7 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  1.2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.750811,
+    "longitude": -84.347189
+  }
+}
+{
+  "price": "$500,000",
+  "address": "909 Hubbard St SW,\u00a0Atlanta, GA 30310",
+  "bedrooms": "2",
+  "bathrooms": "4",
+  "floor_area": "2,475 sqft",
+  "zestimate": "None\u00a0",
+  "description": "Pittsburgh's Intown value and Beltline accessibility is on display in 2020, and 909 Hubbard Street delivers pretty views, a beautifully finished lot, a flowing floor plan and 3 interior living levels that accent a cool lifestyle both inside and outside the house. The glass garage door sets up the alluring style of the house, from the ground up. The sculpted landscape has an exclusive, stately feel. The main level of the house has sunlight-filled rooms which highlight the lovely kitchen and the ample entertainment space.",
+  "agent_info": {
+    "agent_name": "Lee Taylor",
+    "agent_phone": "4.9"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "2020",
+    "Heating": "Gas",
+    "Cooling": "Central",
+    "Parking": "Attached Garage",
+    "HOA": "None",
+    "Lot": "5,662 sqft",
+    "Price/sqft": "$202"
+  },
+  "tax_history": {},
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 Gideons Elementary School Grades:  PK-5 Distance:  0.2 mi",
+    "4 /10 Sylvan Hills Middle School Grades:  6-8 Distance:  0.4 mi",
+    "7 /10 Early College High School At Carver Grades:  9-12 Distance:  1.1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.729976,
+    "longitude": -84.402563
+  }
+}
+{
+  "price": "$4,850,000",
+  "address": "3541 Tuxedo Rd NW,\u00a0Atlanta, GA 30305",
+  "bedrooms": "5",
+  "bathrooms": "7",
+  "floor_area": "8,410 sqft",
+  "zestimate": "For sale",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Kim and Kathryn Boyd Team",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1933",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "3 spaces",
+    "Lot": "3.95 acres",
+    "Price/sqft": "$577"
+  },
+  "tax_history": {
+    "Tax assessed value": "$3,500,000",
+    "Annual tax amount": "$59,210"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "9 /10 Jackson Elementary School Grades:  K-5 Distance:  1.8 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  1.2 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  1.2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.851505,
+    "longitude": -84.403941
+  }
+}
+{
+  "price": "$100,000",
+  "address": "1022 Welch St SW,\u00a0Atlanta, GA 30310",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "floor_area": "1,155 sqft",
+  "zestimate": "For saleView Zestimate\u00ae",
+  "description": "Calling all Investors! Minutes from Pittsburgh Yards and West Side Belt line. Great Opportunity for a full rehab, or tear down. SOLD AS IS.",
+  "agent_info": {
+    "agent_name": "Yesenia Inamagua",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1930",
+    "Heating": "Other",
+    "Cooling": "Other",
+    "Parking": "Detached Garage",
+    "HOA": "None",
+    "Lot": "5,000 sqft",
+    "Price/sqft": "$87"
+  },
+  "tax_history": {
+    "Tax assessed value": "$37,700",
+    "Annual tax amount": "$1,746"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 Gideons Elementary School Grades:  PK-5 Distance:  0.2 mi",
+    "4 /10 Sylvan Hills Middle School Grades:  6-8 Distance:  0.4 mi",
+    "7 /10 Early College High School At Carver Grades:  9-12 Distance:  1.1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.727045,
+    "longitude": -84.4046
+  }
+}
+{
+  "price": "$188,000",
+  "address": "562 Mcgill Pl NE,\u00a0Atlanta, GA 30312",
+  "bedrooms": "1",
+  "bathrooms": "1",
+  "floor_area": "813 sqft",
+  "zestimate": "$179,634",
+  "description": "Do not miss out on this opportunity to own in Old Fourth Ward! The prime location has easy access to numerous restaurants, bars, parks, the Beltline, Ponce City Market, etc, etc... This home features new flooring, light fixtures, HVAC, renovated bathroom, full functioning fireplace and private balcony with amazing city skyline views. Ground floor access with second floor balcony. All of this inside a well kept community that includes swimming pool and plenty of parking. Perfect fit for the savvy buyer.",
+  "agent_info": {
+    "agent_name": "Eric Buice",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "1987",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "HOA": "$330/month",
+    "Price/sqft": "$231"
+  },
+  "tax_history": {
+    "Tax assessed value": "$323,000",
+    "Annual tax amount": "$2,565"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Hope Hill Elementary School Grades:  PK-5 Distance:  0.6 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  1.4 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.765272,
+    "longitude": -84.376772
+  }
+}
+{
+  "price": "$299,999",
+  "address": "1449 Avon Ave SW,\u00a0Atlanta, GA 30310",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "floor_area": "1,794 sqft",
+  "zestimate": "$292,656",
+  "description": "Welcome Home to this Westside Beltline Marvel! This renovated jewel has updated plumbing, electrical, hvac, roof & more. This Smart Home is packed with tech goodies including nest cameras, video doorbell, security system & digital thermostat. Imagine your sunsets under the amazing pergola in the large sun filled, fenced backyard with veggies & fruit grown in your raised garden or upstairs theater (bonus room, playroom or man cave). You'll be in the mix of it all, just a stones throw from MARTA, Tyler Perry Studios, The Atlanta Beltline, Downtown. This home won't last!",
+  "agent_info": {
+    "agent_name": "Coleman Whitaker",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1945",
+    "Heating": "Other",
+    "Cooling": "None",
+    "Parking": "4 spaces",
+    "HOA": "None",
+    "Lot": "9,748 sqft",
+    "Price/sqft": "$167"
+  },
+  "tax_history": {
+    "Tax assessed value": "$486,000",
+    "Annual tax amount": "$3,122"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Finch Elementary School Grades:  PK-5 Distance:  0.7 mi",
+    "4 /10 Sylvan Hills Middle School Grades:  6-8 Distance:  2.3 mi",
+    "7 /10 Early College High School At Carver Grades:  9-12 Distance:  2.9 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.722728,
+    "longitude": -84.435444
+  }
+}
+{
+  "price": "$69,000",
+  "address": "2225 Larchwood Rd SW,\u00a0Atlanta, GA 30310",
+  "bedrooms": "2",
+  "bathrooms": "1",
+  "floor_area": "816 sqft",
+  "zestimate": "$73,386",
+  "description": "Investor Special!!! Great opportunity for Investors or first time home buyers. Perfect opportunity for a great location at a great price.",
+  "agent_info": {
+    "agent_name": "Crown-Realty Your Home SOLD Guaranteed",
+    "agent_phone": "4.9"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1950",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "Lot": "10,018 sqft",
+    "Price/sqft": "$85"
+  },
+  "tax_history": {
+    "Tax assessed value": "$52,600",
+    "Annual tax amount": "$951"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 Peyton Forest Elementary School Grades:  PK-5 Distance:  1.2 mi",
+    "2 /10 Young Middle School Grades:  6-8 Distance:  2.1 mi",
+    "2 /10 Mays High School Grades:  9-12 Distance:  2.9 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.747859,
+    "longitude": -84.459592
+  }
+}
+{
+  "price": "$675,000",
+  "address": "475 Ansley Ct NE,\u00a0Atlanta, GA 30324",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "floor_area": "2,212 sqft",
+  "zestimate": "$696,300",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Travis Reed",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Townhouse",
+    "Year built": "2008",
+    "Heating": "Forced air, Heat pump",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "$295/month",
+    "Lot": "914 sqft",
+    "Price/sqft": "$305"
+  },
+  "tax_history": {
+    "Tax assessed value": "$1,202,600",
+    "Annual tax amount": "$7,624"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "8 /10 Morningside Elementary School Grades:  K-5 Distance:  1.2 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  1.3 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  1.3 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.80083,
+    "longitude": -84.371229
+  }
+}
+{
+  "price": "$1,275,000",
+  "address": "155 The Prado NE,\u00a0Atlanta, GA 30309",
+  "bedrooms": "4",
+  "bathrooms": "3",
+  "floor_area": "2,705 sqft",
+  "zestimate": "$1,249,397",
+  "description": "Recently renovated w NEW JennAir appliance package, marble & Chechem counters, refin floors, French doors, IPE deck and privacy screens, interior plantation shutters, lower level HVAC & kitchen for au pair suite or airbnb. Custom made wood island w new flushmount venthood. High ceilings, tons of light, pine floors, historic Craftsman style, on one of the best streets in Atlanta. Covered front and back porches & private back deck = wonderful inside/outside integration. Combine with adjoining 160 Barksdale Dr (also listed) for one of the best lots in Ansley Park.",
+  "agent_info": {
+    "agent_name": "Christy Harris",
+    "agent_phone": "(404) 229-8737"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1920",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "10,306 sqft",
+    "Price/sqft": "$471"
+  },
+  "tax_history": {
+    "Tax assessed value": "$2,038,000",
+    "Annual tax amount": "$10,641"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "8 /10 Morningside Elementary School Grades:  K-5 Distance:  1.6 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  1.3 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.794367,
+    "longitude": -84.378297
+  }
+}
+{
+  "price": "$79,900",
+  "address": "2201 Pansy St NW,\u00a0Atlanta, GA 30314",
+  "bedrooms": "2",
+  "bathrooms": "1",
+  "floor_area": "675 sqft",
+  "zestimate": "For saleView Zestimate\u00ae",
+  "description": "Come see this wonderful investment opportunity. Rehab almost complete, just waiting on finishing touches. Permit has been pulled. Corner lot in up and coming area.",
+  "agent_info": {
+    "agent_name": "Kayla Dieppa",
+    "agent_phone": "4.9"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1950",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "HOA": "None",
+    "Lot": "0.33 acres",
+    "Price/sqft": "$118"
+  },
+  "tax_history": {
+    "Tax assessed value": "$43,800",
+    "Annual tax amount": "$793"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 Bazoline E. Usher/Collier Heights Elmentary School Grades:  PK-5 Distance:  2.4 mi",
+    "1 /10 Harper-Archer Middle School Grades:  6-8 Distance:  2.6 mi",
+    "1 /10 Douglass High School Grades:  9-12 Distance:  0.6 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.758146,
+    "longitude": -84.459728
+  }
+}
+{
+  "price": "$209,900",
+  "address": "2626 Peachtree Rd NW UNIT 1506,\u00a0Atlanta, GA 30305",
+  "bedrooms": "1",
+  "bathrooms": "1",
+  "floor_area": "652 sqft",
+  "zestimate": "For sale",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Ryan Johnston",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2005",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "1 space",
+    "HOA": "No Data",
+    "Price/sqft": "$322"
+  },
+  "tax_history": {
+    "Tax assessed value": "$196,100",
+    "Annual tax amount": "$2,748"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Rivers Elementary School Grades:  PK-5 Distance:  0.4 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  1.2 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  1.2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.826146,
+    "longitude": -84.388007
+  }
+}
+{
+  "price": "$785,000",
+  "address": "229 3rd Ave SE,\u00a0Atlanta, GA 30317",
+  "bedrooms": "4",
+  "bathrooms": "4",
+  "floor_area": "3,452 sqft",
+  "zestimate": "$774,805",
+  "description": "Amazing New Construction in Historic East Lake, just steps from the prestigious Golf Course + Drew Charter School. Main level boasts 12' High Ceilings, Open Concept floor plan, 2-Level Foyer/Living Room + Mudroom Entry from the 2-car Garage. Chef's Kitchen complete w/ Custom Cabinets, Oversized Island w/ Farmhouse Sink, Built in Wine Cooler + Floating Shelves. Master on Main w/ Barn Door leading to the bathroom + Laundry Room Walk-in Closet Combo. Upstairs Loft w/ Walk-in Closet + Balcony overlooking Large Backyard; 2nd Laundry Room. 10 Year Builders Warranty included.",
+  "agent_info": {
+    "agent_name": "Dominique Garrick",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "2020",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "8,712 sqft",
+    "Price/sqft": "$227"
+  },
+  "tax_history": {
+    "Tax assessed value": "$263,300",
+    "Annual tax amount": "$4,977"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Toomer Elementary School Grades:  PK-5 Distance:  1.3 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  1.8 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  3.4 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.746696,
+    "longitude": -84.308807
+  }
+}
+{
+  "price": "$459,000",
+  "address": "660 Glen Iris Dr NE APT 204,\u00a0Atlanta, GA 30308",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,116 sqft",
+  "zestimate": "$443,776",
+  "description": "Rare to the Market! Spacious loft with a massive patio that you must see, directly across from Ponce City Market. Upscale loft includes a combination of hardwood floors and polished cement floors throughout. 8ft tall windows and door lead out to your party porch. Enjoy beautiful new lighting in kitchen and painted cabinets. Spacious bedrooms with private baths and walk in closets. Walk to the Beltline, Old Fourth Ward Park and Ponce City Market. 2 Assigned parking spots. Pool opens May 1! Loft has been completely painted and staged.",
+  "agent_info": {
+    "agent_name": "Lee and Darlene Gillespy",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2002",
+    "Heating": "Other",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "$416/month",
+    "Price/sqft": "$411"
+  },
+  "tax_history": {
+    "Tax assessed value": "$419,600",
+    "Annual tax amount": "$6,219"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Hope Hill Elementary School Grades:  PK-5 Distance:  1 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  0.7 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  0.5 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.772187,
+    "longitude": -84.368895
+  }
+}
+{
+  "price": "$675,000",
+  "address": "1080 Peachtree St NE UNIT 2704,\u00a0Atlanta, GA 30309",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,358 sqft",
+  "zestimate": "$660,792",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Grace Simonca",
+    "agent_phone": "(678) 371-6625"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2008",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "$575/month",
+    "Price/sqft": "$497"
+  },
+  "tax_history": {
+    "Tax assessed value": "$544,300",
+    "Annual tax amount": "$8,033"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "8 /10 Springdale Park Elementary School Grades:  K-5 Distance:  2.4 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  1.4 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  0.8 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.783832,
+    "longitude": -84.383861
+  }
+}
+{
+  "price": "$240,000",
+  "address": "325 E Paces Ferry Rd NE APT 1104,\u00a0Atlanta, GA 30305",
+  "bedrooms": "1",
+  "bathrooms": "1",
+  "floor_area": "869 sqft",
+  "zestimate": "None\u00a0",
+  "description": "Beautiful 1 bedroom condo in one of Buckhead's most desirable & luxurious, pet friendly condos! In close proximity to luxury retail, dining and entertainment. Very active community and great amenities. Covered, assigned parking space. Amenities include pool, tennis court, fitness center & outdoor grilling kitchen. 24/7 concierge, internet.",
+  "agent_info": {
+    "agent_name": "Angellet Minard",
+    "agent_phone": "4.9"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2004",
+    "Heating": "No Data",
+    "Cooling": "No Data",
+    "Parking": "1 space",
+    "HOA": "$353/month",
+    "Price/sqft": "$276"
+  },
+  "tax_history": {},
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Garden Hills Elementary School Grades:  PK-5 Distance:  0.4 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  1.9 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  1.9 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.838567,
+    "longitude": -84.376843
+  }
+}
+{
+  "price": "$750,000",
+  "address": "1883 Ardmore Rd NW,\u00a0Atlanta, GA 30309",
+  "bedrooms": "4",
+  "bathrooms": "3",
+  "floor_area": "2,280 sqft",
+  "zestimate": "$741,473",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Alix Nadi",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1940",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "0.37 acres",
+    "Price/sqft": "$329"
+  },
+  "tax_history": {
+    "Tax assessed value": "$752,700",
+    "Annual tax amount": "$10,408"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Rivers Elementary School Grades:  PK-5 Distance:  1 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  1.7 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  1.7 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.806367,
+    "longitude": -84.398556
+  }
+}
+{
+  "price": "$349,000",
+  "address": "11 Plantation Dr NE,\u00a0Atlanta, GA 30324",
+  "bedrooms": "3",
+  "bathrooms": "3",
+  "floor_area": "1,583 sqft",
+  "zestimate": "$346,440",
+  "description": "Much sought after Plantation @ Lenox townhome. GORGEOUS 3 bed 21/2 home.Foyer with ceramics tiles, leads to living dining and kitchen area with hardwood, all white cabinets and SS appliances granite ctops, backsplash and wine cooler, kitchen leads to private brick patio great for entertainng. Huge mastr with tiled shower. Bedrms with new carpets, closet and ceiling fans. This is one of the largest complexes in Atlanta, gated 24/7 security, huge park with pool and adequate parking. THIS IS A MUST SEE!!!",
+  "agent_info": {
+    "agent_name": "Funke DIKIO",
+    "agent_phone": "11"
+  },
+  "facts_and_features": {
+    "Type": "Townhouse",
+    "Year built": "1980",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "HOA": "$510/month",
+    "Lot": "1,568 sqft",
+    "Price/sqft": "$220"
+  },
+  "tax_history": {
+    "Tax assessed value": "$279,900",
+    "Annual tax amount": "$2,192"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "7 /10 Smith Elementary School Grades:  K-5 Distance:  1.8 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  3.1 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  3.1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.836785,
+    "longitude": -84.357085
+  }
+}
+{
+  "price": "$489,900",
+  "address": "229 Winter Ave NE,\u00a0Atlanta, GA 30317",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "floor_area": "1,600 sqft",
+  "zestimate": "$489,901",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Maximillian Corwell",
+    "agent_phone": "4.9"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1929",
+    "Heating": "Heat pump",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "8,712 sqft",
+    "Price/sqft": "$306"
+  },
+  "tax_history": {
+    "Tax assessed value": "$384,700",
+    "Annual tax amount": "$2,066"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Toomer Elementary School Grades:  PK-5 Distance:  1.1 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  1.6 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  3.4 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.76279,
+    "longitude": -84.312697
+  }
+}
+{
+  "price": "$289,900",
+  "address": "1960 Main St NW,\u00a0Atlanta, GA 30318",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,131 sqft",
+  "zestimate": "$286,034",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Julie White",
+    "agent_phone": "4"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1925",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "7,679 sqft",
+    "Price/sqft": "$256"
+  },
+  "tax_history": {
+    "Tax assessed value": "$222,500",
+    "Annual tax amount": "$2,281"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Bolton Academy Grades:  PK-5 Distance:  1 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  4.2 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  4.2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.808841,
+    "longitude": -84.469983
+  }
+}
+{
+  "price": "$290,000",
+  "address": "155 Gordon Ter SW,\u00a0Atlanta, GA 30314",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "floor_area": "1,253 sqft",
+  "zestimate": "$278,118",
+  "description": "Priced to Sell!!!Beautifully Renovated Home near the Beltline in Mozley Park!! Stunning Hardwoods, 10 ft ceilings, granite counters w/modern cabinetry and serving area. Stainless Steel appliances, new HVAC, plumbing, electrical, mechanical, fenced back yard with deck and covered front porch! Fantastic location with super easy access to I-20,Marta, Mozley Park, Mercedez Benz Stadium, shopping, eating & all that Atlanta has to offer!",
+  "agent_info": {
+    "agent_name": "Courtney Waring",
+    "agent_phone": "1"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1920",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "3 spaces",
+    "HOA": "None",
+    "Lot": "3,876 sqft",
+    "Price/sqft": "$231"
+  },
+  "tax_history": {
+    "Tax assessed value": "$91,700",
+    "Annual tax amount": "$1,038"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 F. L. Stanton Elementary School Grades:  PK-5 Distance:  0.2 mi",
+    "1 /10 Harper-Archer Middle School Grades:  6-8 Distance:  3.7 mi",
+    "1 /10 Douglass High School Grades:  9-12 Distance:  1.7 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.750674,
+    "longitude": -84.443389
+  }
+}
+{
+  "price": "$499,000",
+  "address": "170 Nan SE #E210,\u00a0Atlanta, GA 30312",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "-- sqft",
+  "zestimate": "None\u00a0",
+  "description": null,
+  "agent_info": {
+    "agent_name": "James Robbins",
+    "agent_phone": "8"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2006",
+    "Heating": "Forced air, Heat pump",
+    "Cooling": "Central",
+    "Parking": "1 space",
+    "HOA": "$518/month",
+    "Price/sqft": "No Data"
+  },
+  "tax_history": {},
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Parkside Elementary School Grades:  PK-5 Distance:  1 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  2.5 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.74514,
+    "longitude": -84.37643
+  }
+}
+{
+  "price": "$925,000",
+  "address": "2275 Stephen Long Dr NE,\u00a0Atlanta, GA 30305",
+  "bedrooms": "5",
+  "bathrooms": "4",
+  "floor_area": "3,366 sqft",
+  "zestimate": "For sale",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Kellyann Dunning",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1920",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street",
+    "Lot": "8,276 sqft",
+    "Price/sqft": "$275"
+  },
+  "tax_history": {
+    "Tax assessed value": "$903,700",
+    "Annual tax amount": "$10,886"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Rivers Elementary School Grades:  PK-5 Distance:  0.5 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  1.8 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  1.8 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.817042,
+    "longitude": -84.382027
+  }
+}
+{
+  "price": "$419,900",
+  "address": "275 13th St NE APT 1101,\u00a0Atlanta, GA 30309",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,125 sqft",
+  "zestimate": "$403,104",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Mark Hilliard",
+    "agent_phone": "13"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2005",
+    "Heating": "No Data",
+    "Cooling": "No Data",
+    "Parking": "2 spaces",
+    "HOA": "$689/month",
+    "Price/sqft": "$373"
+  },
+  "tax_history": {},
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "8 /10 Springdale Park Elementary School Grades:  K-5 Distance:  2.1 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  1.1 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  0.6 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.784982,
+    "longitude": -84.379651
+  }
+}
+{
+  "price": "$529,900",
+  "address": "173-173A Mayson Ave NE,\u00a0Atlanta, GA 30307",
+  "bedrooms": "3",
+  "bathrooms": "3",
+  "floor_area": "-- sqft",
+  "zestimate": "None\u00a0",
+  "description": "Unparalleled style and a forward thinking floor plan combine to make this modern city home a breath of fresh air in the Intown market. The entry foyer welcomes you into the bright open floor plan. The designer kitchen overlooks the dining area and the grassy front yard, and features an abundance of storage, upgraded appliances and the perfect entertaining island. A built-in office space and powder room bisect the living room and dining room, offering a functional and efficient use of space.",
+  "agent_info": {
+    "agent_name": "Chrissie Kallio",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Townhouse",
+    "Year built": "2020",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Attached Garage",
+    "Lot": "0.3 acres",
+    "Price/sqft": "No Data"
+  },
+  "tax_history": {},
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Toomer Elementary School Grades:  PK-5 Distance:  0.7 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  0.3 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  1.9 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.758807,
+    "longitude": -84.338557
+  }
+}
+{
+  "price": "$324,900",
+  "address": "130 Burbank Dr SW,\u00a0Atlanta, GA 30314",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "floor_area": "696 sqft",
+  "zestimate": "For saleView Zestimate\u00ae",
+  "description": "Like New Construction in Mozley Park/Hunter Hills. Steps (900 ft) from FINISHED Westside Beltline Trail. Completely Renovated from Top to Bottom. Open Floor Plan w/ 10ft Plus Ceilings. Hardwood Floors throughout. New Custom Kitchen w/ Double Basin Farm Sink, Quartz Counter-tops. Custom Cabinets & Light Fixtures. Giant Master Suite w/ Custom Double Vanity & Shower. Walk-In Closet. Two Supporting Bedrooms w/ New Shared Bath. New Roof, New HVAC, New Water Heater and More. Private Back yard & Off Street Parking. Close to MARTA, Mercedes Benze Stadium, and Downtown Atlanta. 2020-04-30",
+  "agent_info": {
+    "agent_name": "Andy Griffith",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1945",
+    "Heating": "Heat pump",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "Lot": "5,488 sqft",
+    "Price/sqft": "$467"
+  },
+  "tax_history": {
+    "Tax assessed value": "$65,400",
+    "Annual tax amount": "$875"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 F. L. Stanton Elementary School Grades:  PK-5 Distance:  0.9 mi",
+    "1 /10 Harper-Archer Middle School Grades:  6-8 Distance:  4.5 mi",
+    "1 /10 Douglass High School Grades:  9-12 Distance:  2.6 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.751204,
+    "longitude": -84.428699
+  }
+}
+{
+  "price": "$1,795,000",
+  "address": "838 Cumberland Rd NE,\u00a0Atlanta, GA 30306",
+  "bedrooms": "5",
+  "bathrooms": "6",
+  "floor_area": "4,940 sqft",
+  "zestimate": "$1,773,242",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Jim Getzinger",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "2007",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "0.26 acres",
+    "Price/sqft": "$363"
+  },
+  "tax_history": {
+    "Tax assessed value": "$1,643,000",
+    "Annual tax amount": "$24,973"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "8 /10 Morningside Elementary School Grades:  K-5 Distance:  0.4 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  0.9 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  1.2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.796374,
+    "longitude": -84.35966
+  }
+}
+{
+  "price": "$200,000",
+  "address": "120 Wellington St SW,\u00a0Atlanta, GA 30314",
+  "bedrooms": "4",
+  "bathrooms": "4",
+  "floor_area": "2,106 sqft",
+  "zestimate": "For saleView Zestimate\u00ae",
+  "description": "This is a full rehab... located minutes from Harsfield, Mozely Park and near all shopping and entertainment this beautiful layout bungalow affords large space throughout, with high ceilings, family room with fire place, unfinished basement and a nice sized kitchen with a vision this home will be extraordinary,come with your ideas and make this your dream home",
+  "agent_info": {
+    "agent_name": "Kecia Love",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1940",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "1 space",
+    "Lot": "8,250 sqft",
+    "Price/sqft": "$95"
+  },
+  "tax_history": {
+    "Tax assessed value": "$100,100",
+    "Annual tax amount": "$1,223"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 F. L. Stanton Elementary School Grades:  PK-5 Distance:  0.3 mi",
+    "1 /10 Harper-Archer Middle School Grades:  6-8 Distance:  4 mi",
+    "1 /10 Douglass High School Grades:  9-12 Distance:  2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.751915,
+    "longitude": -84.43785
+  }
+}
+{
+  "price": "$315,000",
+  "address": "2626 Peachtree Rd NW UNIT 206,\u00a0Atlanta, GA 30305",
+  "bedrooms": "1",
+  "bathrooms": "2",
+  "floor_area": "1,443 sqft",
+  "zestimate": "$310,922",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Kristin Casanas",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2005",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "HOA": "$745/month",
+    "Price/sqft": "$218"
+  },
+  "tax_history": {
+    "Tax assessed value": "$344,400",
+    "Annual tax amount": "$3,118"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Rivers Elementary School Grades:  PK-5 Distance:  0.4 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  1.2 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  1.2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.826152,
+    "longitude": -84.388011
+  }
+}
+{
+  "price": "$309,900",
+  "address": "2180 Hosea L Williams Dr NE,\u00a0Atlanta, GA 30317",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "floor_area": "1,595 sqft",
+  "zestimate": "None\u00a0",
+  "description": "Awesome all Brick Ranch Bungalow on a Corner Lot in Prime Location Kirkwood Community. Comes with a Front Porch and Back Porch Screened In. Original Hardwood Floors. Formal Dining and Living Room. Kitchen with Breakfast Area. A Bonus Room for your Office. 2 Car Detached Garage. Short Walk to Park, Beltline, & Nice Restaurants. Great for Savvy Investors that are Looking to Renovate in the Great Kirkwood Area. Needs Everything. Bring your Offer! *Do Not Disturb Occupants!",
+  "agent_info": {
+    "agent_name": "Charles Canty",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1930",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "Lot": "8,712 sqft",
+    "Price/sqft": "$194"
+  },
+  "tax_history": {
+    "Tax assessed value": "$309,900",
+    "Annual tax amount": "$1,752"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Toomer Elementary School Grades:  PK-5 Distance:  0.8 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  1.3 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  2.9 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.751416,
+    "longitude": -84.316339
+  }
+}
+{
+  "price": "$184,900",
+  "address": "400 17th St NW #1317,\u00a0Atlanta, GA 30363",
+  "bedrooms": "1",
+  "bathrooms": "1",
+  "floor_area": "750 sqft",
+  "zestimate": "$182,434",
+  "description": "This 1 bedroom, 1 bathroom condo is sure to catch your eye. The highly sought after open concept comes to life in this home. Gorgeous kitchen furnished with stone countertops, and a custom backsplash. Hardwood flooring, with carpet in the bedrooms make this beautiful home comfortable, as well as aesthetic.",
+  "agent_info": {
+    "agent_name": "Sanders Team",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2004",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "HOA": "$375/month",
+    "Price/sqft": "$247"
+  },
+  "tax_history": {
+    "Tax assessed value": "$158,400",
+    "Annual tax amount": "$2,342"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Centennial Academy Grades:  K-8 Distance:  1.3 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.789206,
+    "longitude": -84.402088
+  }
+}
+{
+  "price": "$147,000",
+  "address": "2657 Lenox Rd NE #G-98,\u00a0Atlanta, GA 30324",
+  "bedrooms": "1",
+  "bathrooms": "1",
+  "floor_area": "650 sqft",
+  "zestimate": "None\u00a0",
+  "description": "THIS CONDO SITS IN A VERY PRIVATE LOCATION WITHIN THE COMMUNITY, TOP FLOOR WITH NO VISIBLE NEIGHBORS IN FRONT. IT'S SITUATED IN THE CORNER OF BUILDING G. IT FEATURES NEWLY FINISHED HARDWOOD FLOORS, FRESHLY PAINTED THROUGHOUT AND NEW CARPET IN THE BEDROOM AND CLOSET AREA. HEATING AND AIR UNITS LESS THAN 2 YEARS OLD. NEW BEDROOM CEILING FAN/LIGHTING. PRIVATE BALCONY AREA UNLIKE ANY OTHER CONDO IN THE COMMUNITY. THIS AREA IS HIGHLY SOUGHT AFTER. CLOSE TO SHOPPING, MARTA AND PUBLIC TRANSPORTATION AND ENTERTAINMENT. THIS HOME IS WAITING ON YOU TO CALL IT HOME SWEET HOME.",
+  "agent_info": {
+    "agent_name": "DARYL BATTLES",
+    "agent_phone": "(678) 908-1696"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "1994",
+    "Heating": "No Data",
+    "Cooling": "No Data",
+    "Parking": "2 spaces",
+    "HOA": "$190/month",
+    "Price/sqft": "$226"
+  },
+  "tax_history": {},
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "7 /10 Smith Elementary School Grades:  K-5 Distance:  2.4 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  3.3 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  3.3 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.827313,
+    "longitude": -84.353376
+  }
+}
+{
+  "price": "$176,900",
+  "address": "673 Boulevard Ne,\u00a0Atlanta, GA 30308",
+  "bedrooms": "1",
+  "bathrooms": "1",
+  "floor_area": "710 sqft",
+  "zestimate": "$171,551",
+  "description": "Charming condo in the heart of Old Fourth Ward! Bright white kitchen with tiled backsplash and white appliances. Open concept floor plan. UPDATED bathroom, frameless shower door, updated hardwood floors, updated light fixtures, ceiling fans and tons of natural light. Washer and dryer outside bedroom (staying). GATED assigned parking space and GUEST parking space!!. Only 10 min walking distance to BeltLine and Ponce City Market and 20 min to Piedmont Park. Near Marta Station, shops & restaurants. Additional storage below the unit. HOA includes water and gas!",
+  "agent_info": {
+    "agent_name": "Manuela Rodriguez",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "1940",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "HOA": "$25/month",
+    "Price/sqft": "$249"
+  },
+  "tax_history": {
+    "Tax assessed value": "$140,800",
+    "Annual tax amount": "$888"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Hope Hill Elementary School Grades:  PK-5 Distance:  0.1 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  1.6 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  1.3 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.759347,
+    "longitude": -84.372087
+  }
+}
+{
+  "price": "$127,000",
+  "address": "2408 Baywood Dr SE,\u00a0Atlanta, GA 30315",
+  "bedrooms": "3",
+  "bathrooms": "1",
+  "floor_area": "1,456 sqft",
+  "zestimate": "For saleView Details",
+  "description": "Architecturally Inspiring Classic Brick Ranch with Character & Charm! Open Floor Plan that Flows, Separate Spacious Living and Dining Room with Hardwood Floors. Large Open Kitchen Area with Complimentary Spacious Family Room with Fireplace for Hours of Entertainment. Nice Size Bedrooms with Good Light and Hardwood Floors. Full Central Hall Bath for the Family on the Go. Very Nice Private Backyard and Large Enclosed Breezeway Porch to Extend Family Gatherings. Ideal For an Expanding Family. Brown's Mill Park Area Many Amenities. Inspect,Compare & Price for Area.",
+  "agent_info": {
+    "agent_name": "Marc Oppenheimer",
+    "agent_phone": "17"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1956",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Carport",
+    "Lot": "0.25 acres",
+    "Price/sqft": "$87"
+  },
+  "tax_history": {
+    "Tax assessed value": "$77,000",
+    "Annual tax amount": "$394"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "4 /10 Cleveland Elementary School Grades:  PK-5 Distance:  0.5 mi",
+    "3 /10 Long Middle School Grades:  6-8 Distance:  1.5 mi",
+    "3 /10 South Atlanta High School Grades:  9-12 Distance:  1.9 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.688799,
+    "longitude": -84.387753
+  }
+}
+{
+  "price": "$1,650,000",
+  "address": "4400 Club Dr NE,\u00a0Atlanta, GA 30319",
+  "bedrooms": "5",
+  "bathrooms": "7",
+  "floor_area": "6,674 sqft",
+  "zestimate": "For sale",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Kim and Kathryn Boyd Team",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1999",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "3 spaces",
+    "Lot": "0.61 acres",
+    "Price/sqft": "$247"
+  },
+  "tax_history": {
+    "Tax assessed value": "$1,483,800",
+    "Annual tax amount": "$28,846"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "7 /10 Smith Elementary School Grades:  K-5 Distance:  1.6 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  4.1 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  4.1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.87503,
+    "longitude": -84.355856
+  }
+}
+{
+  "price": "$219,499",
+  "address": "4033 Princeton Lakes Pass SW,\u00a0Atlanta, GA 30331",
+  "bedrooms": "3",
+  "bathrooms": "3",
+  "floor_area": "1,986 sqft",
+  "zestimate": "$217,888",
+  "description": "This 1986 square foot townhouse home has 3 bedrooms and 3.0 bathrooms. It is located at 4033 Princeton Lakes Pass SW Atlanta, Georgia.",
+  "agent_info": {
+    "agent_name": "Ursula Randolph",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Townhouse",
+    "Year built": "2016",
+    "Heating": "Gas",
+    "Cooling": "No Data",
+    "Parking": "2 spaces",
+    "HOA": "$225/month",
+    "Lot": "1,829 sqft",
+    "Price/sqft": "$111"
+  },
+  "tax_history": {
+    "Tax assessed value": "$188,000",
+    "Annual tax amount": "$2,118"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "4 /10 Deerwood Academy School Grades:  PK-5 Distance:  0.8 mi",
+    "3 /10 Bunche Middle School Grades:  6-8 Distance:  2.8 mi",
+    "3 /10 Therrell High School Grades:  9-12 Distance:  3.1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.658396,
+    "longitude": -84.517153
+  }
+}
+{
+  "price": "$259,900",
+  "address": "2867 Collier Dr NW,\u00a0Atlanta, GA 30318",
+  "bedrooms": "4",
+  "bathrooms": "3",
+  "floor_area": "1,957 sqft",
+  "zestimate": "None\u00a0",
+  "description": "Beautiful Westside 4 sides brick home. Renovated open floor plan w lots of new windows. New features incl HVAC, roof, stainless appl, granite counter top & back splash in kitch, tiled and refinished HW floors thru most of house, lots of natural light. Sep LR & DR w bonus family room. 2 M BR with full BA. New HVAC and wtr htr. Nicely fenced large backyard. Huge dry unfinished basement. Home is short distance from Beltline Trail & Westside Park at Bellwood Quarry. Welcome home!!",
+  "agent_info": {
+    "agent_name": "Fawzia Khan",
+    "agent_phone": "(678) 982-0859"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1962",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "1 space",
+    "HOA": "None",
+    "Lot": "0.54 acres",
+    "Price/sqft": "$133"
+  },
+  "tax_history": {
+    "Tax assessed value": "$81,500",
+    "Annual tax amount": "$1,808"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 Bazoline E. Usher/Collier Heights Elmentary School Grades:  PK-5 Distance:  1 mi",
+    "1 /10 Harper-Archer Middle School Grades:  6-8 Distance:  1.2 mi",
+    "1 /10 Douglass High School Grades:  9-12 Distance:  0.8 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.764712,
+    "longitude": -84.480557
+  }
+}
+{
+  "price": "$220,000",
+  "address": "2332 Browns Mill Rd SE,\u00a0Atlanta, GA 30315",
+  "bedrooms": "5",
+  "bathrooms": "4",
+  "floor_area": "1,976 sqft",
+  "zestimate": "$211,200",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Ernest Hartfield",
+    "agent_phone": "4.8"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1955",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "3 spaces",
+    "HOA": "None",
+    "Lot": "10,693 sqft",
+    "Price/sqft": "$111"
+  },
+  "tax_history": {
+    "Tax assessed value": "$108,200",
+    "Annual tax amount": "$1,503"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 Dobbs Elementary School Grades:  PK-5 Distance:  0.5 mi",
+    "3 /10 Long Middle School Grades:  6-8 Distance:  2 mi",
+    "3 /10 South Atlanta High School Grades:  9-12 Distance:  1.3 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.689599,
+    "longitude": -84.373559
+  }
+}
+{
+  "price": "$5,750,000",
+  "address": "10 W Andrews Dr NW,\u00a0Atlanta, GA 30305",
+  "bedrooms": "6",
+  "bathrooms": "11",
+  "floor_area": "8,010 sqft",
+  "zestimate": "$5,523,170",
+  "description": "Thoughtfully renovated 1920's home in sought-after Peachtree Heights offers contemporary interior design & a beautiful traditional exterior, creating a perfect balance. Entrance foyer leads to oversized living spaces ideal for entertaining. Light filled kitchen is surrounded by iron windows & offers marble counters, high end appls & oversized island. Upper level has 5 bedrooms/6 full baths including spacious fireside master w/dual baths & walk-in closets. 1.56+/- acres of manicured grounds include pool, spa, pool house, level backyard & 3 car garage w/1 bedroom/bath.",
+  "agent_info": {
+    "agent_name": "Bonneau Ansley",
+    "agent_phone": "4.8"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1925",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "3 spaces",
+    "HOA": "None",
+    "Lot": "1.56 acres",
+    "Price/sqft": "$718"
+  },
+  "tax_history": {
+    "Tax assessed value": "$3,686,700",
+    "Annual tax amount": "$59,127"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "9 /10 Brandon Elementary School Grades:  K-5 Distance:  1.5 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  0.9 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  0.9 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.839512,
+    "longitude": -84.393741
+  }
+}
+{
+  "price": "$395,000",
+  "address": "4463 Wieuca Rd NE,\u00a0Atlanta, GA 30342",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "floor_area": "1,150 sqft",
+  "zestimate": "$391,353",
+  "description": "Incredible location and great opportunity to renovate or tear down and build; lot is in a flood zone and home sold \"as is\".",
+  "agent_info": {
+    "agent_name": "Sam Johnson",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1966",
+    "Heating": "Baseboard",
+    "Cooling": "Central",
+    "Parking": "Attached Garage",
+    "HOA": "None",
+    "Lot": "0.75 acres",
+    "Price/sqft": "$343"
+  },
+  "tax_history": {
+    "Tax assessed value": "$753,600",
+    "Annual tax amount": "$5,155"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "7 /10 Smith Elementary School Grades:  K-5 Distance:  1 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  3.2 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  3.2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.873443,
+    "longitude": -84.375269
+  }
+}
+{
+  "price": "$344,900",
+  "address": "1179 Ewing Pl SW,\u00a0Atlanta, GA 30310",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "floor_area": "1,750 sqft",
+  "zestimate": "$331,103",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Tracy Clark",
+    "agent_phone": "(404) 556-1445"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1930",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "3 spaces",
+    "HOA": "None",
+    "Lot": "7,000 sqft",
+    "Price/sqft": "$197"
+  },
+  "tax_history": {
+    "Tax assessed value": "$109,500",
+    "Annual tax amount": "$471"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Finch Elementary School Grades:  PK-5 Distance:  0.6 mi",
+    "4 /10 Sylvan Hills Middle School Grades:  6-8 Distance:  1.8 mi",
+    "7 /10 Early College High School At Carver Grades:  9-12 Distance:  2.5 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.731844,
+    "longitude": -84.426276
+  }
+}
+{
+  "price": "$900,000",
+  "address": "160 Barksdale Dr NE,\u00a0Atlanta, GA 30309",
+  "bedrooms": "4",
+  "bathrooms": "3",
+  "floor_area": "2,738 sqft",
+  "zestimate": "$891,672",
+  "description": "So much potential here! 60' frontage on Barksdale Dr. plus 10' adjoining alley that gives another 5' of side setback. Bring your builder! Many options including tear down, gut renovation, or combine with adjacent home also listed at 155 The Prado for a fabulously large lot (see documents for combined survey). Private lot with mature landscaping nestled in midtown Atlanta's most prestigious neighborhood. This lot is comprised of two parcels and is a total of 8,974 sf allowing a 4,487 sf newly constructed home. Zoning setbacks are 35' front, 7' side, and 15' back.",
+  "agent_info": {
+    "agent_name": "Christy Harris",
+    "agent_phone": "(404) 229-8737"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1919",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "1 space",
+    "HOA": "None",
+    "Lot": "7,623 sqft",
+    "Price/sqft": "$329"
+  },
+  "tax_history": {
+    "Tax assessed value": "$1,006,800",
+    "Annual tax amount": "$12,054"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "8 /10 Morningside Elementary School Grades:  K-5 Distance:  1.6 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  1.2 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.794585,
+    "longitude": -84.377628
+  }
+}
+{
+  "price": "$234,900",
+  "address": "4115 Pine Heights Dr NE #4115,\u00a0Atlanta, GA 30324",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,249 sqft",
+  "zestimate": "None\u00a0",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Rebecca L Tokich",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "1986",
+    "Heating": "No Data",
+    "Cooling": "No Data",
+    "Parking": "2 spaces",
+    "HOA": "$534/month",
+    "Price/sqft": "$188"
+  },
+  "tax_history": {},
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "7 /10 Smith Elementary School Grades:  K-5 Distance:  2.1 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  3.1 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  3.1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.829338,
+    "longitude": -84.357105
+  }
+}
+{
+  "price": "$399,000",
+  "address": "412 4th St NE,\u00a0Atlanta, GA 30308",
+  "bedrooms": "2",
+  "bathrooms": "3",
+  "floor_area": "1,229 sqft",
+  "zestimate": "$396,073",
+  "description": "Mitown For under 400K!! Rarely available townhome with small private yard in the heart of the Midtown Neighborhood. Renovated kitchen and baths, bright open living space, large parking in the rear alley access. $0 Association Fees and a new roof. Just a short distance to Piedmont Park, the ATL Beltline, shopping and more.",
+  "agent_info": {
+    "agent_name": "Rodney Hinote",
+    "agent_phone": "4.6"
+  },
+  "facts_and_features": {
+    "Type": "Townhouse",
+    "Year built": "1978",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "2,831 sqft",
+    "Price/sqft": "$325"
+  },
+  "tax_history": {
+    "Tax assessed value": "$420,600",
+    "Annual tax amount": "$5,495"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "8 /10 Springdale Park Elementary School Grades:  K-5 Distance:  1.7 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  0.9 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  0.4 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.774717,
+    "longitude": -84.373731
+  }
+}
+{
+  "price": "$899,000",
+  "address": "1074 Rosedale Rd NE,\u00a0Atlanta, GA 30306",
+  "bedrooms": "4",
+  "bathrooms": "4",
+  "floor_area": "3,274 sqft",
+  "zestimate": "$886,492",
+  "description": "Classic Virginia Highland tudor just 4 blocks from the heart of VaHi -- Situated on the corner of Rosedale and Stillwood Dr, this home boasts charm & character throughout along with generous living spaces, an easy, flowing floor plan & abundant natural light. Featuring a newly, updated kitchen with wet bar that opens to the family room & screened porch that overlooks a large back yard, a master on main & a 2 car garage! Upstairs hosts 3 additional bedrooms and baths and the lower unfinished basement allows for ample storage and access to both garages.",
+  "agent_info": {
+    "agent_name": "Jim Getzinger",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {},
+  "tax_history": {},
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Fernbank Elementary School Grades:  PK-5 Distance:  2 mi",
+    "6 /10 Druid Hills Middle School Grades:  6-8 Distance:  5.2 mi",
+    "5 /10 Druid Hills High School Grades:  9-12 Distance:  2.1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.783966,
+    "longitude": -84.348444
+  }
+}
+{
+  "price": "$1,299,900",
+  "address": "772 Saint Charles Ave NE,\u00a0Atlanta, GA 30306",
+  "bedrooms": "7",
+  "bathrooms": "5",
+  "floor_area": "3,720 sqft",
+  "zestimate": "For sale",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Adam Morrison",
+    "agent_phone": "4.9"
+  },
+  "facts_and_features": {
+    "Type": "Multi Family",
+    "Year built": "1920",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "8 spaces",
+    "Price/sqft": "$349"
+  },
+  "tax_history": {
+    "Tax assessed value": "$672,000",
+    "Annual tax amount": "$9,309"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "8 /10 Springdale Park Elementary School Grades:  K-5 Distance:  0.9 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  0.4 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  0.6 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.775764,
+    "longitude": -84.361986
+  }
+}
+{
+  "price": "$387,500",
+  "address": "400 W Peachtree St UNIT 2211,\u00a0Atlanta, GA 30308",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,075 sqft",
+  "zestimate": "$378,888",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Kimberly Haynes",
+    "agent_phone": "(678) 348-0206"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2007",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "$36/month",
+    "Price/sqft": "$360"
+  },
+  "tax_history": {
+    "Tax assessed value": "$307,500",
+    "Annual tax amount": "$3,630"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Centennial Academy Grades:  K-8 Distance:  0.6 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  1.4 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.765444,
+    "longitude": -84.387489
+  }
+}
+{
+  "price": "$440,000",
+  "address": "394 Oakland Ave SE,\u00a0Atlanta, GA 30312",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,575 sqft",
+  "zestimate": "$435,938",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Pamela Santiago",
+    "agent_phone": "(404) 667-7088"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1920",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Carport",
+    "HOA": "None",
+    "Lot": "4,965 sqft",
+    "Price/sqft": "$279"
+  },
+  "tax_history": {
+    "Tax assessed value": "$341,300",
+    "Annual tax amount": "$3,269"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Parkside Elementary School Grades:  PK-5 Distance:  0.8 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  2.4 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  0.8 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.743906,
+    "longitude": -84.374603
+  }
+}
+{
+  "price": "$220,000",
+  "address": "167 Maribeau Sq NW,\u00a0Atlanta, GA 30327",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,200 sqft",
+  "zestimate": "$212,413",
+  "description": "Easy access to 75, conveniently located in Buckhead. HOA fees $390.07/month includes water, sewer, trash, external maintenance. Cross Creek has Golf Course, 3 pools, tennis courts, club house, restaurant, gym facility (additional fee), pet friendly community.",
+  "agent_info": {
+    "agent_name": "Ashton Ernst",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "1970",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "HOA": "$420/month",
+    "Price/sqft": "$183"
+  },
+  "tax_history": {
+    "Tax assessed value": "$209,400",
+    "Annual tax amount": "$1,633"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "9 /10 Brandon Elementary School Grades:  K-5 Distance:  0.9 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  1.5 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  1.5 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.818729,
+    "longitude": -84.425626
+  }
+}
+{
+  "price": "$169,900",
+  "address": "1665 Sandtown Rd SW,\u00a0Atlanta, GA 30311",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "floor_area": "1,061 sqft",
+  "zestimate": "$177,810",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Rick Brockman",
+    "agent_phone": "(404) 519-3192"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1950",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "3 spaces",
+    "HOA": "None",
+    "Lot": "0.27 acres",
+    "Price/sqft": "$160"
+  },
+  "tax_history": {
+    "Tax assessed value": "$81,400",
+    "Annual tax amount": "$1,443"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Finch Elementary School Grades:  PK-5 Distance:  1.2 mi",
+    "4 /10 Sylvan Hills Middle School Grades:  6-8 Distance:  2.9 mi",
+    "7 /10 Early College High School At Carver Grades:  9-12 Distance:  3.4 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.716798,
+    "longitude": -84.44298
+  }
+}
+{
+  "price": "$249,000",
+  "address": "2035 Liberty Ct NW,\u00a0Atlanta, GA 30318",
+  "bedrooms": "2",
+  "bathrooms": "3",
+  "floor_area": "1,326 sqft",
+  "zestimate": "$246,696",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Amy Fuchs",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Townhouse",
+    "Year built": "2006",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "6,098 sqft",
+    "Price/sqft": "$188"
+  },
+  "tax_history": {
+    "Tax assessed value": "$236,300",
+    "Annual tax amount": "$2,281"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Bolton Academy Grades:  PK-5 Distance:  0.9 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  2.4 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  2.4 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.817757,
+    "longitude": -84.441612
+  }
+}
+{
+  "price": "$159,900",
+  "address": "1260 Almont Dr SW,\u00a0Atlanta, GA 30310",
+  "bedrooms": "3",
+  "bathrooms": "1",
+  "floor_area": "1,032 sqft",
+  "zestimate": "$152,358",
+  "description": "Move-In Ready, charming 3 bedroom, 1 bath bungalow-style home in sought after Oakland City! Spacious rooms,sunny kitchen with appliances, hardwood flooring, and a patio area and large yard, just perfect for outdoor entertaining.",
+  "agent_info": {
+    "agent_name": "Maggie Cook",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1950",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street",
+    "Lot": "8,755 sqft",
+    "Price/sqft": "$155"
+  },
+  "tax_history": {
+    "Tax assessed value": "$105,900",
+    "Annual tax amount": "$886"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Finch Elementary School Grades:  PK-5 Distance:  0.4 mi",
+    "4 /10 Sylvan Hills Middle School Grades:  6-8 Distance:  1.9 mi",
+    "7 /10 Early College High School At Carver Grades:  9-12 Distance:  2.5 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.725635,
+    "longitude": -84.429017
+  }
+}
+{
+  "price": "$248,000",
+  "address": "164 Moreland Ave SE,\u00a0Atlanta, GA 30316",
+  "bedrooms": "2",
+  "bathrooms": "1",
+  "floor_area": "1,210 sqft",
+  "zestimate": "For sale by ownerView Zestimate\u00ae",
+  "description": "Built in 1928, this house is newly renovated with restored heart pine floors in three rooms, hardwood in fourth. Perfect for high-visibility office space on Moreland Avenue, 2 blocks north of I-20. Easy access to Downtown, Midtown, Emory, CDC, film studios. Between East Atlanta Village and Little 5 Points, it is four blocks south of thriving Edgewood Retail District and MARTA rail station. Zoned Office/Institutional. City Planning Map shows Future Land Use to be Mixed Use: https://www.atlantaga.gov/home/showdocument?id=33997 Brokers Protected. Cold Calls soliciting a listing will not be accepted.",
+  "agent_info": {
+    "agent_name": "Property Owner",
+    "agent_phone": "(470) 242-1123"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1928",
+    "Heating": "Forced air",
+    "Cooling": "Central, Other",
+    "Parking": "Off street",
+    "HOA": "None",
+    "Lot": "8,712 sqft",
+    "Price/sqft": "$205"
+  },
+  "tax_history": {
+    "Tax assessed value": "$268,700",
+    "Annual tax amount": "$5,071"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "2 /10 Toomer Elementary School Grades:  PK-5 Distance:  1.4 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  0.8 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.748824,
+    "longitude": -84.348902
+  }
+}
+{
+  "price": "$349,900",
+  "address": "640 Glen Iris Dr NE APT 412,\u00a0Atlanta, GA 30308",
+  "bedrooms": "1",
+  "bathrooms": "1",
+  "floor_area": "961 sqft",
+  "zestimate": "$343,110",
+  "description": "Beautiful, well maintained and spacious 1 bed/1 bath loft in controlled access bldg. Open floor plan, exposed brick walls, granite counters, large picture windows offering tons of natural light, hardwood floors in living area & kitchen, polished concrete floors in the bedroom & walk-in master closet, tile in the bathroom, large balcony with panoramic view of the Ponce city market and ATL Beltline. Amenities include a pool, 2 dog walks, retail and restaurants at Ponce City market & the Whole Foods/Home Depot shopping center. One block to O4W park and the ATL Beltline.",
+  "agent_info": {
+    "agent_name": "Kyle Embler",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "2001",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "$331/month",
+    "Price/sqft": "$364"
+  },
+  "tax_history": {
+    "Tax assessed value": "$343,100",
+    "Annual tax amount": "$3,605"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Hope Hill Elementary School Grades:  PK-5 Distance:  1 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  0.7 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  0.5 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.772194,
+    "longitude": -84.3689
+  }
+}
+{
+  "price": "$1,499,000",
+  "address": "210 Hurt St NE,\u00a0Atlanta, GA 30307",
+  "bedrooms": "4",
+  "bathrooms": "3",
+  "floor_area": "3,852 sqft",
+  "zestimate": "For saleView Zestimate\u00ae",
+  "description": "Great Family home on a quiet street in the center of Inman Park. Rare opportunity to live directly on the Hollow. This home features large rooms with high ceilings and original pine floors throughout. You will also get to enjoy a large bonus office, an inviting front porch and oversized screen-in porch off of the living room that overlooks a gorgeous backyard. Upstairs you'll find four large bedrooms. The master bedroom has a sitting room, his and her closets and a private sun deck. You will love the \"feel\" of this wonderful home.",
+  "agent_info": {
+    "agent_name": "Andre' De Winter",
+    "agent_phone": "(770) 256-6222"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1920",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "HOA": "None",
+    "Lot": "0.32 acres",
+    "Price/sqft": "$389"
+  },
+  "tax_history": {
+    "Tax assessed value": "$646,500",
+    "Annual tax amount": "$10,011"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "7 /10 Lin Elementary School Grades:  K-5 Distance:  1.2 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  1.4 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  1.6 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.760068,
+    "longitude": -84.356323
+  }
+}
+{
+  "price": "$435,000",
+  "address": "369 Loomis Ave SE,\u00a0Atlanta, GA 30312",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,401 sqft",
+  "zestimate": "$430,711",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Rob Smith",
+    "agent_phone": "4.9"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1913",
+    "Heating": "Forced air",
+    "Cooling": "Central, Other",
+    "Parking": "Off street",
+    "HOA": "None",
+    "Lot": "4,356 sqft",
+    "Price/sqft": "$310"
+  },
+  "tax_history": {
+    "Tax assessed value": "$411,300",
+    "Annual tax amount": "$5,484"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Parkside Elementary School Grades:  PK-5 Distance:  0.7 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  2.2 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  0.7 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.744534,
+    "longitude": -84.371554
+  }
+}
+{
+  "price": "$329,000",
+  "address": "1530 Marbut Ave SE,\u00a0Atlanta, GA 30316",
+  "bedrooms": "3",
+  "bathrooms": "1",
+  "floor_area": "1,040 sqft",
+  "zestimate": "$305,033",
+  "description": "Charming ranch home in East Atlanta desired area! Close to parks, fine dining, entertainment and desired schools. Home has hardwood flooring, nice size bedrooms and dining area. Home has plenty of space outside in the front, backyard and the side to build out or add another home. This home has so much potential to build on, expand, renovate or update. This is a great investment, want last long!",
+  "agent_info": {
+    "agent_name": "Asia Williams",
+    "agent_phone": "17"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1992",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "3 spaces",
+    "Lot": "0.3 acres",
+    "Price/sqft": "$316"
+  },
+  "tax_history": {
+    "Tax assessed value": "$249,400",
+    "Annual tax amount": "$2,030"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "7 /10 Burgess-Peterson Elementary School Grades:  PK-5 Distance:  0.4 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  0.7 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  1.6 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.743469,
+    "longitude": -84.337453
+  }
+}
+{
+  "price": "$209,900",
+  "address": "100 Alden Ave NW APT A4,\u00a0Atlanta, GA 30309",
+  "bedrooms": "1",
+  "bathrooms": "1",
+  "floor_area": "656 sqft",
+  "zestimate": "$202,693",
+  "description": "Where Buckhead meets Midtown! Beautifully-renovated ground floor condo at Alden House, a unique, Mid-Century Modern architectural gem in historic Ardmore Park. This unique condo is just 3 blocks from Tanyard Park and the Beltline. Walk to Piedmont Hospital. Minutes to Buckhead and Midtown offices and restaurants. This gorgeous home features an open floor plan with freshly updated Kitchen, bath and floors, as well as a wall of windows overlooking a large private patio! Assigned parking and storage unit. Alden House is a small, friendly community in a great neighborhood. Furnishings are negotiable.",
+  "agent_info": {
+    "agent_name": "John S. Stemlar",
+    "agent_phone": "4"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "1960",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "1 space",
+    "HOA": "$221/month",
+    "Price/sqft": "$320"
+  },
+  "tax_history": {
+    "Tax assessed value": "$175,400",
+    "Annual tax amount": "$1,097"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Rivers Elementary School Grades:  PK-5 Distance:  1.3 mi",
+    "6 /10 Sutton Middle School Grades:  6-8 Distance:  2.1 mi",
+    "6 /10 North Atlanta High School Grades:  9-12 Distance:  2.1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.800447,
+    "longitude": -84.396253
+  }
+}
+{
+  "price": "$115,000",
+  "address": "3526 Eisenhower Cir SE,\u00a0Atlanta, GA 30354",
+  "bedrooms": "3",
+  "bathrooms": "1",
+  "floor_area": "1,000 sqft",
+  "zestimate": "None\u00a0",
+  "description": "Cute, turnkey house ready for a homeowner or investor. 4 sided brick with hardwood floors make this low maintenance home a must see. Don't wait! This one won't last long!",
+  "agent_info": {
+    "agent_name": "Mordechai Birnbaum",
+    "agent_phone": "(404) 991-8295"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1969",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street, Detached Garage",
+    "Lot": "10,018 sqft",
+    "Price/sqft": "$115"
+  },
+  "tax_history": {
+    "Tax assessed value": "$33,700",
+    "Annual tax amount": "$366"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "3 /10 Heritage Academy Elementary Grades:  PK-5 Distance:  1.3 mi",
+    "3 /10 Long Middle School Grades:  6-8 Distance:  2.4 mi",
+    "3 /10 South Atlanta High School Grades:  9-12 Distance:  0.9 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.658163,
+    "longitude": -84.35842
+  }
+}
+{
+  "price": "$174,900",
+  "address": "2330 Beecher Rd SW,\u00a0Atlanta, GA 30311",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "floor_area": "1,423 sqft",
+  "zestimate": "$176,182",
+  "description": "Dream location in the established Beecher Hills less than a quarter mile from the Beltline! A wonderful 4 side brick ranch home, features 2 large bedrooms with 2 bathrooms and hardwood floors, an open concept living and dining room combination, front porch entry, driveway parking and private oversized backyard. This home is located in one of Atlanta's hottest markets, with values increasing rapidly. Don't miss this one.",
+  "agent_info": {
+    "agent_name": "Maggie Cook",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1945",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "Off street",
+    "Lot": "0.25 acres",
+    "Price/sqft": "$123"
+  },
+  "tax_history": {
+    "Tax assessed value": "$102,900",
+    "Annual tax amount": "$779"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Beecher Hills Elementary School Grades:  PK-5 Distance:  0.6 mi",
+    "2 /10 Young Middle School Grades:  6-8 Distance:  1.7 mi",
+    "2 /10 Mays High School Grades:  9-12 Distance:  2.6 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.725867,
+    "longitude": -84.463407
+  }
+}
+{
+  "price": "$400,000",
+  "address": "801 Grant Ter SE,\u00a0Atlanta, GA 30315",
+  "bedrooms": "4",
+  "bathrooms": "3",
+  "floor_area": "2,604 sqft",
+  "zestimate": "$545,422View Details",
+  "description": "Spacious Grant Park home w/ skyline views. This 4-bed, 3-bath home is ideally situated within walking distance to Summerhill, The Beacon & the Beltline. Kitchen features ss appliances & walk in pantry. Upstairs has a flexible loft area & HUGE master w/ deck, walk in closet & bath w/ sep jetted tub & shower & dual vanity. Roommate plan w/ 2 beds up & 2 down, off-street parking for 6+ cars & a 1 car garage make this suitable for owner occupant or investor landlord. Fresh int/ext paint, back fence repair & carpet cleaning in process & will be completed before closing.",
+  "agent_info": {
+    "agent_name": "James Moten",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "1986",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "8 spaces",
+    "HOA": "None",
+    "Lot": "9,016 sqft",
+    "Price/sqft": "$154"
+  },
+  "tax_history": {
+    "Tax assessed value": "$391,500",
+    "Annual tax amount": "$6,818"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Parkside Elementary School Grades:  PK-5 Distance:  1 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  3 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  1.2 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.732645,
+    "longitude": -84.380183
+  }
+}
+{
+  "price": "$250,000",
+  "address": "620 Peachtree St NE APT 1004,\u00a0Atlanta, GA 30308",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "floor_area": "1,344 sqft",
+  "zestimate": "$242,677",
+  "description": null,
+  "agent_info": {
+    "agent_name": "Josh Wittenberg",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Condo",
+    "Year built": "1965",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "4 spaces",
+    "HOA": "$1,095/month",
+    "Price/sqft": "$186"
+  },
+  "tax_history": {
+    "Tax assessed value": "$229,200",
+    "Annual tax amount": "$2,078"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "6 /10 Hope Hill Elementary School Grades:  PK-5 Distance:  1.2 mi",
+    "8 /10 Inman Middle School Grades:  6-8 Distance:  1.6 mi",
+    "6 /10 Grady High School Grades:  9-12 Distance:  1.1 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.771553,
+    "longitude": -84.385459
+  }
+}
+{
+  "price": "$685,000",
+  "address": "116 Richardson St SE,\u00a0Atlanta, GA 30312",
+  "bedrooms": "4",
+  "bathrooms": "5",
+  "floor_area": "4,194 sqft",
+  "zestimate": "$678,150",
+  "description": "SummerHill Beauty!! Enjoy SummerHill dining while only a few short blocks to GRANT PARK! Close to Beltline! This home offers 2 Master Suites! and 5 Full Baths! Beautiful Kitchen with Granite Counter tops! Stainless Steele Appliances! Hardwood Floors! Finished Basement! No detail overlooked!",
+  "agent_info": {
+    "agent_name": "Jacqueline Morris",
+    "agent_phone": "5"
+  },
+  "facts_and_features": {
+    "Type": "Single Family",
+    "Year built": "2002",
+    "Heating": "Forced air",
+    "Cooling": "Central",
+    "Parking": "2 spaces",
+    "HOA": "None",
+    "Lot": "4,443 sqft",
+    "Price/sqft": "$163"
+  },
+  "tax_history": {
+    "Tax assessed value": "$492,300",
+    "Annual tax amount": "$3,928"
+  },
+  "monthly_cost": {
+    "Principal & interest": "$1,163/mo",
+    "Mortgage insurance": "$0/mo",
+    "Property taxes": "$170/mo",
+    "Home insurance": "$105/mo",
+    "HOA fees": "$0/mo",
+    "Utilities": "Not included"
+  },
+  "nearby_schools": [
+    "5 /10 Parkside Elementary School Grades:  PK-5 Distance:  1.2 mi",
+    "3 /10 King Middle School Grades:  6-8 Distance:  3 mi",
+    "4 /10 Maynard H. Jackson- Jr. High School Grades:  9-12 Distance:  1.3 mi"
+  ],
+  "coordinates": {
+    "latitude": 33.741025,
+    "longitude": -84.383531
+  }
+}
