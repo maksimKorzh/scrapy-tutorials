@@ -1,0 +1,2947 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "ItemList",
+    "numberOfItems": 3555,
+    "itemListElement": [
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Brand new villa compatible with Mazaya program",
+          "description": "Brand new 4 bedrooms villa available for sale in Dumistan area                  ..\n\nCompatible with Mazaya program         ..\n\nMazaya program is:\nA housing service that is represented in the support provided by the ministry through the access of the program to the bank financing from the participating bank for the purpose of buying a house, and the beneficiary pays 25% of his income as a monthly installment, while the government is committed through the ministry to provide government financial support that covers the rest of the value of the premiums Monthly with the financing bank.\n\nThe use of \u201cbenefits\u201d is available to everyone who has an existing housing request for any types of housing services, or whoever meets the requirements for using the program.\n\n\nConsisting of       :\n\n-                  4 bedrooms                ,\n\n-                  5 bathrooms                ,\n\n-                  2 Living rooms              ,\n\n-                  Kitchen               ,\n\n-                  Maid's room              ,\n\n-                  Storage room             ,\n\n-                  Large balcony               ,\n\n-                  Laundry room             ,\n\n-                  Garage for 2 cars            ,\n\n\nLand area                  -               252 sqmtrs                               .\n\nBuilt up area         -         297 sqmtrs                                     .\n\n\nAsking price is         -          BHD 124,000                            .",
+          "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-northern-governorate-dumistan-311206.html",
+          "image": "https://www.propertyfinder.bh/property/1580038127/260/185/MODE/32caab/311206-6a044o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 124000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Dumistan",
+            "addressRegion": "Northern Governorate",
+            "addressLocality": "Northern Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.12377,
+            "longitude": 50.469722
+          },
+          "telephone": "+97332213116",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 297,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-northern-governorate-dumistan-311206.html",
+        "position": 1
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Rented to Navy Luxury 2 Bedroom Furnished",
+          "description": "ICONIC DESIGN\nA rare opportunity to live or invest in juffair&#39;s upcoming landmark building and newest addition to the Fontana series: Fontana Suites.\n         \nCreated with a vision that is as forward thinking as it is grounded, Fontana Suites constitutes upcompromised design, quality and style. Setting a new standard for suites living, Fontana Suites is unlike anything ever launched in Bahrain before.\n\nSTYLISH FLOOR PLAN\nFontana Suites is a modern landmark in juffair, and its trendy curbside flair can also be sensed within the tower walls.\n\nThe tower comprises 373 units, each suites representing a culmination of the smartset architectural thinking. These self-contained apartments raise the standards of ingenious design for maximizing living spaces.\n\nThere are options for studio style living, or one, two and three bedroom suites. Each floor only hosts a handful of apartments, which translates into low density living, ideal for balancing a busy lifestyle with the comfort of coming home.",
+          "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-al-juffair-330343.html",
+          "image": "https://www.propertyfinder.bh/property/04886ff1a66b292fcf409a7e0bcee810/260/185/MODE/019918/330343-613d7o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 116000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Al Juffair",
+            "addressRegion": "Capital Governorate",
+            "addressLocality": "Capital Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.211111,
+            "longitude": 50.601111
+          },
+          "telephone": "+97366720802",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 116,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Built in Wardrobes"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Central A/C"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Jacuzzi"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Security"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Gym"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Spa"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-al-juffair-330343.html",
+        "position": 2
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Big double storey private villa with private pool",
+          "description": "Property Overview:\n- Semi-furnished\n- 06 bedroom, 06 bathroom + Maid-room with bathroom\n\nAvailability to move-in: Immediately\nSelling price: BHD 250,000/-\nLand Area : 406 sqm\nBuilding Area : 625 sqm\n\nFacility:\n- Private pool\n- 02 parking\n\nGround Floor:- 1 Big Hall 1 Guest Room with Bathroom 2 Kitchens Indoor\n\nOutdoor. Laundry Room, Maid Room with Bathroom 2 Private Car Parking, Garage, Swimming Pool with Bathroom.\n\n1ST Floor:- 1 Big Hall , 3 Master Bedrooms, Cold Kitchen \n\n2ND Floor:- 1 Big Hall , 3 Master Bedrooms, Store Room\n\nVilla is given as seen: 2 Bedroom Sets, Sofa , AC,s , Curtains , Washing machine, Dryer, Refrigerator, Dining Table Set.\n\nAs you walk into this gate you can see the whole exterior of the property with a huge private pool at the backyard and the interior of the property is enhanced by spacious and bright rooms.\n\nDouble storey villa, split AC in every room and boast large appointed rooms with plenty of windows &amp; the kitchen is well equipped with modern appliances.",
+          "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-amwaj-islands-amwaj-avenue-334962.html",
+          "image": "https://www.propertyfinder.bh/property/eb7ff03fcb44b7f0faa7349685646294/260/185/MODE/f139e8/334962-b1f93o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 250000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Amwaj Avenue",
+            "addressRegion": "Muharraq Governorate",
+            "addressLocality": "Muharraq Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.29303,
+            "longitude": 50.66474
+          },
+          "telephone": "+97333184488",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 625,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Kitchen Appliances"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Maids Room"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Walk-in Closet"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-amwaj-islands-amwaj-avenue-334962.html",
+        "position": 3
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Gorgeous Luxury Villa W Pool &amp; Private Jetty",
+          "description": "The villas architect has taking into careful consideration the previous resident\u2019s feedback and consolidation on improving the villas features and its overall architectural idea for the Fayrooz islands. Throughout the development it has maintained the primary idea in order to sustain the outward appearance of the Durrat Al Bahrain\u2019s villas as much as possible to endorse the harmony of urban and contemporary architectural identity between the various phases that Durrat Al Bahrain has initially outlined.\n\nThe Villa:\n- Living &amp; Dinning Area\n- Master Bedroom\n- Master Bath\n- 3 Bedrooms\n- 3 Bathrooms\n- Guest Toilet\n- Inner Kitchen\n- Outside Kitchen\n- Storage\n\nOuter Area:\n- Villa Entrance Courtyard.\n- Car Garage\n- Water Front Courtyard\n\nAncillary:\n- Pool Bathroom\n- Storage\n- Pump Room\n- Private Jetty\n\nPools are built to the highest standards and are composed of concrete bases with tiled linings, recirculation pumps, sand filters, backwash facilities, automatic skimmers and underwater lights.",
+          "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-southern-governorate-durrat-al-bahrain-330785.html",
+          "image": "https://www.propertyfinder.bh/property/5297fc43fda94be8bb6930e4e72c32e7/260/185/MODE/9dc97c/330785-d8114o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 225000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Durrat Al Bahrain",
+            "addressRegion": "Southern Governorate",
+            "addressLocality": "Southern Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 25.833926,
+            "longitude": 50.613853
+          },
+          "telephone": "+97339999159",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 500,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Built in Wardrobes"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Central A/C"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Kitchen Appliances"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Maids Room"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Pets Allowed"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Garden"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Security"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Study"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Walk-in Closet"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-southern-governorate-durrat-al-bahrain-330785.html",
+        "position": 4
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Villa available for Rent in Al Malikiyah area",
+          "description": "Villa available for Rent in Al Malikiyah area     ..\n\nConsisting of    :\n\n-         4 bedrooms\n\n-         4 bathrooms\n\n-         2 Living rooms\n\n-         2 Kitchens\n\n-         2 Parking\n\n\nArea size 339 Sam\n\n\nBuilt up Area size 400 Sam\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n\nBHD 120,000\\-\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+          "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-northern-governorate-malkiyah-328732.html",
+          "image": "https://www.propertyfinder.bh/property/1586259443/260/185/MODE/c27ca3/328732-3723bo.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 120000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Malkiyah",
+            "addressRegion": "Northern Governorate",
+            "addressLocality": "Northern Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.10086,
+            "longitude": 50.488009
+          },
+          "telephone": "+97336022209",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 400,
+            "unitText": "sqm"
+          },
+          "amenityFeature": []
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-northern-governorate-malkiyah-328732.html",
+        "position": 5
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "A distinctive modern design villa in Saar!",
+          "description": "The villa is located in the Saar area, in an ideal location where all services are available, such as schools, restaurants, banks, shopping malls, cafes and malls.\nThe villas are characterized by high and finishing finishing and build quality.\n\nThe villa is located near Saint Christopher\u2019s School, Al Nakheel Mall and Saar Mall\nThe villa contains: -\n\n3 lounges with pool view\n5 master bedrooms with excellent space\nAnd 6 toilets\nA house worker room\nAnd the position of two cars\nIn addition to a swimming pool in the villa\nThe land area is 388 m\nAnd the building area is 530 m\n\n- The best offer in the region. Call now and book a preview! -\n-\nSaar is the most tranquil area in the Kingdom of Bahrain as it is considered one of the most prestigious areas in the Kingdom, it is a modern and beautiful area because of its location near the capital as well as the King Fahd Bridge and the highway, Saar is located within the Northern Governorate and is characterized by the proximity of restaurants, cafes, complexes and sports clubs As well as gardens and parks, Saar is one of the most sought-after areas for housing or rentals, as it is suitable for all categories and classes of individuals or families.",
+          "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-northern-governorate-saar-319575.html",
+          "image": "https://www.propertyfinder.bh/property/ab5474712bb272ed56e2b08d77e835cf/260/185/MODE/60d226/319575-3c8e8o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 240000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Saar",
+            "addressRegion": "Northern Governorate",
+            "addressLocality": "Northern Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.191642,
+            "longitude": 50.487574
+          },
+          "telephone": "+97333944584",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 388,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Maids Room"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Garden"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Pool"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-northern-governorate-saar-319575.html",
+        "position": 6
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Hurry up , the last apartment at this price !",
+          "description": "Burj Kadi\n\n literally takes you to the walk amidst the clouds!\n\nLocated amidst the scenic waterfront of Juffair, Burj Kadi is a new symbol of luxury and modern life that is set to be the most popular address in Bahrain. It has been designed by renowned architects who add a lot to the features and advantages offered by Kadi Tower.\nIt includes many modern services that add high value to the expected rent of the building such as:\n- Swimming pool with panoramic sea view\n- Gangway\n- Billiards\n- Cinema\n- Health club, sauna and steam bath.\n- Indoor swimming pool, health club, sauna and steam bath for women.\n- Kids Water Games.\n- Multipurpose wedding hall\n- Indoor Gulf Playground.\nWith close proximity to renowned shopping malls, supermarkets, parks, hospitals, schools, the marina Corniche and the Khalifa Park within you\u2019re your neighborhood, Burj Kadi  provides easy access to the Bahrain International Airport and Saudi Causeway makes living convenient",
+          "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-al-juffair-318420.html",
+          "image": "https://www.propertyfinder.bh/property/fc7558e49f2655e3fcf5301656dbd76f/260/185/MODE/4dd18f/318420-a01abo.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 75000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Al Juffair",
+            "addressRegion": "Capital Governorate",
+            "addressLocality": "Capital Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.211111,
+            "longitude": 50.601111
+          },
+          "telephone": "+97333440279",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 118,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Built in Wardrobes"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Central A/C"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Pets Allowed"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Security"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Gym"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Spa"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Walk-in Closet"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-al-juffair-318420.html",
+        "position": 7
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Luxurious 3BR Apartment  - Waterbay",
+          "description": "\u2192 A stellar oasis of luxury anchored at the most prestigious island in the Kingdom of Bahrain, Bahrain Bay\n\n\u2192 \u201cWaterbay\u201d is a 10-storey building designed and developed with the most luxurious hotels standards in mind \u2013 affording you the stunning views of the bay and gardens of the Four Seasons Hotel. \n\n\u2192 Having luxurious top amenities available to you, a water taxi ride to the Avenues Mall, and stupendous views of Manama and the open ocean\n\n\u2192 Located in the heart of Manama, a few kilometers away from the business district and the main shopping malls of Bahrain\n\nWaterbay offers:\n\n \u2022 Swimming pool for adults and kids\n \u2022 Nursery and playroom for kids\n \u2022 A movie theatre\n \u2022 A coffee shop that will service the pool and will offer you the most distinguished service \nin the privacy of your own home.\n \u2022 Praying rooms\n \u2022 Gents\u2019 and Ladies\u2019 gym\n \u2022 A complimentary Luxury car, which will take you to any destination within 3km for free.\n \u2022 Spa\n \u2022 24/7 Security\n \u2022 Water Taxi\n \u2022 Retail shops at Ground level",
+          "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-bahrain-bay-313838.html",
+          "image": "https://www.propertyfinder.bh/property/46adfe876ed3dfa1e13d187ac73bf000/260/185/MODE/6e299b/313838-80882o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 315000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Bahrain Bay",
+            "addressRegion": "Capital Governorate",
+            "addressLocality": "Capital Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.249585,
+            "longitude": 50.580361
+          },
+          "telephone": "+97338000002",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 222,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Built in Wardrobes"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Central A/C"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Concierge"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Maids Room"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Security"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Gym"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Landmark"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Walk-in Closet"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-bahrain-bay-313838.html",
+        "position": 8
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Gorgeous beach access villa with jetty parking",
+          "description": "Property Overview:\n- Furnished\n- 03 bedroom, 04 bathroom + Maid-room\n\nAvailability to move-in: Immediately\nSelling Price: BHD 250,000\nSize: 500 sqm\n\nFacilities:\n\u2022 Private Pool  \n\u2022 Beach access \n\u2022 Huge Garden \n\u2022 Jetty Parking\n\u2022 02 car parking  \n\u2022 Compound security\n\u2022 Supermarket\n\u2022 Cafes &amp; Restaurants\n\nA perfect embodiment of elegance and boldness, nicely positioned with the shimmering views of the sea. It is close to the most beautiful areas of Bahrain. Natural beauty of the property has been captured by the beaches and the huge pool with manicured garden perfect for entertaining.\n\nVilla comprises:\n- 03 bedrooms with en-suite\n- Living room\n- Dining area\n- Semi-open kitchen\n- Store or laundry room\n- Balcony\n\nYou are lead to a beautiful living room which features high quality fixtures material throughout. A semi-open kitchen with breakfast counter fitted with stainless steel appliances that opens to a formal dining area.\n\nAll bedrooms with direct view of the beach,stylish en-suites, built-in wardrobes &amp; master bedroom with walk-in closet.\n\nWithout a doubt, the most exceptional property, this ultra modern villa set high on beach location. A family-friendly beach that tends to give privacy.\n\nContemporary design &amp; tastefully fitted rooms not only has a feeling of luxury, but also space &amp; comfort are apparent. Kitchens complete with storage cupboards &amp; fitted with stainless steel appliances.",
+          "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-southern-governorate-durrat-al-bahrain-334957.html",
+          "image": "https://www.propertyfinder.bh/property/20d8340e1ef2de156457cef682e64148/260/185/MODE/467318/334957-86a24o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 250000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Durrat Al Bahrain",
+            "addressRegion": "Southern Governorate",
+            "addressLocality": "Southern Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 25.833926,
+            "longitude": 50.613853
+          },
+          "telephone": "+97333216444",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 500,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Built in Wardrobes"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Central A/C"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Kitchen Appliances"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Maids Room"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Security"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Walk-in Closet"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-southern-governorate-durrat-al-bahrain-334957.html",
+        "position": 9
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Sky and Luxury 3 Bedrooms+Maid Signature",
+          "description": "One Bahrain Bay is a bespoke architectural masterpiece designed to attract attention. The striking towers are the height of design elegance and style. \n\nThe freehold residential towers, offer many firsts for Bahrain residential developments including a 50 metre infinity pool, an indoor garden offering a year round outdoor lifestyle and the exclusive residents only  &#34;One Club&#34; lounge.                        \n\nOffering 740 luxurious 1, 2 and 3 bedroom apartments,  in a multitude of floorplans.\n\nApartments at One Bahrain Bay have been designed as a definitive statement of style. With floor to ceiling windows, every apartment has been designed to maximise the view as well as focus on providing generous amounts of living space through clever interior space planning.\n\nWhile the different collections offer varied tones, both have carefully chosen textures and bespoke details, joinery focal points and discrete lighting to create a relaxed and welcoming space that you will be proud to call home",
+          "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-bahrain-bay-314144.html",
+          "image": "https://www.propertyfinder.bh/property/ccb8384749e55e804e2d62fd83692cb0/260/185/MODE/156ae9/314144-281ddo.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 219000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Bahrain Bay",
+            "addressRegion": "Capital Governorate",
+            "addressLocality": "Capital Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.249585,
+            "longitude": 50.580361
+          },
+          "telephone": "+97332169858",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 219,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Built in Wardrobes"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Concierge"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Kitchen Appliances"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Maid Service"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Security"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Gym"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Spa"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-bahrain-bay-314144.html",
+        "position": 10
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Amazing offer!! Balcony &amp; full Sea view",
+          "description": "Outstanding apartment for sale in a great residential Tower in Amwaj, Upon entering you are welcomed by a beautiful living room that has been presented in an excellent condition throughout.  This apartment was designed to offer leisure, luxury, and comfort to its residents.\n________________________________\nProperty Features\n\u2022 2 Bedrooms.\n\u2022 3 Bathrooms (2 en-suite).\n\u2022 Balcony/sea view.\n\u2022 Spacious living &amp; dining area.\n\u2022 Well-appointed kitchen.\n\u2022 Laundry room.\n\u2022 Allocated car park.\n\nBuilding Facilities\n\u2022 Large outdoor S/P.\n\u2022 Kid's S/P.\n\u2022 Party hall.\n\u2022 Indoor car park.\n\u2022 Gym/Jacuzzi.\n\u2022 Reception.\n\u2022 24/7 Security.\n_________________________________\n\n** Selling Price: BHD 88000 (Negotiable).\n_________________________________\nFor our latest properties please follow us on our social media accounts:\nFacebook, Instagram, Twitter &amp; Youtube: @iCarltonBahrain\n\nAnd visit our website www.icarlton.com\nFor all our property updates.",
+          "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-muharraq-governorate-amwaj-islands-the-lagoon-334752.html",
+          "image": "https://www.propertyfinder.bh/property/208c2d5f165e6b0f17967e42b8e9f5f3/260/185/MODE/e4451d/334752-ced9fo.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 88000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "The Lagoon",
+            "addressRegion": "Muharraq Governorate",
+            "addressLocality": "Muharraq Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.287778,
+            "longitude": 50.663393
+          },
+          "telephone": "+97336503388",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 144,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Built in Wardrobes"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Central A/C"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Concierge"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Kitchen Appliances"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Security"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Gym"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Spa"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Walk-in Closet"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-muharraq-governorate-amwaj-islands-the-lagoon-334752.html",
+        "position": 11
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Freehold Luxurious 4BR Villa in Diyar  Muharraq",
+          "description": "\u2192 Alsidra is a luxury gated residential community located at Diyar Al Muharraq, comprising 452 luxury villas of varying designs and capacities.\n\n\u2192 Located in the heart of Diyar Al Muharraq, Alsidra connects you directly to the most sought after attractions on the island such as:\n\n  \u2022 Marassi Beach\n  \u2022 Amwaj Islands \n  \u2022 Dragon City\n  \u2022 15-minute drive from Bahrain International Airport\n  \u2022 Few minutes away from hospitals and schools\n\n\u2192 The project offers an attractive environment for families by offering different types of villas, ranging from 2-bedroom villas to 5-bedrooms.\n\n\u2192 Each villa is designed either in a modern or a modernized version of traditional designs between Bahraini architecture and modern Moroccan.\n\n\u2192 Alsidra offers its residents the opportunity to live in the house of their dream and enjoy a natural feeling of belonging\n\n\n\u2192 Alsidra exudes the gated community lifestyle at affordable price ranges. From lavish community landscaping to proper neighborhood street planning, this community is the ideal location to have a property that is safe and secure.\n\n\nAlsidra offers:\n\u2022 Open Floor Plan Spacious Living and Dining Room\n\u2022 Open Floor Plan Kitchen and Outside Dirty Kitchen\n\u2022 (2) Parking Space/ Garage\n\u2022 Beautiful Garden and Landscaping\n\u2022 Kid\u2019s Playground\n\u2022 24/7 Security",
+          "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-diyar-al-muharraq-al-sidra-329760.html",
+          "image": "https://www.propertyfinder.bh/property/089089f9629923a51972e8bb089d9f35/260/185/MODE/ae1859/329760-70f2ao.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 172500,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Al Sidra",
+            "addressRegion": "Muharraq Governorate",
+            "addressLocality": "Muharraq Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.311422,
+            "longitude": 50.643066
+          },
+          "telephone": "+97338000002",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 210,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Built in Wardrobes"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Maids Room"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Garden"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Security"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Landmark"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Walk-in Closet"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-diyar-al-muharraq-al-sidra-329760.html",
+        "position": 12
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Beach Access +Balcony+ 0% Commission",
+          "description": "Project: Spiral Orchid Residence\nLicensed Development Number: DVT-202002/0027\nStatus: Under Construction\nCompletion: December 2022\n\nOwn a luxury Studio apartment with full glass window,Stunning View and Sandy beach access in the heart of Seef area, Water Garden City\n\n\nApartment Main Features:\n\n- Open style modern kitchen\n- Floor to ceiling windows\n-One Parking \n&gt; Common maid&#39;s quarters available at affordable rates\n\nBuilding Main Features:\n\n- Mini Golf Area\n- Indoor &amp; Outdoor Infinity Pool\n- Cinema\n- Indoor &amp; Outdoor kids playground \n- Mini Basketball Court\n-Squash Court\n- Gym\n- Sauna &amp; Steam Rooms\n- Game &amp; Billiard Room\n- Jacuzzi\n* Access to Gated Beach of Water Garden City\n\n\nPayment Schedule: \n20% on Signing Contract/Initial Payment \n20% January 2021\n20% August 2021\n20% March 2022\n20% on key handover/ December 2022\n\nNearby Landmarks:\n- Walking distance to Bahrain City Center\n- Ritz Carlton\n- Walking distance to Restaurants in the Water Garden City\n- Jumeirah Royal Saray Hotel \n- The Avenues Mall\n- Seef Mall\n- Clinics\n- Close to Bahrain International Airport \n- Reef Resort\n\n \nFreehold\n\n*Directly from Orchid Developers at 0% Commission\nUnder Construction \nCompletion:  End 2022\nPayment plan within 3 years every 6months as per RERA or interesting BBK Mortgage Plan\n\n* Studio 43SQM starting price: BHD 34,300\n*One Bedroom 86SQM starting price: BHD 56,750 \n* Two Bedroom 109SQM starting price: BHD 69,250",
+          "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-seef-332608.html",
+          "image": "https://www.propertyfinder.bh/property/7e4adfe5042a2b39d89cb4c2dc0c7c21/260/185/MODE/0e7eeb/332608-66799o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 33700,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Seef",
+            "addressRegion": "Capital Governorate",
+            "addressLocality": "Capital Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.24,
+            "longitude": 50.537
+          },
+          "telephone": "+97336631525",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 43,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Built in Wardrobes"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Central A/C"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Security"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Gym"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Spa"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-seef-332608.html",
+        "position": 13
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Villa Fayrooz 800 in Durrat Al Bahrain",
+          "description": "Villa Fayrooz 800 includes all the modern requirements necessary for modern life in Durrat Al Bahrain.\n\nVilla Overview:-\n\nThe ground floor consists of an open reception hall and a modern design kitchen. This spacious five-bedroom villa has two private garages and additional space for more than two cars within the villa&#39;s grounds. On the ground floor there is a hall that allows fresh air, and leads to an open hall in front of the kitchen. The spacious ground floor also includes a guest bedroom with bathroom, residential facilities for driver and butler, a preparation kitchen, a guest bathroom, warehouses and a swimming pool. The barbecue overlooking the garden and pool area forms a fa\u00e7ade with a swimming pool, dressing room and separate bathroom.\n\nThe first floor of the 168 Fayrooz Island Villas 4 and 5 contains a master bedroom and a balcony overlooking the sea. Also, all four bedrooms on the upper floor have changing rooms. The splendor of construction quality is demonstrated by the finishing work on all floors, walls, bathroom fixtures, central air conditioning system and fully equipped interior kitchen. Knowing that there are 3 types of turquoise 800 villas that differ only in interior finishes and bathroom fixtures.\n\n- Offer is valid for limited period\n- The villa is new and never lived before.\n- The original price is 395 thousand.\n- The current price is only 310 thousand\n\nHurry up before selling the villa!",
+          "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-southern-governorate-durrat-al-bahrain-332518.html",
+          "image": "https://www.propertyfinder.bh/property/0d330169d963e2d91505fde35f3f9193/260/185/MODE/1127a0/332518-13598o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 310000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Durrat Al Bahrain",
+            "addressRegion": "Southern Governorate",
+            "addressLocality": "Southern Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 25.833926,
+            "longitude": 50.613853
+          },
+          "telephone": "+97339444705",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 800,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Built in Wardrobes"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Central A/C"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Kitchen Appliances"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Maids Room"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Landmark"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Walk-in Closet"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-southern-governorate-durrat-al-bahrain-332518.html",
+        "position": 14
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "\u0644\u0644\u0628\u064a\u0639 \u0641\u064a\u0644\u0627 \u0641\u062e\u0645\u0629 \u0648 \u0631\u0627\u0642\u064a\u0629 \u0641\u064a \u0627\u0645\u0648\u0627\u062c",
+          "description": "\u200f\u200e\n\u0644\u0644\u0628\u064a\u0639 \u0641\u064a\u0644\u0627 \u0631\u0627\u0642\u064a\u0629 \u062c\u062f\u0627 \u0641\u064a \u0627\u0645\u0648\u0627\u062c \u0645\u0637\u0644\u0647 \u0639\u0644\u0649 \u0627\u0644\u0628\u062d\u0631   \n\u062a\u062a\u0643\u0648\u0646 \u0645\u0646\n\u062e\u062f\u0645\u0627\u062a \u0648 \u0645\u0644\u062d\u0642\u0627\u062a:\n\u0643\u0631\u0627\u062c \u0644\u0633\u064a\u0627\u0631\u062a\u064a\u0646\n\u062d\u062f\u064a\u0642\u0629\n\u0628\u0631\u0643\u0647 \u0633\u0628\u0627\u062d\u0647 \u0645\u0639 \u0634\u0644\u0627\u0644\n\u0645\u0635\u0639\u062f\n\u0645\u062e\u0632\u0646\n\u062a\u0643\u064a\u064a\u0641 \u0645\u0631\u0643\u0632\u064a \n\u0643\u0627\u0645\u064a\u0631\u0627\u062a \u0648\u0633\u0646\u0633\u0631\u0627\u062a \u0645\u0631\u0627\u0642\u0628\u0629 \n\u0633\u062e\u0627\u0646\u0627\u062a \u0645\u0631\u0643\u0632\u064a\u0629 \n\n\u0627\u0644\u0637\u0627\u0628\u0642 \u0627\u0644\u0623\u0631\u0636\u064a:\n\u0635\u0627\u0644\u0629 \u0648\u0627\u0633\u0639\u0629 \n\u063a\u0631\u0641\u0629 \u0637\u0639\u0627\u0645 \n\u062d\u0645\u0627\u0645 \u0644\u0644\u0636\u064a\u0648\u0641\n\u063a\u0631\u0641\u0629 \u0645\u0639 \u062d\u0645\u0627\u0645 \n\u0645\u0637\u0628\u062e \u062f\u0627\u062e\u0644\u064a \u0648 \u062e\u0627\u0631\u062c\u064a \n\n\u0627\u0644\u0637\u0627\u0628\u0642  \u0627\u0644\u0623\u0648\u0644:\n\u0663 \u063a\u0631\u0641 \u0645\u0627\u0633\u062a\u0631  \u0645\u0639 \u062d\u0645\u0627\u0645\u0627\u062a\n\n \n\u0627\u0644\u0637\u0627\u0628\u0642 \u0627\u0644\u062b\u0627\u0646\u064a:\n\u0663 \u063a\u0631\u0641 \u0645\u0627\u0633\u062a\u0631 \u0645\u0639 \u062d\u0645\u0627\u0645\u0627\u062a \n\n\u0645\u0633\u0627\u062d\u0629 \u0627\u0644\u0623\u0631\u0636 410 \u0645\u062a\u0631 \u0645\u0631\u0628\u0639\n\u0645\u0633\u0627\u062d\u0629 \u0627\u0644\u0628\u0646\u0627\u0621   600 \u0645\u062a\u0631 \u0645\u0631\u0628\u0639\n\u0627\u0644\u0633\u0639\u0631  300  \u0623\u0644\u0641 \u062f\u064a\u0646\u0627\u0631 \n\n\u062d\u0645\u062f \u0639\u0628\u062f\u0627\u0644\u0644\u0647 38302990\n\u0645\u062d\u0645\u062f \u0641\u062a\u064a\u0644 33321386\n\n                                                                \n\n      \n\n       \n\n\n             \n\n      \n                                                                                                                                                      \n\n\n             \n\n      \n \n\n\n             \n\n      \n \n\n\n\n             \n\n      \n\n        \n\n\n\n             \n\n      \n\n\n\n             \n\n      \n\n\n\n             \n\n      \n\n               \n                          \n\n\n             \n\n      \n             \n\n\n\n             \n\n      \n\n          \n\u200f\u200e",
+          "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-amwaj-islands-amwaj-avenue-333275.html",
+          "image": "https://www.propertyfinder.bh/property/b7efda97843a6d2d28fb3131abd6d3d9/260/185/MODE/6d4c9c/333275-a59a7o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 300000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Amwaj Avenue",
+            "addressRegion": "Muharraq Governorate",
+            "addressLocality": "Muharraq Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.29303,
+            "longitude": 50.66474
+          },
+          "telephone": "+97338302990",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 410,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Central A/C"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Concierge"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Garden"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Jacuzzi"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-amwaj-islands-amwaj-avenue-333275.html",
+        "position": 15
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "April Offer! 20% Down Payment+Marina View+ Balcony",
+          "description": "At Difaaf Reef Island, home is where you live your life and dreams. Your quiet and private sanctuary at the center of a bustling city, next to everything you need every day. A home that\u2019s just the way you like it.\n\nPayment Plan:\n\n\u2022\tRelaxed payment plan. \n\u2022\t50% during construction.\n        ie. 20% down payment &amp;  installments of 10% each payable every 6 months. \n\u2022\t10%. Upon completion - Dec 2021 \n\u2022\tAfter completion of the project, Balance 40% in 1 year each  installment of 10% payable quarterly.\n\u2022\tOffer Valid for a limited period only\n\n1 Bedroom Apartment Highlights\n\n\u2022 1 bedroom with attached bathroom\n\u2022 I guest toilet\n\u2022 Laundry\n\u2022 1 car park\n\u2022 Modern amenities\n\nDifaaf is just a few minutes drive away from the city&#39;s top destinations--\n\n\u2022 Seef business and commercial district\n\u2022 Bahrain Financial Harbor\n\u2022 Bahrain World Trade Center\n\u2022 Bahrain City Centre\n\u2022 Arcapita\n\u2022 Four Season\u2019s Hotel\n\u2022 Wyndham Grand Manama\n\u2022 Bahrain International Airport and next door to the Kingdom\u2019s prime locations for work, shopping, play and recreation.\n\nKey features:\n\n\u2022 Gated Community\n\u2022 Located in the prestigious Reef Island\n\u2022 Spacious &amp; thoughtfully designed apartments flooded with natural light and spectacular view\nof the sea and the lush landscapes.\n\u2022 Waterfront Walk promenade,\n\u2022 Infinity pool set in landscaped gardens\n\u2022 water features\n\u2022 children\u2019s play area\n\u2022 Fitness facilities with fully equipped health club.\n\u2022 Mini Mart, Coffee shop\n\nReef Island Amenities:\n\n\u2022 Upscale Residence\n\u2022 Fitness Centers\n\u2022 Clubhouse\n\u2022 Marina and Yatch Club\n\u2022 Parks and promenade\n\u2022 Lagoons and an eclectic mix of cafes\n\u2022 Restaurant and dining establishment catering to different tastes and preferences.",
+          "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-reef-island-330427.html",
+          "image": "https://www.propertyfinder.bh/property/b6c1286aa42d59ed23320dd53622e9c1/260/185/MODE/45e281/330427-0f2b2o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 67500,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Reef Island",
+            "addressRegion": "Capital Governorate",
+            "addressLocality": "Capital Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.241751,
+            "longitude": 50.566394
+          },
+          "telephone": "+97333506000",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 85,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Balcony"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Landmark"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Walk-in Closet"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-reef-island-330427.html",
+        "position": 16
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Brand new apartment compatible with Mazaya program",
+          "description": "Brand new and spacious apartments available for sale in Al Janabiyah area            ..\n\nPrime location, close to Mercado Mall and a lot of services          ..\n\nCompatible with Mazaya program         ..\n\nMazaya program is:\nA housing service that is represented in the support provided by the ministry through the access of the program to the bank financing from the participating bank for the purpose of buying a house, and the beneficiary pays 25% of his income as a monthly installment, while the government is committed through the ministry to provide government financial support that covers the rest of the value of the premiums Monthly with the financing bank.\n\nThe use of \u201cbenefits\u201d is available to everyone who has an existing housing request for any types of housing services, or whoever meets the requirements for using the program.\n\n\nConsisting of                :\n\n-                         3 bedrooms                       ,\n\n-                         2 bathrooms                       ,\n\n-                         Spacious living room                       ,\n\n-                         Stylish and open style kitchen                       ,\n\n-                         Central A\\C                       ,\n\n-                         Parking for 2 cars                       ,\n\n\n\nAreas starting from             -            159.5 sqmtrs                           .\n\nPrices starting from            -             BHD 79,000",
+          "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-northern-governorate-janabiya-311196.html",
+          "image": "https://www.propertyfinder.bh/property/1580036975/260/185/MODE/379176/311196-0f500o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 79000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Janabiya",
+            "addressRegion": "Northern Governorate",
+            "addressLocality": "Northern Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.185943,
+            "longitude": 50.467114
+          },
+          "telephone": "+97332213116",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 159,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Central A/C"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-northern-governorate-janabiya-311196.html",
+        "position": 17
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Attractive ,Huge and Grand , Available for sale",
+          "description": "Beautiful Three Floors Villa Available for sale , It comes with Seven En-suite bedrooms , It also has Three Living rooms that are huge in size , This Lovely Property has two Kitchens , Indoor and outdoor Kitchens ,in addition to a cold Kitchen on the first Floor ,It has a maid quarter and Three Store rooms that can be changed into a study room or anything else ! \nIt has it&#39;s own Private swimming pool and a private Garage for two cars \nThe Villa Comes with All Kitchen Appliances , It also comes with The Split units for the entire Villa and Curtains. \nFeatures:\n\u2022\t625 SQM\n\u2022\t7 bedrooms\n\u2022\t7 bathrooms\n\u2022\tPrivate pool \n\u2022\tPrivate 2 Car Parks\nAmwaj Island is one of the ideal places to live in if you prefer the fusion if an island and cosmopolitan living. The area is the perfect balance of the residential and commercial area. It is just a few minutes off the Lagoon, a common place which offers various restaurants, recreational activities, coffee shops and many more.\nLocation wise, Amwaj is at least a 25-minute drive to Manama Downtown, 15 minutes to the airport, 5 minutes to Diyar Muharraq. It has easy access to the high way which makes getting to anywhere in Bahrain easy.\nAppointment is By Viewing.",
+          "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-amwaj-islands-amwaj-avenue-327420.html",
+          "image": "https://www.propertyfinder.bh/property/834a8bd19c7b73df64bd9b60ee2b7aa6/260/185/MODE/c19c34/327420-d7e92o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 240000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Amwaj Avenue",
+            "addressRegion": "Muharraq Governorate",
+            "addressLocality": "Muharraq Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.29303,
+            "longitude": 50.66474
+          },
+          "telephone": "+97338335556",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 625,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Kitchen Appliances"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Maids Room"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Private Pool"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-amwaj-islands-amwaj-avenue-327420.html",
+        "position": 18
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Brand new villa compatible with Mazaya program",
+          "description": "Brand new and spacious apartments available for sale in Saar area            ..\n\nPrime location, close to Al Nakheel Mall and St. Christopher school           ..\n\nCompatible with Mazaya program         ..\n\nMazaya program is:\nA housing service that is represented in the support provided by the ministry through the access of the program to the bank financing from the participating bank for the purpose of buying a house, and the beneficiary pays 25% of his income as a monthly installment, while the government is committed through the ministry to provide government financial support that covers the rest of the value of the premiums Monthly with the financing bank.\n\nThe use of \u201cbenefits\u201d is available to everyone who has an existing housing request for any types of housing services, or whoever meets the requirements for using the program.\n\n\nConsisting of                :\n\n-                         3 bedrooms                       ,\n\n-                         3 bathrooms                       ,\n\n-                         Spacious living room                       ,\n\n-                         Stylish and fully equipped open style kitchen                       ,\n\n-                         Car parking                      ,\n\n\n\nAreas starting from             -            139 sqm to 146 sqm                           .\n\nPrices starting from            -             BHD 63,000                            .",
+          "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-northern-governorate-saar-311209.html",
+          "image": "https://www.propertyfinder.bh/property/1580038533/260/185/MODE/e683a7/311209-506c2o.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 63000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Saar",
+            "addressRegion": "Northern Governorate",
+            "addressLocality": "Northern Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.191642,
+            "longitude": 50.487574
+          },
+          "telephone": "+97332213116",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 139,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Kitchen Appliances"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-northern-governorate-saar-311209.html",
+        "position": 19
+      },
+      {
+        "@type": "WebPage",
+        "mainEntity": {
+          "@type": [
+            "Product",
+            "House"
+          ],
+          "name": "Hot Deal on a Full Sea View 2 Bedroom!",
+          "description": "Centrally located in the Seef District,the project keeps you connected to all the right places with a fine balance of leisure &amp; entertainment for the family.\n\nLuxurious beyond every stretch of your imagination, the apartment truly reflects your zest for the good life. Lavishly proportioned home features spacious interiors accentuated by contemporary touches and the finest designer fitments.\nAdding to the grandeur are beautifully stretched-out sundecks that offer the perfect backdrop to a life of unabashed privilege.\nFacilities:\n\u2022 Top-flight gymnasiums for men and women\n\u2022 Rejuvenating spa with steam and sauna\n\u2022 Lavishly appointed clubhouse and indoor games area\n\u2022 Basketball, tennis and squash court\n\u2022 Jogging track\n\u2022 Large outdoor kids play area\n\u2022 State-of-the-art mini-theatre\n\u2022 Multi-function party lounge overlooking the landscape\n\u2022 table tennis and billiards room\n\n\nApartments with different furniture options and layout depends on availability.",
+          "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-seef-297082.html",
+          "image": "https://www.propertyfinder.bh/property/7e7f7c80783cd9764904878ebe4d9cc4/260/185/MODE/3a0866/297082-b279eo.jpg",
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": 93000,
+              "priceCurrency": "BHD"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "name": "Seef",
+            "addressRegion": "Capital Governorate",
+            "addressLocality": "Capital Governorate"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.24,
+            "longitude": 50.537
+          },
+          "telephone": "+97339933264",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 120,
+            "unitText": "sqm"
+          },
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Built in Wardrobes"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Central A/C"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Covered Parking"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Kitchen Appliances"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Security"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Gym"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "Shared Pool"
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "value": true,
+              "name": "View of Water"
+            }
+          ]
+        },
+        "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-seef-297082.html",
+        "position": 20
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Dumistan",
+      "addressRegion": "Northern Governorate",
+      "addressLocality": "Northern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.12377,
+      "longitude": 50.469722
+    },
+    "name": "Brand new villa compatible with Mazaya program",
+    "image": "https://www.propertyfinder.bh/property/1580038127/260/185/MODE/32caab/311206-6a044o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-northern-governorate-dumistan-311206.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 297,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Al Juffair",
+      "addressRegion": "Capital Governorate",
+      "addressLocality": "Capital Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.211111,
+      "longitude": 50.601111
+    },
+    "name": "Rented to Navy Luxury 2 Bedroom Furnished",
+    "image": "https://www.propertyfinder.bh/property/04886ff1a66b292fcf409a7e0bcee810/260/185/MODE/019918/330343-613d7o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-al-juffair-330343.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 116,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Jacuzzi"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Security"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Gym"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Spa"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Amwaj Avenue",
+      "addressRegion": "Muharraq Governorate",
+      "addressLocality": "Muharraq Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.29303,
+      "longitude": 50.66474
+    },
+    "name": "Big double storey private villa with private pool",
+    "image": "https://www.propertyfinder.bh/property/eb7ff03fcb44b7f0faa7349685646294/260/185/MODE/f139e8/334962-b1f93o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-amwaj-islands-amwaj-avenue-334962.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 625,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Kitchen Appliances"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Maids Room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Walk-in Closet"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Durrat Al Bahrain",
+      "addressRegion": "Southern Governorate",
+      "addressLocality": "Southern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.833926,
+      "longitude": 50.613853
+    },
+    "name": "Gorgeous Luxury Villa W Pool &amp; Private Jetty",
+    "image": "https://www.propertyfinder.bh/property/5297fc43fda94be8bb6930e4e72c32e7/260/185/MODE/9dc97c/330785-d8114o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-southern-governorate-durrat-al-bahrain-330785.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 500,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Kitchen Appliances"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Maids Room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Pets Allowed"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Garden"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Security"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Study"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Walk-in Closet"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Malkiyah",
+      "addressRegion": "Northern Governorate",
+      "addressLocality": "Northern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.10086,
+      "longitude": 50.488009
+    },
+    "name": "Villa available for Rent in Al Malikiyah area",
+    "image": "https://www.propertyfinder.bh/property/1586259443/260/185/MODE/c27ca3/328732-3723bo.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-northern-governorate-malkiyah-328732.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 400,
+      "unitText": "sqm"
+    },
+    "amenityFeature": []
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Saar",
+      "addressRegion": "Northern Governorate",
+      "addressLocality": "Northern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.191642,
+      "longitude": 50.487574
+    },
+    "name": "A distinctive modern design villa in Saar!",
+    "image": "https://www.propertyfinder.bh/property/ab5474712bb272ed56e2b08d77e835cf/260/185/MODE/60d226/319575-3c8e8o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-northern-governorate-saar-319575.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 388,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Maids Room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Garden"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Pool"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Al Juffair",
+      "addressRegion": "Capital Governorate",
+      "addressLocality": "Capital Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.211111,
+      "longitude": 50.601111
+    },
+    "name": "Hurry up , the last apartment at this price !",
+    "image": "https://www.propertyfinder.bh/property/fc7558e49f2655e3fcf5301656dbd76f/260/185/MODE/4dd18f/318420-a01abo.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-al-juffair-318420.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 118,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Pets Allowed"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Security"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Gym"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Spa"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Walk-in Closet"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Bahrain Bay",
+      "addressRegion": "Capital Governorate",
+      "addressLocality": "Capital Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.249585,
+      "longitude": 50.580361
+    },
+    "name": "Luxurious 3BR Apartment  - Waterbay",
+    "image": "https://www.propertyfinder.bh/property/46adfe876ed3dfa1e13d187ac73bf000/260/185/MODE/6e299b/313838-80882o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-bahrain-bay-313838.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 222,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Concierge"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Maids Room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Security"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Gym"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Landmark"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Walk-in Closet"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Durrat Al Bahrain",
+      "addressRegion": "Southern Governorate",
+      "addressLocality": "Southern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.833926,
+      "longitude": 50.613853
+    },
+    "name": "Gorgeous beach access villa with jetty parking",
+    "image": "https://www.propertyfinder.bh/property/20d8340e1ef2de156457cef682e64148/260/185/MODE/467318/334957-86a24o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-southern-governorate-durrat-al-bahrain-334957.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 500,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Kitchen Appliances"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Maids Room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Security"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Walk-in Closet"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Bahrain Bay",
+      "addressRegion": "Capital Governorate",
+      "addressLocality": "Capital Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.249585,
+      "longitude": 50.580361
+    },
+    "name": "Sky and Luxury 3 Bedrooms+Maid Signature",
+    "image": "https://www.propertyfinder.bh/property/ccb8384749e55e804e2d62fd83692cb0/260/185/MODE/156ae9/314144-281ddo.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-bahrain-bay-314144.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 219,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Concierge"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Kitchen Appliances"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Maid Service"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Security"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Gym"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Spa"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "The Lagoon",
+      "addressRegion": "Muharraq Governorate",
+      "addressLocality": "Muharraq Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.287778,
+      "longitude": 50.663393
+    },
+    "name": "Amazing offer!! Balcony &amp; full Sea view",
+    "image": "https://www.propertyfinder.bh/property/208c2d5f165e6b0f17967e42b8e9f5f3/260/185/MODE/e4451d/334752-ced9fo.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-muharraq-governorate-amwaj-islands-the-lagoon-334752.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 144,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Concierge"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Kitchen Appliances"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Security"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Gym"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Spa"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Walk-in Closet"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Al Sidra",
+      "addressRegion": "Muharraq Governorate",
+      "addressLocality": "Muharraq Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.311422,
+      "longitude": 50.643066
+    },
+    "name": "Freehold Luxurious 4BR Villa in Diyar  Muharraq",
+    "image": "https://www.propertyfinder.bh/property/089089f9629923a51972e8bb089d9f35/260/185/MODE/ae1859/329760-70f2ao.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-diyar-al-muharraq-al-sidra-329760.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 210,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Maids Room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Garden"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Security"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Landmark"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Walk-in Closet"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Seef",
+      "addressRegion": "Capital Governorate",
+      "addressLocality": "Capital Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.24,
+      "longitude": 50.537
+    },
+    "name": "Beach Access +Balcony+ 0% Commission",
+    "image": "https://www.propertyfinder.bh/property/7e4adfe5042a2b39d89cb4c2dc0c7c21/260/185/MODE/0e7eeb/332608-66799o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-seef-332608.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 43,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Security"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Gym"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Spa"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Durrat Al Bahrain",
+      "addressRegion": "Southern Governorate",
+      "addressLocality": "Southern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.833926,
+      "longitude": 50.613853
+    },
+    "name": "Villa Fayrooz 800 in Durrat Al Bahrain",
+    "image": "https://www.propertyfinder.bh/property/0d330169d963e2d91505fde35f3f9193/260/185/MODE/1127a0/332518-13598o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-southern-governorate-durrat-al-bahrain-332518.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 800,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Kitchen Appliances"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Maids Room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Landmark"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Walk-in Closet"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Amwaj Avenue",
+      "addressRegion": "Muharraq Governorate",
+      "addressLocality": "Muharraq Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.29303,
+      "longitude": 50.66474
+    },
+    "name": "\u0644\u0644\u0628\u064a\u0639 \u0641\u064a\u0644\u0627 \u0641\u062e\u0645\u0629 \u0648 \u0631\u0627\u0642\u064a\u0629 \u0641\u064a \u0627\u0645\u0648\u0627\u062c",
+    "image": "https://www.propertyfinder.bh/property/b7efda97843a6d2d28fb3131abd6d3d9/260/185/MODE/6d4c9c/333275-a59a7o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-amwaj-islands-amwaj-avenue-333275.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 410,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Concierge"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Garden"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Jacuzzi"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Reef Island",
+      "addressRegion": "Capital Governorate",
+      "addressLocality": "Capital Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.241751,
+      "longitude": 50.566394
+    },
+    "name": "April Offer! 20% Down Payment+Marina View+ Balcony",
+    "image": "https://www.propertyfinder.bh/property/b6c1286aa42d59ed23320dd53622e9c1/260/185/MODE/45e281/330427-0f2b2o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-reef-island-330427.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 85,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Landmark"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Walk-in Closet"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Janabiya",
+      "addressRegion": "Northern Governorate",
+      "addressLocality": "Northern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.185943,
+      "longitude": 50.467114
+    },
+    "name": "Brand new apartment compatible with Mazaya program",
+    "image": "https://www.propertyfinder.bh/property/1580036975/260/185/MODE/379176/311196-0f500o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-northern-governorate-janabiya-311196.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 159,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Amwaj Avenue",
+      "addressRegion": "Muharraq Governorate",
+      "addressLocality": "Muharraq Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.29303,
+      "longitude": 50.66474
+    },
+    "name": "Attractive ,Huge and Grand , Available for sale",
+    "image": "https://www.propertyfinder.bh/property/834a8bd19c7b73df64bd9b60ee2b7aa6/260/185/MODE/c19c34/327420-d7e92o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-muharraq-governorate-amwaj-islands-amwaj-avenue-327420.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 625,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Kitchen Appliances"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Maids Room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Pool"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Saar",
+      "addressRegion": "Northern Governorate",
+      "addressLocality": "Northern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.191642,
+      "longitude": 50.487574
+    },
+    "name": "Brand new villa compatible with Mazaya program",
+    "image": "https://www.propertyfinder.bh/property/1580038533/260/185/MODE/e683a7/311209-506c2o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-northern-governorate-saar-311209.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 139,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Kitchen Appliances"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Seef",
+      "addressRegion": "Capital Governorate",
+      "addressLocality": "Capital Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.24,
+      "longitude": 50.537
+    },
+    "name": "Hot Deal on a Full Sea View 2 Bedroom!",
+    "image": "https://www.propertyfinder.bh/property/7e7f7c80783cd9764904878ebe4d9cc4/260/185/MODE/3a0866/297082-b279eo.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-capital-governorate-seef-297082.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 120,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Kitchen Appliances"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Security"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Gym"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Pool"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "View of Water"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Al Maqsha",
+      "addressRegion": "Northern Governorate",
+      "addressLocality": "Northern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.221059,
+      "longitude": 50.516253
+    },
+    "name": "Brand new villa Compatible with Mazaya program",
+    "image": "https://www.propertyfinder.bh/property/1588069895/260/185/MODE/84cb1a/333586-813a8o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-northern-governorate-al-maqsha-333586.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 267,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Durrat Marina",
+      "addressRegion": "Southern Governorate",
+      "addressLocality": "Southern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.86601,
+      "longitude": 50.605407
+    },
+    "name": "Luxury apartment for sale - Flexible payment plans",
+    "image": "https://www.propertyfinder.bh/property/25a25034fefeb5e347f2e4368c8e1365/260/185/MODE/4bf822/267827-2feddo.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-southern-governorate-durrat-marina-267827.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 167,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Built in Wardrobes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Central A/C"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Security"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Gym"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Shared Pool"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Janabiya",
+      "addressRegion": "Northern Governorate",
+      "addressLocality": "Northern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.185943,
+      "longitude": 50.467114
+    },
+    "name": "Fully Furnished Apartment for sale in Saar",
+    "image": "https://www.propertyfinder.bh/property/22c448ef40795fd479f8b88f69a56317/260/185/MODE/9f66d4/312515-87ba5o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-northern-governorate-janabiya-312515.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 160,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Concierge"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Kitchen Appliances"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Maids Room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Private Jacuzzi"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Study"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Al Qurayyah",
+      "addressRegion": "Northern Governorate",
+      "addressLocality": "Northern Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.200114,
+      "longitude": 50.466294
+    },
+    "name": "Brand new villa Compatible with Mazaya program",
+    "image": "https://www.propertyfinder.bh/property/1580913372/260/185/MODE/61351c/313857-343d2o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/villa-for-sale-northern-governorate-al-qurayyah-313857.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 320,
+      "unitText": "sqm"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": true,
+        "name": "Covered Parking"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "SingleFamilyResidence",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Amwaj Avenue",
+      "addressRegion": "Muharraq Governorate",
+      "addressLocality": "Muharraq Governorate"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.29303,
+      "longitude": 50.66474
+    },
+    "name": "Hot Deal!! Brand New 2BR for Sale in Amwaj",
+    "image": "https://www.propertyfinder.bh/property/5f8578b376dbce7035b45d1e03844f3f/260/185/MODE/6c662f/308192-9cb02o.jpg",
+    "url": "https://www.propertyfinder.bh/en/buy/apartment-for-sale-muharraq-governorate-amwaj-islands-amwaj-avenue-308192.html",
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 100,
+      "unitText": "sqm"
+    },
+    "amenityFeature": []
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "logo": "https://www.propertyfinder.bh/assets/logos/logo-bh-en.svg",
+    "url": "https://www.propertyfinder.bh"
+  }
+]
