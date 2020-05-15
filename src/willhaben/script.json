@@ -1,0 +1,852 @@
+[
+  {
+    "adId": "276323987",
+    "adTypeId": "1",
+    "title": "Top+2.2+-+Durchdachte+Wohnkultur+f\u00fcr+Freigeister",
+    "price": "1080000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:66f83d3b-758f-48fb-9661-c82a3667e9e5",
+      "accountId": "66f83d3b-758f-48fb-9661-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "291982914",
+    "adTypeId": "1",
+    "title": "Maisonette+Wohnung+mit+Blick+auf+Belvedere,+Designeinrichtung!",
+    "price": "1600000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:8f0410b4-ae80-43c1-98f0-b80186fc3b9f",
+      "accountId": "8f0410b4-ae80-43c1-98f0-b80186fc3b9f"
+    }
+  },
+  {
+    "adId": "314516940",
+    "adTypeId": "1",
+    "title": "Gro\u00dfz\u00fcgige+3+Zimmerwohnung+inmitten+des+3.+Gemeindebezirks.",
+    "price": "649000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:3b9b5a1d-6e56-46d4-bb3a-c82a3667e9e5",
+      "accountId": "3b9b5a1d-6e56-46d4-bb3a-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "380542995",
+    "adTypeId": "1",
+    "title": "Aus+Wohnraum+wird+Wohntraum+-+Altbau+im+Dritten",
+    "price": "849000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:880775f5-e35c-4c0d-960f-c82a3667e9e5",
+      "accountId": "880775f5-e35c-4c0d-960f-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "374013519",
+    "adTypeId": "1",
+    "title": "Tom+v\u00f6llig+losgel\u00f6st+von+der+Erde",
+    "price": "435000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:7b51bb6a-8add-4efa-8a93-c82a3667e9e5",
+      "accountId": "7b51bb6a-8add-4efa-8a93-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "380490319",
+    "adTypeId": "1",
+    "title": "**+F\u00dcR+FAMILIEN+MIT+GROSSEN+ANSPR\u00dcCHEN+**+EXZELLENT+GEPLANTE+3+ZIMMET+DACHGESCHOSS+-+MAISONETTE+IM+BELIEBTEN+BEZIRK+LANDSTRASSE+**\u00a0+\u00a0\u00a0",
+    "price": "639000.41",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:1f59c7dc-3e3c-4e28-92ae-c82a3667e9e5",
+      "accountId": "1f59c7dc-3e3c-4e28-92ae-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "292563229",
+    "adTypeId": "1",
+    "title": "TrIIIple+-+Wohnen+hoch+\u00fcber+Wien",
+    "price": "752560",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:0c1e4b7e-9517-4a48-9292-c82a3667e9e5",
+      "accountId": "0c1e4b7e-9517-4a48-9292-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "292563166",
+    "adTypeId": "1",
+    "title": "TrIIIple+-+Wohnen+hoch+\u00fcber+Wien",
+    "price": "582690",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:0c1e4b7e-9517-4a48-9292-c82a3667e9e5",
+      "accountId": "0c1e4b7e-9517-4a48-9292-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "378905169",
+    "adTypeId": "1",
+    "title": "DIREKT+VON+PRIVAT:+Sehr+gute+Lage+-+Wohnung+N\u00e4he+Schloss+Belvedere",
+    "price": "345000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "private",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:b2f27271-eef1-4106-af7c-b80186fc3b9f",
+      "accountId": "b2f27271-eef1-4106-af7c-b80186fc3b9f"
+    }
+  },
+  {
+    "adId": "196099702",
+    "adTypeId": "1",
+    "title": "FASANVIERTEL:+NEUE+DG-WOHNUNG+MIT+BLICK+BIS+STEPHANSDOM:+5+ZIMMER,+GROSSE+TERRASSE",
+    "price": "798000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:6cebe834-4e56-417a-b1f7-c82a3667e9e5",
+      "accountId": "6cebe834-4e56-417a-b1f7-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "247348003",
+    "adTypeId": "1",
+    "title": "Am+Modenapark+Bauteil+C2",
+    "price": "1133000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:3b9b5a1d-6e56-46d4-bb3a-c82a3667e9e5",
+      "accountId": "3b9b5a1d-6e56-46d4-bb3a-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "350278237",
+    "adTypeId": "1",
+    "title": "Wiener+Chic+-+Lebensart+und++Eleganz",
+    "price": "Preis+auf+Anfrage",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:759667c3-4926-4e1f-93a0-e2c91a4831c9",
+      "accountId": "759667c3-4926-4e1f-93a0-e2c91a4831c9"
+    }
+  },
+  {
+    "adId": "380384391",
+    "adTypeId": "1",
+    "title": "TraumWohnung+im+Herzen+von+Wien!",
+    "price": "279000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:f24c6074-fc94-485c-9992-c82a3667e9e5",
+      "accountId": "f24c6074-fc94-485c-9992-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "380382446",
+    "adTypeId": "1",
+    "title": "WOHNTRAUM+|+SONNIGE+2-ZIMMERWOHNUNG+MIT+LOGGIA+UND+WEITBLICK",
+    "price": "289500",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:91078aac-d8ac-4cbc-b50f-e2c91a4831c9",
+      "accountId": "91078aac-d8ac-4cbc-b50f-e2c91a4831c9"
+    }
+  },
+  {
+    "adId": "354499992",
+    "adTypeId": "1",
+    "title": "Perfekte+Stadtwohnung+im+Dritten",
+    "price": "309500",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:759667c3-4926-4e1f-93a0-e2c91a4831c9",
+      "accountId": "759667c3-4926-4e1f-93a0-e2c91a4831c9"
+    }
+  },
+  {
+    "adId": "350258514",
+    "adTypeId": "1",
+    "title": "Charmante+3-Zimmer-Altbauwohnung+mit+Balkon",
+    "price": "549000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:52a4d8b5-082a-4e41-b9f1-c82a3667e9e5",
+      "accountId": "52a4d8b5-082a-4e41-b9f1-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "380360615",
+    "adTypeId": "1",
+    "title": "PREISREDUKTION+-+ERSTBEZUG+DIREKT+VOM+BAUTR\u00c4GER+OHNE+PROVISION+-+DACHGARTEN+IM+1+STOCK",
+    "price": "399000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:41cb59f6-7c1a-45b4-b597-c82a3667e9e5",
+      "accountId": "41cb59f6-7c1a-45b4-b597-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "361783573",
+    "adTypeId": "1",
+    "title": "Sonnige+Dachgeschosswohnung+im+Botschaftsviertel",
+    "price": "1149000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:ae0be256-243d-459d-88c0-c82a3667e9e5",
+      "accountId": "ae0be256-243d-459d-88c0-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "294354685",
+    "adTypeId": "1",
+    "title": "Wohnen+mit+Ausblick+-+im+TrIIIple",
+    "price": "824660",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:9a839558-5131-4732-8fb6-c82a3667e9e5",
+      "accountId": "9a839558-5131-4732-8fb6-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "355890139",
+    "adTypeId": "1",
+    "title": "YES+-+10+Minuten+zum+Stephansplatz+-+2-Zimmer+Altbauwohnung",
+    "price": "299000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:85b74e56-0c7c-4b4c-9a51-c82a3667e9e5",
+      "accountId": "85b74e56-0c7c-4b4c-9a51-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "375195377",
+    "adTypeId": "1",
+    "title": "Altbauwohnung+im+Botschaftsviertel",
+    "price": "465000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "private",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:2e16427f-f7f7-47ef-9ebb-c82a3667e9e5",
+      "accountId": "2e16427f-f7f7-47ef-9ebb-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "251915599",
+    "adTypeId": "1",
+    "title": "Am+Modenapark+Bauteil+C2",
+    "price": "1538000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:3b9b5a1d-6e56-46d4-bb3a-c82a3667e9e5",
+      "accountId": "3b9b5a1d-6e56-46d4-bb3a-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "377268929",
+    "adTypeId": "1",
+    "title": "9%+pro+Jahr:+U3,+drei+Parks,+360+Grad+Wienblick+Dachterrassen,++ruhiges+Luxusloft+im+Gr\u00fcnen,+beidseitig+offen",
+    "price": "1693000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "private",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:b5de46dc-a4fa-4f2c-93e2-c82a3667e9e5",
+      "accountId": "b5de46dc-a4fa-4f2c-93e2-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "380321245",
+    "adTypeId": "1",
+    "title": "LAENDYARD+-+Stiege+2+-+Wundersch\u00f6ne+2+Zimmerwohnung+mit+Balkon",
+    "price": "275000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:3b9b5a1d-6e56-46d4-bb3a-c82a3667e9e5",
+      "accountId": "3b9b5a1d-6e56-46d4-bb3a-c82a3667e9e5"
+    }
+  },
+  {
+    "adId": "338631530",
+    "adTypeId": "1",
+    "title": "EXKLUSIVES+PENTHOUSE+N\u00c4HE+ARENBERGPARK",
+    "price": "1498000",
+    "category": "RealEstate+>+Eigentumswohnungen",
+    "categories": [
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:1",
+        "localName": "Eigentumswohnungen",
+        "level": 1,
+        "name": "Eigentumswohnungen"
+      },
+      {
+        "type": "MarketplaceCategory",
+        "localId": "sdrn:willhabenat:category:realestate:7274",
+        "localName": "RealEstate",
+        "level": 0,
+        "name": "RealEstate"
+      }
+    ],
+    "location": {
+      "postalCode": "1030",
+      "addressLocality": "Wien,+03.+Bezirk,+Landstra\u00dfe",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
+    },
+    "publisherType": "pro",
+    "publisher": {
+      "id": "sdrn:iad.willhaben.at:user:00f7d983-65d4-4945-89f6-c82a3667e9e5",
+      "accountId": "00f7d983-65d4-4945-89f6-c82a3667e9e5"
+    }
+  }
+]
