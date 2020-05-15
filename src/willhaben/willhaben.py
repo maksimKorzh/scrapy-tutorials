@@ -1,7 +1,7 @@
 ##########################################################
 #
 # Script to scrape Austrian real estate properties data
-#                   from willhabe.at
+#                   from willhaben.at
 #
 #                          by
 #
