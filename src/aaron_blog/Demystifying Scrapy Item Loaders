@@ -1,0 +1,391 @@
+Demystifying Scrapy Item Loaders
+2020-02-24T15:25:35.761Z
+
+https://towardsdatascience.com/demystifying-scrapy-item-loaders-ffbc119d592a?source=user_profile---------0-----------------------
+
+
+
+Definitive Guide
+Demystifying Scrapy Item Loaders
+Automate scrapy data cleaning and scaling your scrapy spiders
+Aaron S
+Follow
+Feb 24
+ 
+·
+ 
+12
+ min read
+Nicolasintravel
+ from Unsplash
+Items and Item Loaders
+When scraping data from websites it can be messy and incomplete. Now most tutorials on scrapy introduce the concept of Items. Items provide the containers for the data scrapped. But where do item loaders come into this? They provide the mechanism for populating the item containers.
+Item loaders automate common tasks like parsing the data before item containers. It also provides a cleaner way to manage extracted data as you scale your spider up.
+To follow along please read up about Items in the scrapy documentation. It’s necessary to have an understanding of this before continuing!
+The Road Map
+In this article, we will define what an item loader is in comparison to Items. We will then talk about how Item Loaders do this work by processors. These processors are built-in or custom made. They provide us the ability to parse the data we get before populating the Item fields. We will then walk you how item loaders make the extracting of data much cleaner. This is before transferred to the processors. We will explain how to make our own processors beyond the built-in functions to alter our data to how we see fit. We will go through how to extend the ItemLoader. This allows us to scale up the functionality of our spiders when websites change.
+Checklist
+Defining ItemLoaders role
+Define input and output processors, the powerhouse of ItemLoaders
+Define ItemLoaders methods. This is how ItemLoaders gets the data for the processors
+Defining Item Loader contexts. This is a way for keys and values to get shared between processors and is useful
+Define the built-in processors 
+Identity()
+, 
+TakeFirst()
+ , 
+Join()
+ , 
+Compose()
+ , 
+MapCompose()
+How to define the specific input and out processors you need for your ItemLoader. This provides you with flexibility. You can choose different inputs and output processors for different Item fields.
+Define the NestedLoader. This is a way for cleaning the way we code our ItemLoader when all the data is in a chunk of HTML.
+How to extend the ItemLoader and add in functionality. Useful for scalability and when websites change.
+Using Item loaders to populate Items
+Let’s get behind the scenes of the item loaders. To make use of this, we have to create an ItemLoader. It’s a class called Scrapy.Loader.Itemloader. It has three main arguments.
+Item: Specifies an item or items we create for our spider to populate with the ItemLoader. If one is not specified scrapy makes a new item object called default_item_class
+Selector: Use a selector for the Itemloaders methods . If one is not specified, Scrapy makes a new selector class. The variable default_selector_class is then assigned.
+Response Used to construct a selector using default_selector_class
+Syntax
+ItemLoader([item,selector,response,] **kwargs)
+To start using the ItemLoader we import it into our spider. We then import our Items we specify in our spiders items.py
+from scrapy.loader import ItemLoader
+from myproject.items import Product
+Now let’s see how we would start the ItemLoader, note we don’t specify a selector here. Itemloader will actually populate a default selector if we don’t define it.
+def parse(self,response):
+    l = ItemLoader(Product(), response)
+Notes 
+1. We start with the parse function this is where the ItemLoader instance gets formed.
+2. We assign a variable l to our ItemLoader class instance. We specifying our 
+product()
+ items instance we define this in our spiders Items.py and the response.
+The next step of using ItemLoader class is the ItemLoader methods. This gives us the ability to grab data from our websites and allows us to manipulate it. We manipulate it through something called processors.
+Hubble
+ from Unsplash
+Input and Output Processors
+An ItemLoader has an input processor and an output processor per each item field. They deal with the extracted data as soon as it’s received. The processors get defined in the ItemLoad methods to parse the data (Next section).
+Once we have manipulated data with our input processor. It then appends any data given to it to an internal list within the ItemLoader. Because this data gets put into a list this allows ItemLoader to have several values for one Item field. The results of this internal list are then fed to the output processor. Then the results of the output processor get assigned to the Item field.
+Processors are objects which get called with the data to parse and return a parsed value. With that, we can use any function as an input or output processor. The only condition is that the processor function’s first argument must be an iterable.
+Scrapy also comes with processors built-in which we will talk about in this article.
+We can now talk about the ItemLoader methods where the real magic happens!
+Slejven Djurakovic
+ from Unsplash
+ItemLoader Methods
+The ItemLoader class has methods that allow us to change our data before getting used in the item fields. We will talk about e important methods here. Please refer to the documentation for further details.
+If we have a look at the ItemLoader Class it has several functions to deal with extracting data. The three commonest are 
+add_xpath()
+ , 
+add_css()
+, 
+add_value()
+.
+They all accept an Item field name and then either an xpath selector, css selector or string value. It also allows for use of processors to alter the data.
+Syntax
+add_xpath(field_name, xpath,*processors,**kwargs)
+add_css(field_name,css, processors,**kwargs)
+add_value(field_name,value,processors,**kwargs)
+The heart of what an ItemLoader can do is through the input processor. Its why the ItemLoader Methods gives you the option to specify it.
+You change the extracted data by specifying your own input processor. Now if a processor is not specified a default processor is. This then returns only the values of the extracted data.
+Now the output processor takes this collected internal list. This may or may not have got changed by our own input processor. This provides new values to get populated.
+To populate the Item field with our extracted data we use the load_item() method. This populates the item field once it has been through the processors.
+Let’s see how this works in practice now with a simple example.
+def parse(self,response):
+    l = ItemLoader(Product(), response)
+    l.add_xpath('Title', //*[@itemprop="name"][1]/text()')
+    return l.load_item()
+Notes
+1. We define our ItemLoader with our item we defined 
+product()
+ and response
+2. We use the 
+add_xpath
+ method specifying the Item field title and the xpath selector for the title.
+3. We then populate this item field using the 
+load_item()
+ method
+Markus Spiske
+ from Unsplash
+Item Loader Context
+Before getting into the built-in processors. It’s important to talk about Item Loader context. These are keys and values that can get shared. The ItemLoader we create has the defined items/selector/response assigned to loader_context. They can then get used to change the input/output processors.
+Some built-in processors can use it and is important to know.
+A 
+loader_context
+ argument in the processor function allows the processor to share data.
+A simple of example
+def parse_length(text,loader_context):
+    unit = loader_context.get('unit','m')
+#length parsing code goes here
+return parse_length
+Now you can change Item Loader context values in several ways.
+Modifying the currently active item loader context
+loader = ItemLoader(product)
+loader.context['unit'] = 'cm'
+2. On Item loader instantiation (as a keyword argument)
+loader = ItemLoader(product, unit='cm')
+3. On Item loader declaration for input/output processors eg MapCompose
+class ProductLoader(ItemLoader):
+    length_out = MapCompose(parse_length, unit='cm')
+ItemLoader contexts are useful for passing keys and values that we want to use in our processors.
+Built-in Processors
+Now we have the basics of the ItemLoader nailed. Let’s move onto some of the boilerplate that Scrapy provides us.
+In the Scrapy code base, the classes of the built-in processors are in a separate file called processes.py. We have to import them to be able to use them.
+from scrapy.loader.processors import BUILTIN PROCESSORS
+There are six built-in processors Scrapy provides
+Identity()
+, 
+TakeFirst()
+, 
+Join()
+ , 
+Compose()
+ , 
+MapCompose()
+ , 
+SelectJmes()
+ . We will take you through the first five.
+Identity()
+Identity()
+ is the simplest processor, it returns the value unchanged.
+from scrapy.loader.processors import Identity
+proc = Identity()
+proc(['one','two','three'])
+Output:
+['one,'two','three']
+This built-in processor you already have used it without knowing. The identity class instance gets assigned the variable default_input_processor and default_output_processor when no processors get specified in the ItemLoader methods we discussed. This means if when we don’t specify a processor, the ItemLoader returns the values unchanged.
+Takefirst()
+Takefirst()
+ returns the first non-null/empty value from the values it receives. It gets used as an output processor to single-valued fields.
+from scrapy.loader.processors import TakeFirst
+proc = TakeFirst()
+proc(['', 'One','Two','Three'])
+Output:
+'one'
+Join()
+Join(separator=u’ ’)
+ returns the values joined together. A separator can get used to put an expression between each item. The default being 
+u’’
+. In the example below we input 
+<br>
+ .
+from scrapy.loader.processors import Join
+proc = Join() 
+proc(['One, 'Two', 'Three'])
+proc2 = Join('<br>')
+proc2(['One', 'Two','Three'])
+Output:
+'one two three'
+'one<br>two<br>three'
+Compose()
+Compose()
+ takes an input value and passes it to a function specified in the argument. If another function gets specified the results get passed onto that function. This keeps going until the last function returns the output value of this processor. This function is something we create to change the input value. 
+Compose()
+ gets used as an input processor.
+The syntax is
+compose(*functions,**default_loader_context)
+Now each function can receive a 
+loader_context
+ parameter. This will pass the active loader context key and value through to the processor. Now if no 
+loader_context
+ gets specified, a 
+default_loader_context
+ variable does. This passes nothing through.
+from scrapy.loader.processor import Compose
+proc = Compose(Lambda v: v[0], str.upper)
+proc(['hello','world])
+Output:
+'HELLO'
+Notes
+The compose builtin processor gets called on
+Proc gets defined by our compose class which we specify with functions. A lambda function in this case and the string upper method. Each list item gets changed from lower case to upper case.
+Mapcompose()
+Much like 
+compose()
+ but gets handled in a different way. The input values get iterated and the first function gets applied to each element. The results get concatenated to construct a new iterable. This is then used on the second function. The output values of the last function concatenated together and form the output.
+This provides a convenient way to create functions that only work with single values. This gets used as an input processor as string objects get extracted from selectors.
+def filter_world(x):
+    return None if x == 'world else x
+from scrapy.loader.processors import MapCompose
+proc = MapCompose(filter_world, str.upper)
+proc(['hello', 'world', 'this','is', 'scrapy'])
+Output
+['HELLO, 'THIS', 'IS', 'SCRAPY']
+Notes.
+1.We create a simple function called
+filter_world
+2. 
+Mapcompose
+ gets imported
+3. Proc gets assigned 
+MapCompose
+. Two functions 
+filter_world
+ and the str method which acts like a function.
+4. Proc is then fed an iterable and each item gets passed to 
+filter_world
+ and then has a string method applied to it.
+5. Note see how the second item
+‘world’
+ gets fed to the 
+filter_world
+ function. This returns none, and the output of that function gets ignored. Further processing can now occur in the next item. It is this that gives us the output as it is, the item ‘world’ gets filtered out.
+david latorre romero
+ from Unsplash
+Declaring Custom Item Loaders Processors
+We can declare ItemLoaders processors like Items. That is by using the class definition syntax.
+from scrapy.loader import ItemLoader
+from scrapy.loader.processors import TakeFirst, MapCompose, Join
+class ProductLoader(ItemLoader):
+    default_output_processor = Takefirst()
+    name_in = MapCompose(unicode.title)
+    name_out = Join()
+    price_in = MapCompose(unicode.strip)
+Notes.
+The ProductLoader class extends the ItemLoader class
+_in
+ suffix defines the input processor and 
+_out
+ suffix declares the output processor. We put the Item field (name in this case) before the suffix to define which field we want the process to work on.
+name_in
+ assigns a 
+MapCompose
+ instance and has the defined function unicode.title. This will get used on the name Item Field.
+name_out
+ gets defined as the 
+Join()
+ class instance
+price_in
+ gets defined as a 
+Mapcompose
+ instance. The function 
+unicode.strip
+ gets defined for the prices Item field.
+It is also possible to declare processors in the Item Fields lets see how that works.
+import scrapy 
+from scrapy.loader.processors import Join, MapCompose, Takefirst
+from w3lib.html import remove_tags
+def filter_price(value):
+   if value.isdigit():
+       return value
+class Product(scrapy.Item):
+    name = scrapy.Field(input_processor=MapCompose(remove_tags), outputprocessor=Join(),)
+    price = scrapy.Field(input_processor=MapCompose(remove_tags,     filter_price), outprocessor=Takefirst(),)
+Notes
+We import the builtin processors and another package that removes tags.
+We define the 
+filter_price
+function, if the input is a digit it gets returned.
+We then define the items by extending the Scrapy.Item class.
+Name gets defined as an ItemField. We specify which input and output processors should get used.
+Price gets defined as an ItemField. We specify which input and output processors should get used.
+Price has two functions called upon, the 
+remove_tags
+ and 
+filter_price
+. The 
+filter_price
+ is the function we defined.
+Now we can use an ItemLoader instance in our data.py file of our spider. Note we have specified our input and output processors through our items.py from our spider.
+from scrapy.loader import ItemLoader
+    
+il = ItemLoader(item=Product())
+il.add_value('name',[u'Welcome to my', u'<strong>website</strong>'])
+il.add_value('price', [u'&euro;', u'<span>1000</span>'])
+il.load_item()
+Output:
+{'name': u'Welcome to my website', 'price': u'1000'}
+Notes 
+1. We now import the ItemLoader class 
+2. We define the Itemloader with the Item fields we created 
+3. We use the 
+add_value
+ method, define the name Item field and we pass along a list with a string in it. 
+4. We use the 
+add_value
+ method to define the price item field and pass another list with two items.
+ 5. When we add the first value string, this gets its tags removed and both items get joined together 
+6. When we add the second value, the first item gets ignored as it is not a string and we turn the number 1000. 
+7. The 
+load_item()
+method gives us a dictionary of Item field names and our modified data. This gets inputted into the Item fields.
+Now there is a precedence order for input and output processors from number 1 to number 3.
+1. Item loader field-specific attributes field_in and field_out
+2. Field metadata (input_processor and output_processor keyword arguments)
+3. Item Loader defaults 
+itemLoad.default_input_processor()
+and 
+itemLoad.default_output_processor()
+Brian Kostiuk
+ from Unsplash
+Nested Loaders
+When the information you want to scrape is in a big block we can use a nested loader for readability. It allows us to shorten the ItemLoader methods paths by making a relative path. This can make your scrappy projects a bit easier to read but don’t overuse it!
+Loader = ItemLoader(item=Item())
+footer_loader = loader.nested_xpath('//footer/)
+footer_loader.add_xpath('social','a[@class="social"]/@href')
+loader.load_item()
+Notes
+We instantiate an Itemloader class like before
+We define a variable for our nested loader. We specify the 
+nested_xpath()
+ method, it accepts a selector. In this case we give it 
+//footer/
+.
+We use footer_loader to access the ItemLoader methods. This means we don't have to specify the footer selector several times. In this case we call on the 
+add_xpath()
+ method, define the item field and the relative xpath selector we want. This way we don’t have to keep writing the 
+//footer/
+ part of the xpath selector
+4. We call upon the 
+load_item()
+ method as before to input this into our Item Field social.
+Reusing and Extending Item Loaders
+We can use the property of inheritance to extend our ItemLoaders. This provides functionality without having to create a separate ItemLoader. This becomes particularly important when websites change. This is the power of ItemLoaders, we can scale up when websites change.
+We tend to extend the ItemLoader class when needing different input processors. It is more custom to use the Item.py, to define the output processor.
+from scrapy.loader.processors import MapCompose
+from myproduct.ItemLoaders import ProductLoader
+def strip_dashes(x):
+    return x.strip('-')
+class SiteSpecificLoader(ProductLoader):
+    name_in = MapCompose(strip_dashes, ProductLoader.name_in)
+Notes
+We import the MapCompose processes
+We also import a 
+ProductLoader
+, this is our ItemLoader we define
+3. We then create a function 
+strip_dashes
+ to remove dashes
+4. We then extend the 
+ProductLoader
+ in a 
+SiteSpecificLoader
+5. We define the name field input processor as 
+MapCompose
+. We pass in the 
+strip_dash
+ function and call upon the ProductLoader 
+name_in
+ method.
+We can then use the 
+name_in
+ input processor in our 
+SiteSpecificLoader
+. With all the other boilerplate of the 
+ProductLoader
+.
+Scrapy gives you the ability to extend and reuse your ItemLoader for different sites or data.
+Summary
+Here you have learned what the relationship between Items and Itemloader is. We have shown how processors get used to be able to parse the data we have extracted. ItemLoader methods are the way we grab data to change from our websites. We have talked through the different built-in processors scrapy has. This also us to specify either built-in or new processors for the Item fields.
+Related Articles
+Scrapy: This is how to successfully login with ease
+Demystifying the process of logging in with Scrapy.
+towardsdatascience.com
+How to download files using Python
+Understanding how to use Python to download files in your web scraping projects
+towardsdatascience.com
+About the author
+I am a medical doctor who has a keen interest in teaching, python, technology and healthcare. I am based in the UK, I teach online clinical education as well as running the websites 
+www.coding-medics.com.
+You can contact me on asmith53@ed.ac.uk or on twitter 
+here
+, all comments and recommendations welcome! If you want to chat about any projects or to collaborate that would be great.

@@ -1,0 +1,237 @@
+Go beyond the basics of the request package in python
+2020-02-12T18:35:16.460Z
+
+https://towardsdatascience.com/how-to-download-files-using-python-part-2-19b95be4cdb5?source=user_profile---------2-----------------------
+
+
+
+Émile Perron
+ Unsplash image
+Go beyond the basics of the request package in python
+Learn how to use progress bars, resuming partially downloaded files and validating files in python
+Aaron S
+Follow
+Feb 12
+ 
+·
+ 
+10
+ min read
+When you get used to the requests python package, it can be useful in command line applications to consider ways of validating files, resuming incomplete get requests and using progress bars. These go beyond the basic use of the request package. We will go through simple ways to do just that using the request package.
+In this article, you will learn
+How to approach resuming downloads of incomplete binary files
+How to create a simple download validator for transferring files/backing up data.
+How to display a simple command-line progress bar.
+Resuming downloads
+When you download large files, they can be interrupted for various reasons. We sometimes need a way to be able to resume at the last byte to re-establish a connection.
+As part of an HTTP get request from a server, we will obtain a header and body of data. The HTTP headers for binary files gives a lot of information back about the file we request! One of the parts we will sometimes get depending on the server the request is made to is the 
+accept-ranges
+ header. This allows the client to download partially downloaded data.
+See below for an example of the headers of a binary file that accepts downloading partial files.
+{'Server': 'VK', 
+'Date': 'Wed, 29 Jan 2020 11:47:20 GMT', 
+'Content-Type': 'application/pdf', 
+'
+Content-Length
+': '9713036', 
+'Connection': 'keep-alive', 
+'Last-Modified': 'Mon, 20 Jan 2020 13:01:17 GMT', 
+'ETag': '"5e25a49d-94358c"', 
+'Accept-Ranges': 'bytes',
+ 
+'Expires': 'Wed, 05 Feb 2020 11:47:20 GMT', 
+'Cache-Control': 'max-age=604800', 
+'X-Frontend': 'front632904', 
+'Access-Control-Expose-Headers': 'X-Frontend',
+ 'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
+ 'Access-Control-Allow-Origin': '*', 
+'Strict-Transport-Security': 'max-age=15768000'}
+With this ability, we can also specify to the server the location in the file we request to download from. We can then start the requests of the binary data at that specific position and download from there going forward.
+Now to download a small part of a binary file we have to be able to send headers with the request get HTTP method. The requests package enables us to do this with ease. We only want to get a certain amount of bytes, we do this by sending a 
+range
+ header to specify how many bytes to receive. We can then put this into a variable and pass this through the get request.
+resume_headers = {'Range':'bytes=0-2000000'}
+r = request.get(url, stream=True, headers=resume_header)
+with open('filename.zip','wb') as f:
+  for chunk in r.iter_content(chunk-size=1024)
+      f.write(chunk)
+Notes
+1. We specify the 
+stream = True
+ in the request get method. This allows us to control when the body of the binary response is downloaded.
+2. We use the headers argument in the 
+requests.get()
+ method to define the byte position from 0–2000000. The boundaries of the range header are inclusive. This means byte position 0 to 2000000 will be downloaded.
+4. We use a with statement to write the file filename.zip. The 
+r.iter_content 
+method allows us to specify the size of data to download by defining the 
+chunk-size
+ in bytes. In this case, it’s set at 1024 bytes.
+We’ve downloaded a partial file. How does this help our actual aim of resuming a partially downloaded file?
+When we want to resume a partially downloaded file we specify the filesize in the headers. This is the next byte onwards that needs to be downloaded. This is the crux of being able to resume downloads in python.
+We need to know the filesize of the partially downloaded size. There are a range of packages to do this in python and pathlib is a great package for this use case. Please see 
+here
+ for guidance on using pathlib.
+We first import have to import the pathlib package
+import pathlib
+The method 
+path.stat()
+ returns information about the path (Similar to os.stat, if you’re familiar with os package). Now we call the 
+st_size
+ attribute of the 
+path.stat()
+ method to get the size of a file (also similar to the OS package).
+Now we are ready to put this into use
+resume_header = {'Range':f'bytes= {path('filename.zip').stat().st_size}
+-
+'}
+Now, this needs to be unpacked. The f before the string is an f-string, this is a great way to format strings. As a use case the 
+{path.stat().st_size}
+ seen here in curly brackets is an expression. The string we are creating is modified by the meaning of that expression in the curly brackets. This could be a variable but in this case, we get the file size of the partial file we downloaded. The f-string interprets whatever is inside the {} and then displays the result as the string. In this case, it prints the filesize for us.
+The hyphen in bold after 
+{path.stat().st_size}
+ in the string means we grab data from the partial filesize byte onwards till the end of the file.
+So now that we understand this, we can put this all together in the code below
+resume_header = {'Range':f'bytes={path('filename.zip').stat().st_size}-'}
+r = requests.get(url,stream=True, headers=resume_header)
+with open ('filename.zip','ab') as f:
+   for chunk in r.iter_content(chunk-size=1024):
+     f.write(chunk)
+Notes
+The ‘ab’ mode in the open function appends new content to the file. We don’t want to overwrite existing content this is instead of ‘wb’
+Validating files
+We need to be able to validate downloaded file sometimes. If you have resumed a file download or if this is important research data that you want to share with others. There is a python module called the hashlib module which creates a hash function. A hash function takes data and converts this into a unique string of numbers and letters. We call this the hash object. The computation of this string is by algorithms that we can specify as part of the module.
+Let’s get down to how we would go about validating a downloaded file. We need to know what the hash value should be to be able to validate it. We will read the binary file and generate the hash, this then can be compared with the known hash value of the file. As hash files are unique we will be able to confirm that they are the same file.
+To create a hash value we need to specify the algorithm that creates it. There are many to choose but in this example we use 
+sha256()
+. Now to create a hash value we use the hashlib 
+update()
+method which will only take ‘byte like’ data, such as bytes. To gain access to the hash value, we call upon the 
+hexdigest()
+ method. The 
+hexdigest()
+ takes the hash object and provides us with a string of hexadecimal only digits. This string defined by the algorithm we specified earlier.
+Once you create the hash value, you can’t work backwards to get the original binary data. It only works one way. We can compare two files only by its unique hash value and makes it more secure in transferring to other people.
+import hashlib
+with open('research.zip', 'rb') 
+as
+ f:
+    content = f.read()
+sha = hashlib.sha256()
+sha.update(content)
+print(sha.hexdigest())
+Output:
+42e53ea0f2fdc03e035eb2e967998da5cb8e2b1235dd2630ffc59e31af866372
+Notes
+The hashlib module is imported
+We read the file using the with statement: this ensures we don’t have to use a close statement.
+We invoke the 
+read()
+method to read all the content of the binary data
+The variable sha is created and creates a hash object using the SHA 256 algorithm to create the hash value.
+Using the 
+update()
+ method we pass the binary data into the hash object. By doing this we get a hash value.
+Using the 
+hexdigest()
+ method we can print out the hash value, the fixed string unique to that binary file.
+So now we have a hash value whenever you want to validate a file. If you had to download it again or transfer the data to a colleague. You only need to compare the hash value you created. If a resumed download is complete and has the correct hash value, then we know it is the same data.
+Let’s create a little script to confirm a file that your friend has transferred to you. You have the hash value to input for example.
+user_hash = input('Please input hash please: ')
+sha = hashlib.sha256()
+with open('file.zip' as 'rb') as f:
+   chunk = f.read()
+   if not chunk:
+       break
+   sha.update(chunk)
+try:
+    assert sha.hexdigest() == user_hash
+except AssertionError:
+    print('File is corrupt, delete it and restart program'
+else: 
+   print('File is validated')
+Notes
+We ask the user to input a hash value and the value is assigned the variable user-hash.
+The variable sha is created and the hash object is created when we specify the algorithm
+We open up the file we want to validate, using a with statement. We define the variable chunk and assign it the binary data using the read method.
+4. We use hashlib 
+update()
+ method to create a hash object for that chunk.
+5. We create a hash value for this chunk using 
+sha.hexdigest()
+.
+6. We use the assert keyword, which evaluates an expression for truth. In this case, assess the data downloaded’s hash value against the hash value inputted.
+7. We specify an exception 
+AssertionError
+. This is called when an assert statement is false and specify an error message.
+8. In an else statement, if the 
+user_hash
+ variable is the same as the file’s hash value, we print that the file is validated.
+So here we have created a very simple validating tool for downloaded files.
+Progress Bars
+There are many packages to display progress in your programming code. Here we will talk about a simple way to add a progress bar when downloading files! This may be useful if you are downloading in bulk and want to see the progress as you go. Progress bars can be useful in all sorts of ways not only for downloading files.
+Tqdm is a third party python package that can deal with progress bars. To me, this is the best way to think about python, start with as little code as possible to get what you want.
+First off you will want to install tqdm using pip.
+pip install tqdm
+Then we will want to import tqdm. Now it’s the tqdm method we want to use to display the progress of data. The tqdm module can interpret each chunk and display the progress of the file.
+To incorporate the progress bar into downloading files. First, we have to create a few variables, the most important being the size of a file. We can use the request package to do this. We grab the binary headers and inside ‘content-length’. Scroll up at the binary headers in another section to see. Its associated value is how many bytes of data we have requested from the server. The response is a string and we have to convert this to number format when using it for the progress bar
+The other important part is the filename. We can split the URL up into a list and choose the last item quite simply.
+We then specify the tqdm module once we have all the variables set up.
+A with statement means it closes once the operation is complete and the open function writes data. We then use the tqdm method and specify the arguments to display the data being downloaded. Be aware the arguments are are quite detailed! Let’s go through them one by one.
+The 
+total
+ argument is the size of file, which we defined.
+The 
+unit
+ argument is the string we specify to define the unit of each iteration of the chunk of data. We specify B in this case for bytes.
+The 
+desc
+ argument displays the filename
+The 
+initial
+ argument specifies where to start the progress bar from in this case 0.
+The 
+ascii
+ argument is to specify what we use to fill the progress bar with. If set to false it assumes unicode to fill the progress bar instead.
+Let's look at the code now that we’ve explained what we’re doing:
+from tqdm import tqdm
+url = "insert here"
+file = url.split('/')[-1]
+r = requests.get(url, stream=True, allow_redirects=True)
+total_size = int(r.headers.get('content-length'))
+initial_pos = 0
+with open(file,'wb') as f: 
+    with tqdm(total=total_size, unit=B, 
+               unit_scale=True,                      desc=file,initial=initial_pos, ascii=True) as pbar:
+      for ch in r.iter_content(chunk_size=1024),                             
+              if ch:
+                  f.write(ch) 
+                  pbar.update(len(ch))
+Output:
+filename.zip 100%|#################################################| 3.71M/3.71M [00:26<00:00, 254kB/s]
+Notes
+We import the tqdm method from the tqdm module.
+The variable url is defined.
+The file variable is defined, we use the split string method to split up url into a list. The (‘/’) argument is what tells the split method to split the string up between the /’s of the url. Here, we want to get the last index of the list as this will be the file name we desire.
+The variable r is used to specify an HTTP get request which we allow to have an open stream of data and allow redirects.
+The 
+total_size
+ variable is defined and use the request packge to get the binary headers. Using the get method we get the 
+‘content-length’
+ value which is the size of the binary files. Now, this returns a string and we make this into a number using int().
+The variable 
+initial_pos
+ is assigned as 0, which is important to specify for the tqdm method.
+We access the tqdm method using a with statement. We specify a few items within the arguments.
+The 
+r.iter_content
+ splits the data into chunks. We define ch as a chunk of 1024 bytes and if the chunk is available we write that chunk to the file.
+We call upon the update attribute of the tqdm method to update that chunk to the progress bar and display it for us.
+So after that, you should have a better idea of how to deal with progress bars, validating files and going beyond the basics of the request package.
+Thanks for reading!
+About the author
+I am a medical doctor who has a keen interest in teaching, python, technology, and healthcare. I am based in the UK, I teach online clinical education as well as running the websites 
+www.coding-medics.com.
+You can contact me on asmith53@ed.ac.uk or on twitter 
+here
+, all comments and recommendations welcome! If you want to chat about any projects or to collaborate that would be great.

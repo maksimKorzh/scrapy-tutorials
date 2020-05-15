@@ -1,0 +1,115 @@
+How to download files using Python
+2020-02-06T04:33:33.319Z
+
+https://towardsdatascience.com/how-to-download-files-using-python-ffbca63beb5c?source=user_profile---------3-----------------------
+
+
+
+Émile Perron
+ unsplashed image
+DEFINITIVE GUIDE
+How to download files using Python
+Understanding how to use python to download files in your web scraping projects
+Aaron S
+Follow
+Feb 6
+ 
+·
+ 
+6
+ min read
+P
+ython is a good fit to do web scraping the internet with but one of the first tasks after grabbing some titles or links from a website I wanted to do was to download files. I needed to have a way to automate this process!
+Here we will outline how to do this.
+By the end of the article, you will
+Be aware of the choice of HTTP handling packages in python
+2. Understand the request package in detail
+2. Know how to download files using the request package
+3. How to deal with big files with the request package.
+4. How to download files that redirect using the request package.
+There are lots of packages to deal with the internet in python. It is not necessary for you to know them all, but to give you a flavour of why one might choose one over the other.
+Below are the different packages that handle HTTP requests.
+Built-in package: urllib and urllib2, urllib3
+Requests(based on the urllib3 package)
+grequests(extends requests to deal with asynchronous HTTP requests)
+aiohttp (another package dealing with asynchronous HTTP)
+You may ask what is the difference between synchronous and asynchronous requests? Why is this important?
+Synchronous request blocks the client (the browser) until the operation is complete. This means there are times when the CPU is doing nothing and can waste computation time. Seems efficient to me!
+Asynchronous requests don’t block the browser, this allows the client to do other tasks at the same time. This allows scaling 1000’s of requests with ease.
+The url-lib and url-lib2 packages have a lot of boilerplate and can be a little unreadable at times. I use the requests package as it’s readable and will be able to manage most HTTP requests that you would need to make anyways.
+The asynchronous packages are useful when you have a large number of HTTP requests to make. This is a complex topic but can make a difference in the efficiency of your python scripts. I will come back to this point in later articles!
+Introduction to the Request package
+To use the request package we have to import the requests module. We then can use the array of methods to interact with the internet. The commonest way to use the requests package is to use is the requests.get method. Under the hood, this performs an HTTP GET request to the URL of choice.
+First, we create a request object which gets sent to the server and then the server sends back a response. This object carries all the data about the request.
+import requests
+url = 'PLEASE INSERT URL LINK'
+html = requests.get(url)
+To access the object we can call the text method. This will allow us to see the response in the form of a string. Request assumes encoding depending on the data coming back from the server.
+There are two parts to this information we receive back, a header and a body. The header gives us information about the response. Think of the header as all the information you would need to direct a message to your computer.
+See below an example from medium’s headers! There’s lots of information which tells us about the response.
+{'Date': 'Thu, 30 Jan 2020 17:06:12 GMT', 
+'Content-Type': 'text/html; charset=utf-8', 
+'Transfer-Encoding': 'chunked', 
+'Connection': 'keep-alive', 
+'Set-Cookie': 'uid=lo_NHI3i4bLD514; Expires=Fri, 29-Jan-21 17:06:12 GMT; Domain=.medium.com; Path=/; Secure; HttpOnly, 
+optimizelyEndUserId=lo_NHI3i4bLD514; path=/; expires=Fri, 29 Jan 2021 17:06:12 GMT; domain=.medium.com; samesite=none; secure, 
+sid=1:Hu5pQRgkgEyZr7Iq5hNn6Sns/FKPUZaBJBtDCMI+nmsU48zG2lXM+dtrtlefPkfv; path=/; expires=Fri, 29 Jan 2021 17:06:12 GMT; domain=.medium.com; samesite=none; secure; httponly', 
+'Sepia-Upstream': 'production', 
+'x-frame-options': 'allow-from medium.com', 
+'cache-control': 'no-cache, 
+no-store, max-age=0, must-revalidate', 
+'medium-fulfilled-by': 'lite/master-20200129-184608-2156addefa, rito/master-20200129-204844-eee64d76ba, tutu/medium-39848', 'etag': 'W/"179e9-KtF+IBtxWFdtJWnZeOZBkcF8rX8"', 
+'vary': 'Accept-Encoding',
+ 'content-encoding': 'gzip', 
+'x-envoy-upstream-service-time': '162', 
+'Strict-Transport-Security': 'max-age=15552000; includeSubDomains; preload', 
+'CF-Cache-Status': 'DYNAMIC', 
+'Expect-CT': 'max-age=604800, 
+report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Alt-Svc': 'h3-24=":443"; ma=86400, h3-23=":443"; ma=86400', 'X-Content-Type-Options': 'nosniff', 
+'Server': 'cloudflare', 
+'CF-RAY': '55d508f64e9234c2-LHR'}
+The request package get method downloads the body of the response without asking permission. This will become relevant to the next section!
+For the purposes of downloading a file, we will want to get the request object in the form of bytes and not string. To do this we call upon the response.content method instead, this ensures the data we receive is in byte format.
+Now to write a file we can use an open function which is boilerplate straight out of python’s built-in functions. We specify the filename and the ‘wb’ refers to writing bytes. Python 3 needs to be explicit in knowing whether data is binary or not, this is why we define it!
+We then use the write method to write the defined binary content of the get request.
+with open('filename.txt', 'wb') as r: 
+    r.write(html.content)
+The with statement opens what's called a context manager. This is useful AS it will close the open function without extra code. We would have to ask to close the open function otherwise. We don’t have to with the with statement.
+Downloading large files with request
+So we’ve talked about the basic way to download using the request package. The get method arguments which help define how we request information from servers. We can change the request in many ways. Please see the documentation for requests for further details.
+We said that request downloads the body of the binary files unless told otherwise. This can be overridden by defining the stream parameter. This comes under the heading ‘Body content workflow’ in the request docs. See 
+here
+ for that. It is a way of controlling when the body of the binary is being downloaded.
+request.get(url, stream=True)
+At this point in the script, only the headers of the binary file have are being downloaded. Now, we can control how we download the file by what a method called request.iter_content . This method stops the whole file in being in the memory (cache).
+Behind the scene, the iter_content method iterates over the response object. You can then specify a chunk_size, that is how much we define to put into the memory. This means that the connection will not close until all data transfer has completed.
+See 
+here
+ for further details.
+r = requests.get(url, Stream=True)
+with open("filename.pdf",'wb') as Pypdf:
+    for chunk in r.iter_content(chunk_size=1024)
+      if chunk: 
+         pypdf.write(ch)
+So here we get the content using a request get method. We use a with statement as a context manager and call the r.iter_content. We use a for loop and define the variable chunk, this chunk variable will contain every 1024 bytes as defined by the chunk_size.
+The chunk_size we set to 1024 bytes this can be anything if necessary.
+We write each chunk whilst it’s put into memory. We use an if statement which seeks out whether there is a chunk to write and if so, we use the write method to do so. This allows us to not use up all the cache and download larger files in a piecemeal manner.
+Downloading files that redirect
+There are times when you want to download a file but the website redirects to retrieve that file. The request package can handle this with ease.
+import requests
+url = 'insert url'
+response = requests.get(url, allow_redirects=True)
+with open('filename.pdf') as Pypdf:
+    pypdf.write(response.content)
+Here we use the allow_redirects=True argument in the get method. We use a with statement like before to write the file.
+That’s it for this article! Stay tuned for the next part. We will look at validating downloads, resuming downloads and coding progress bars!
+In later articles, we will talk about asynchronous techniques. These can scale up downloading larger sets of files!
+Everything you need to know about Enumerate()
+Use python’s enumerate function to change the way you loop forever
+medium.com
+About the author
+I am a medical doctor who has a keen interest in teaching, python, technology and healthcare. I am based in the UK, I teach online clinical education as well as running the websites 
+www.coding-medics.com.
+You can contact me on asmith53@ed.ac.uk or on twitter 
+here
+, all comments and recommendations welcome! If you want to chat about any projects or to collaborate that would be great.
