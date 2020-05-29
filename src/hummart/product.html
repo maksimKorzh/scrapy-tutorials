@@ -1,0 +1,2183 @@
+
+<!doctype html>
+<html lang="en-US">
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+        <script>
+    var require = {
+        "baseUrl": "https://hummart.com/static/version1589452740/frontend/Smartwave/grocery/en_US"
+    };
+</script>
+        <meta charset="utf-8"/><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"df69bf159d",applicationID:"337667020"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta name="description" content="Buy Slice Tetra Pack Free Gift  Online at best price. You shop and We will deliver at your home or office in Karachi Pakistan. Order now and enjoy "/>
+<meta name="keywords" content="Slice Tetra Pack Free Gift "/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+<meta name="format-detection" content="telephone=no"/>
+<title>Buy Slice Tetra Pack Free Gift  Online, Delivery in Karachi Pakistan - Hummart.com</title>
+<link  rel="stylesheet" type="text/css"  media="all" href="https://hummart.com/static/version1589452740/_cache/merged/011805bcf5f63214afade8a107eb1ba4.min.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://hummart.com/static/version1589452740/frontend/Smartwave/grocery/en_US/css/styles-l.min.css" />
+<link  rel="stylesheet" type="text/css"  media="print" href="https://hummart.com/static/version1589452740/frontend/Smartwave/grocery/en_US/css/print.min.css" />
+<script  type="text/javascript"  src="https://hummart.com/static/version1589452740/_cache/merged/1067aa0abbaf428158e22426bdbfb1ef.js"></script>
+<link  rel="canonical" href="https://hummart.com/bakea-premium-cocoa-powder-100-gm.html" />
+<link  rel="icon" type="image/x-icon" href="https://hummart.com/media/favicon/websites/1/fav-16x162kb.png" />
+<link  rel="shortcut icon" type="image/x-icon" href="https://hummart.com/media/favicon/websites/1/fav-16x162kb.png" />
+<!--7ad1bf85d3b4213aeede7d60d87da72d-->
+<!--9fe04305a39b35597d0f3391f5d77c01-->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MG56L7J');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Anti-flicker snippet (recommended)  -->
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',3000,
+{'GTM-MG56L7':true});</script>
+
+        <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&amp;v1&amp;subset=latin%2Clatin-ext" type="text/css" media="screen"/> -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" media="all" href="https://hummart.com/media/porto/configed_css/design_default.css">
+<link rel="stylesheet" type="text/css" media="all" href="https://hummart.com/media/porto/configed_css/settings_default.css">
+<script type="text/javascript">
+require([
+    'jquery'
+], function ($) {
+    $(document).ready(function(){
+        $("body").addClass("layout-1170");
+        $("body").addClass("wide");
+            $("body").addClass("mobile-sticky");
+                $(".drop-menu > a").off("click").on("click", function(){
+            if($(this).parent().children(".nav-sections").hasClass("visible"))
+                $(this).parent().children(".nav-sections").removeClass("visible");
+            else
+                $(this).parent().children(".nav-sections").addClass("visible")
+        });
+    });
+    var scrolled = false;
+    $(window).scroll(function(){
+        if(!$('.page-header').hasClass('type10') && !$('.page-header').hasClass('type22')) {
+            if($(window).width()>=768){
+                if(140<$(window).scrollTop() && !scrolled){
+                    $('.page-header').addClass("sticky-header");
+                    scrolled = true;
+                    if(!$(".page-header").hasClass("type12")) {
+                        $('.page-header .minicart-wrapper').after('<div class="minicart-place hide"></div>');
+                        var minicart = $('.page-header .minicart-wrapper').detach();
+                        if($(".page-header").hasClass("type8") || $(".page-header").hasClass("type25"))
+                            $('.page-header .menu-wrapper').append(minicart);
+                        else
+                            $('.page-header .navigation').append(minicart);
+                                            } else {
+                                            }
+                                    }
+                if(140>=$(window).scrollTop() && scrolled){
+                    $('.page-header').removeClass("sticky-header");
+                    scrolled = false;
+                    if(!$(".page-header").hasClass("type12")) {
+                        var minicart;
+                        if($(".page-header").hasClass("type8") ||  $(".page-header").hasClass("type25"))
+                            minicart = $('.page-header .menu-wrapper .minicart-wrapper').detach();
+                        else
+                            minicart = $('.page-header .navigation .minicart-wrapper').detach();
+                        $('.minicart-place').after(minicart);
+                        $('.minicart-place').remove();
+                        $('.page-header .minicart-wrapper-moved').addClass("minicart-wrapper").removeClass("minicart-wrapper-moved").removeClass("hide");
+                    }
+                                    }
+            }
+        }
+    });
+});
+</script>
+
+<meta property="og:type" content="og:product" />
+<meta property="og:title" content="Bakea&#x20;Premium&#x20;Cocoa&#x20;Powder" />
+<meta property="og:image" content="https://hummart.com/media/catalog/product/h/t/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg?width=265&amp;height=265&amp;canvas=265:265&amp;quality=80&amp;bg-color=255,255,255&amp;fit=bounds" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="https://hummart.com/bakea-premium-cocoa-powder-100-gm.html" />
+    <meta property="product:price:amount" content="200.0000"/>
+    <meta property="product:sale_price:amount" content="" />
+    <meta property="product:price:currency" content="PKR"/>
+<meta property="product:retailer_item_id" content="6904542109400" />
+<meta property="product:availability" content="in stock" />
+<meta property="product:brand" content="Bakea" />
+<meta property="product:condition" content="new" />
+<meta property="product:custom_label_0" content="" />
+<meta property="product:custom_label_1" content="Bakea" />
+<meta property="product:custom_label_2" content="100 gm" />
+<meta property="product:category" content="Baking Ingredients" />
+<meta property="product:quantity" content="3" />
+
+<script>
+    
+	window.algoliaConfig = {"instant":{"enabled":true,"selector":".columns","isAddToCartEnabled":true,"addToCartParams":{"action":"https:\/\/hummart.com\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9odW1tYXJ0LmNvbS9iYWtlYS1wcmVtaXVtLWNvY29hLXBvd2Rlci0xMDAtZ20uaHRtbA%2C%2C\/","formKey":"Sl3kpgFe1pgiAi54"},"infiniteScrollEnabled":true,"urlTrackedParameters":["query","attribute:*","index"]},"autocomplete":{"enabled":true,"selector":"#search","sections":[],"nbOfProductsSuggestions":"12","nbOfCategoriesSuggestions":"0","nbOfQueriesSuggestions":"2","isDebugEnabled":false},"extensionVersion":"1.9.1","applicationId":"0V1YZ193RQ","indexName":"magento2_default","apiKey":"YWE3ZjAwN2M0NjIyZGU0NDg1NDUwZGMwYmE0YzBkMjhjN2I2MTI3MDc1YmI3OGQ4NzhhZGE5Y2JhZDVkM2ZmMnRhZ0ZpbHRlcnM9","facets":[{"attribute":"categories","type":"disjunctive","label":"Categories","searchable":"2","create_rule":"1"},{"attribute":"brand","type":"disjunctive","label":"Brands","searchable":"1","create_rule":"2"},{"attribute":"price","type":"slider","label":"Price","searchable":"2","create_rule":"1"}],"areCategoriesInFacets":true,"hitsPerPage":12,"sortingIndices":[],"isSearchPage":false,"isCategoryPage":false,"removeBranding":true,"productId":null,"priceKey":".PKR.default","currencyCode":"PKR","currencySymbol":"Rs ","priceFormat":{"pattern":"Rs %s","precision":2,"requiredPrecision":0,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":1},"maxValuesPerFacet":10,"autofocus":true,"request":{"query":"","refinementKey":"","refinementValue":"","categoryId":"","path":"","level":""},"showCatsNotIncludedInNavigation":false,"showSuggestionsOnNoResultsPage":"0","baseUrl":"https:\/\/hummart.com","popularQueries":[],"useAdaptiveImage":true,"urls":{"logo":"https:\/\/hummart.com\/static\/version1589452740\/frontend\/Smartwave\/grocery\/en_US\/Algolia_AlgoliaSearch\/images\/search-by-algolia.svg"},"ccAnalytics":{"ISSelector":".ais-hits--item a.result, .ais-infinite-hits--item a.result","conversionAnalyticsMode":null,"addToCartSelector":".action.primary.tocart","orderedProductIds":[]},"analytics":{"enabled":true,"delay":"3000","triggerOnUiInteraction":"1","pushInitialSearch":"0"},"now":1590710400,"translations":{"to":"to","or":"or","go":"Go","popularQueries":"You can try one of the popular search queries","seeAll":"See all products","allDepartments":"All departments","seeIn":"See products in","orIn":"or in","noProducts":"No products for query","noResults":"No results","refine":"Refine","selectedFilters":"Selected Filters","clearAll":"Clear all","previousPage":"Previous page","nextPage":"Next page","searchFor":"Search for products","relevance":"Relevance","categories":"Categories","products":"Products","searchBy":"Search by","searchForFacetValuesPlaceholder":"Search for other ...","showMore":"Show more products"}};
+</script>
+
+<!--[if lte IE 9]>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        algoliaBundle.$(function () {
+            window.algoliaConfig.autofocus = false;
+        });
+    });
+</script>
+<![endif]-->
+    </head>
+    <body data-container="body" data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://hummart.com/static/version1589452740/frontend/Smartwave/grocery/en_US/images/loader-2.gif"}}' itemtype="http://schema.org/Product" itemscope="itemscope" class="catalog-product-view product-bakea-premium-cocoa-powder-100-gm categorypath-baking-ingredients category-baking-ingredients page-layout-2columns-right">
+        
+<script>
+    try {
+        if (!window.localStorage || !window.sessionStorage) {
+            throw new Error();
+        }
+
+        localStorage.setItem('storage_test', 1);
+        localStorage.removeItem('storage_test');
+    } catch(e) {
+        (function () {
+            var Storage = function (type) {
+                var data;
+
+                function createCookie(name, value, days) {
+                    var date, expires;
+
+                    if (days) {
+                        date = new Date();
+                        date.setTime(date.getTime()+(days * 24 * 60 * 60 * 1000));
+                        expires = '; expires=' + date.toGMTString();
+                    } else {
+                        expires = '';
+                    }
+                    document.cookie = name + '=' + value+expires+'; path=/';
+                }
+
+                function readCookie(name) {
+                    var nameEQ = name + '=',
+                        ca = document.cookie.split(';'),
+                        i = 0,
+                        c;
+
+                    for (i=0; i < ca.length; i++) {
+                        c = ca[i];
+
+                        while (c.charAt(0) === ' ') {
+                            c = c.substring(1,c.length);
+                        }
+
+                        if (c.indexOf(nameEQ) === 0) {
+                            return c.substring(nameEQ.length, c.length);
+                        }
+                    }
+
+                    return null;
+                }
+
+                function setData(data) {
+                    data = encodeURIComponent(JSON.stringify(data));
+                    createCookie(type === 'session' ? getSessionName() : 'localStorage', data, 365);
+                }
+
+                function clearData() {
+                    createCookie(type === 'session' ? getSessionName() : 'localStorage', '', 365);
+                }
+
+                function getData() {
+                    var data = type === 'session' ? readCookie(getSessionName()) : readCookie('localStorage');
+
+                    return data ? JSON.parse(decodeURIComponent(data)) : {};
+                }
+
+                function getSessionName() {
+                    if (!window.name) {
+                        window.name = new Date().getTime();
+                    }
+
+                    return 'sessionStorage' + window.name;
+                }
+
+                data = getData();
+
+                return {
+                    length: 0,
+                    clear: function () {
+                        data = {};
+                        this.length = 0;
+                        clearData();
+                    },
+
+                    getItem: function (key) {
+                        return data[key] === undefined ? null : data[key];
+                    },
+
+                    key: function (i) {
+                        var ctr = 0,
+                            k;
+
+                        for (k in data) {
+                            if (ctr.toString() === i.toString()) {
+                                return k;
+                            } else {
+                                ctr++
+                            }
+                        }
+
+                        return null;
+                    },
+
+                    removeItem: function (key) {
+                        delete data[key];
+                        this.length--;
+                        setData(data);
+                    },
+
+                    setItem: function (key, value) {
+                        data[key] = value.toString();
+                        this.length++;
+                        setData(data);
+                    }
+                };
+            };
+
+            window.localStorage.__proto__ = window.localStorage = new Storage('local');
+            window.sessionStorage.__proto__ = window.sessionStorag = new Storage('session');
+        })();
+    }
+</script>
+    <script>
+        require.config({
+            deps: [
+                'jquery',
+                'mage/translate',
+                'jquery/jquery-storageapi'
+            ],
+            callback: function ($) {
+                'use strict';
+
+                var dependencies = [],
+                    versionObj;
+
+                $.initNamespaceStorage('mage-translation-storage');
+                $.initNamespaceStorage('mage-translation-file-version');
+                versionObj = $.localStorage.get('mage-translation-file-version');
+
+                
+                if (versionObj.version !== '41811cc7dcc4f5ecfad9422504c66e626c79156c') {
+                    dependencies.push(
+                        'text!js-translation.json'
+                    );
+
+                }
+
+                require.config({
+                    deps: dependencies,
+                    callback: function (string) {
+                        if (typeof string === 'string') {
+                            $.mage.translate.add(JSON.parse(string));
+                            $.localStorage.set('mage-translation-storage', string);
+                            $.localStorage.set(
+                                'mage-translation-file-version',
+                                {
+                                    version: '41811cc7dcc4f5ecfad9422504c66e626c79156c'
+                                }
+                            );
+                        } else {
+                            $.mage.translate.add($.localStorage.get('mage-translation-storage'));
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "/",
+                "domain": ".hummart.com",
+                "secure": false,
+                "lifetime": "31622400"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>For the best experience on our site, be sure to turn on Javascript in your browser.</span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+            <!-- GOOGLE TAG MANAGER -->
+            <noscript>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MG56L7J" height="0" width="0"
+                        style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <script type="text/x-magento-init">
+            {
+                "*": {
+                    "Magento_GoogleTagManager/js/google-tag-manager": {
+                        "isCookieRestrictionModeEnabled": 0,
+                        "currentWebsite": 1,
+                        "cookieName": "user_allowed_save_cookie",
+                        "gtmAccountId": "GTM-MG56L7J",
+                        "storeCurrencyCode": "PKR",
+                        "ordersData": []                    }
+                }
+            }
+            </script>
+            <!-- END GOOGLE TAG MANAGER -->
+        
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_GoogleTagManager/js/google-tag-manager-cart": {
+                "blockNames": ["category.products.list","product.info.upsell","catalog.product.related","checkout.cart.crosssell","search_result_list"],
+                "cookieAddToCart": "add_to_cart",
+                "cookieRemoveFromCart": "remove_from_cart"
+            }
+        }
+    }
+</script>
+<div class="top-block-header" style="background-color:#0e0e0e;color:#fff;padding:7px 0; line-height:1.0;">
+  <div class="container">
+    <div class="row">
+   <div style="font-size:15px;line-height:24px;text-align:center;"> 
+     <span style="margin-right: 0px; font-family: 'times new roman', times; font-size: small;">Groceries delivery in Karachi only</span> 
+</div>
+          </div>
+  </div>
+</div>
+
+
+<div class="header-bottom-links">
+<div class="container">
+<div class="strip_header">
+<i class="porto-icon-phone-1" ></i>
+(021) 111 116 278
+   <a href='https://hummart.com/contact'>Customer Care</a>
+	<div class="custom-login-block" style="display:none;">
+		<div class="main-login-div">
+			<div class="login-section">
+				<a href="javascript:void(0);" id="click-me">Login</a>
+			</div>
+		</div>
+	</div>
+
+<div id="popup-otp1" style="display:none;">
+	<div class="login center-aligned">
+		<div class="login-head">
+			<h2 class="login-head__text weight--light">Phone Number Verification</h2>
+		</div>
+		<div class="login__body">
+			<div class="login-help weight--semibold">
+				<div>
+					<div class="login-help weight--semibold">Enter your phone number to</div>
+					<div class="login-help weight--semibold">Login/Sign up</div>
+				</div>
+			</div>
+			<form name="otp-form1">
+				<div class="login-phone">
+					<input type="tel" maxlength="9" class="login-phone-input input otp__input_f" />
+					<span class="glyphicon glyphicon-phone">03</span>
+				</div>
+				<!-- <input type="button" class="login-button" value="Next"> -->
+			</form>
+		</div>
+	</div>
+</div>
+<div id="popup-otp2" style="display:none;">
+	<div class="login center-aligned">
+		<div class="login-head">
+			<div class="modal-back">
+				<span class="glyphicon glyphicon-menu-left"></span>
+				<a href="#" onclick="jQuery('#popup-otp2').modal('closeModal');jQuery('#popup-otp1').modal('openModal');">Back</a>
+			</div>
+			<h2 class="login-head__text weight--light">Phone Number Verification</h2>
+		</div>
+		<div class="login__body login-otp-step">
+			<div class="login-help weight--semibold">Enter 4 digit code sent to your phone &nbsp;
+				<div class="otp-form2-number"></div>
+			</div>
+			<div class="otp">
+				<form name="otp-form2">
+					<input type="tel" name="otp[]" maxlength="1" class="otp__input input" />
+					<input type="tel" name="otp[]" maxlength="1" class="otp__input input" />
+					<input type="tel" name="otp[]" maxlength="1" class="otp__input input" />
+					<input type="tel" name="otp[]" maxlength="1" class="otp__input input" />
+					<!-- <input type="button" class="otp-button" value="Next"> -->
+				</form>
+			</div>
+			<div class="otp_login_resend">
+				<a onclick="otp1(0);return false;" class="otp-resend otp-resend--enabled">Resend Code </a>
+				<span>or </span>
+				<a onclick="otp1(1);return false;" class="otp-resend otp-resend--enabled">Request a Call </a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="popup-otp3" style="display:none;">
+	<div class="login center-aligned">
+		<div class="login__body login-otp-step">
+			<div class="login-help weight--semibold">
+				<div class="otp-success"><span class="glyphicon glyphicon-ok"></span></div>
+			</div>
+			<div class="otp">
+				<div class="otp-success-message">Successfully logged in!</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/x-magento-init">
+	{
+        "*": {
+            "Matech_OtpLogin/js/view/otptop":{}
+        }
+    } 
+</script>
+
+</div>
+</div>
+
+</div><script type="text/javascript">
+require([
+    'jquery'
+], function ($) {
+    $(document).ready(function(){
+                        if($(".block.upsell").length > 0) {
+            var u = $('<div class="main-upsell-product-detail"/>');
+            $('<div class="container"/>').html($(".block.upsell").detach()).appendTo(u);
+            $("#maincontent").after(u);
+        }
+                $(".box-tocart .actions").after('<div class="moved-add-to-links"></div>');
+        $(".product-social-links > .product-addto-links").appendTo(".moved-add-to-links");
+        $(".product-social-links > .action.mailto").appendTo(".moved-add-to-links");
+        });
+});
+</script><div class="page-wrapper"><header class="page-header type1 " >
+    <div class="panel wrapper">
+        <div class="panel header">
+            <a class="action skip contentarea" href="#contentarea"><span>Skip to Content</span></a>
+                        
+            <ul class="header links">        <li class="greet welcome" data-bind="scope: 'customer'">
+            <!-- ko if: customer().fullname  -->
+            <span data-bind="text: new String('Welcome, %1!').replace('%1', customer().firstname)">
+            </span>
+            <!-- /ko -->
+            <!-- ko ifnot: customer().fullname  -->
+            <span data-bind='html:"Delivering&#x20;only&#x20;in&#x20;Karachi"'></span>
+                        <!-- /ko -->
+        </li>
+        <script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "customer": {
+                            "component": "Magento_Customer/js/view/customer"
+                        }
+                    }
+                }
+            }
+        }
+        </script>
+    <li class="item link compare" data-bind="scope: 'compareProducts'" data-role="compare-products-link">
+    <a class="action compare no-display" title="Compare Products"
+       data-bind="attr: {'href': compareProducts().listUrl}, css: {'no-display': !compareProducts().count}"
+    >
+        Compare Products        (<span class="counter qty" data-bind="text: compareProducts().countCaption"></span>)
+    </a>
+</li>
+<script type="text/x-magento-init">
+{"[data-role=compare-products-link]": {"Magento_Ui/js/core/app": {"components":{"compareProducts":{"component":"Magento_Catalog\/js\/view\/compare-products"}}}}}
+</script>
+<li class="authorization-link" data-label="or">
+    <a href="https://hummart.com/customer/account/login/">
+        Sign In    </a>
+</li>
+<li><a href="https://hummart.com/customer/account/create/" >Create an Account</a></li></ul>        </div>
+    </div>
+    <div class="header content">
+    <span data-action="toggle-nav" class="action nav-toggle"><span>Toggle Nav</span></span>
+    <a class="logo" href="https://hummart.com/" title="HumMart.com">
+        <img src="https://hummart.com/media/logo/websites/1/Hum_Mart_Logo_final_low_size.png"
+             alt="HumMart.com"
+             width="210"             height="58"        />
+    </a>
+    
+<div data-block="minicart" class="minicart-wrapper">
+<div class="minicart-main-messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <!-- ko if: messages().messages && messages().messages.length > 0 -->
+    <div data-bind="foreach: { data: messages().messages, as: 'message' }" class="minicart-messages">
+	<!-- ko if: message.type == 'success' -->
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type, style: 'display:block'
+        }" class="m" data-ui-id="message-success">
+            <div data-bind="html: message.text"></div>
+        </div>
+	<!-- /ko -->	
+    </div>
+    <!-- /ko -->
+</div>
+
+</div>
+    <a class="action showcart" href="javascript:void(0);"
+       data-bind="scope: 'minicart_content'">
+        <span class="text">My Cart</span>
+        <span class="counter qty empty"
+              data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
+            <span class="counter-number">
+            <!-- ko if: getCartParam('summary_count') --><!-- ko text: getCartParam('summary_count') --><!-- /ko --><!-- /ko -->
+            <!-- ko ifnot: getCartParam('summary_count') -->0<!-- /ko -->
+            </span>
+            <span class="counter-label">
+                <!-- ko i18n: 'items' --><!-- /ko -->
+            </span>
+        </span>
+    </a>
+            <div class="block block-minicart empty"
+             data-role="dropdownDialog"
+             data-mage-init='{"dropdownDialog":{
+                "appendTo":"[data-block=minicart]",
+                "triggerTarget":".showcart",
+                "timeout": "2000",
+                "closeOnMouseLeave": false,
+                "closeOnEscape": true,
+                "triggerClass":"active",
+                "parentClass":"active",
+                "buttons":[]}}'>
+            <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+                <div class="block-title">
+    <strong>
+        <span class="text"><!-- ko i18n: 'My Cart' --><!-- /ko --> 
+            <!-- ko if: getCartParam('summary_count') -->
+                <span class="count">(<!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
+                <!-- ko if: getCartParam('summary_count') == 1 -->
+                    <!-- ko i18n: 'item' --><!-- /ko -->)
+                <!-- /ko -->
+                <!-- ko if: getCartParam('summary_count') > 1 -->
+                    <!-- ko i18n: 'items' --><!-- /ko -->)
+                <!-- /ko -->
+            <!-- /ko -->
+        </span>
+        <span
+            class="qty empty"
+            data-bind="css: { empty: !!getCartParam('summary_count') == false },
+                       attr: { title: $t('Items in Cart') }">
+            <!-- ko text: getCartParam('summary_count') --><!-- /ko -->
+        </span>
+    </strong>
+    <button type="button"
+            id="btn-minicart-close"
+            class="action close"
+            data-action="close"
+            data-bind="attr: { title: $t('Close') }">
+        <span><!-- ko i18n: 'Close' --><!-- /ko --></span>
+    </button>
+</div>
+
+<div class="block-content">
+
+    <!-- ko if: getCartParam('summary_count') -->
+        <div class="items-total">
+            <span class="count"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
+            <!-- ko if: getCartParam('summary_count') == 1 -->
+                <!-- ko i18n: 'item' --><!-- /ko -->
+            <!-- /ko -->
+            <!-- ko if: getCartParam('summary_count') > 1 -->
+                <!-- ko i18n: 'items' --><!-- /ko -->
+            <!-- /ko -->
+        </div>
+
+        <!-- ko if: getCartParam('possible_onepage_checkout') -->
+            <!-- ko foreach: getRegion('subtotalContainer') -->
+                <!-- ko template: getTemplate() --><!-- /ko -->
+            <!-- /ko -->
+        <!-- /ko -->
+		<!-- ko ifnot: getCartParam('possible_onepage_checkout') -->
+            <!-- ko foreach: getRegion('subtotalContainer') -->
+                <!-- ko template: getTemplate() --><!-- /ko -->
+            <!-- /ko -->
+        <!-- /ko -->
+
+        <!-- ko foreach: getRegion('extraInfo') -->
+            <!-- ko template: getTemplate() --><!-- /ko -->
+        <!-- /ko -->
+		<!-- ko if: getCartParam('shipping') -->
+		<div class="shipping-cost">
+		    <span class="label">
+		         <span>Delivery Charges</span>
+				 <div class="tooltip-toggle2"><i class="fa fa-question-circle svg-inline--fa"></i></div>
+				 <span class="delivery-charges-tooltip" data-bind="html: getCartParam('shop_more')">
+				 </span>
+		    </span>
+		
+			<div class="amount price-container">
+		        <span class="price-wrapper" data-bind="html: getCartParam('shipping')"></span></span>
+			</div>
+		</div>
+		<!-- /ko -->
+		<!-- ko if: getCartParam('saving') -->
+		<div class="saving-cost">
+		    <span class="label">
+		         <span>Your total savings</span>
+		    </span>
+		
+			<div class="amount price-container">
+		        <span class="price-wrapper" data-bind="html: getCartParam('saving')"></span></span>
+			</div>
+		</div>
+		<!-- /ko -->
+        
+    <!-- /ko -->
+	
+	<!-- ko if: getCartParam('messages') -->
+	<!-- ko if: getCartParam('messages').length > 0 -->
+		<ul>
+			<li class="mini-item-error-summary">
+				<span class="summary-list">Your ordered quantity is exceeding max quantity available</span>
+			</li>
+		</ul>
+	<!-- /ko -->
+	<!-- /ko -->
+
+    <!-- ko if: getCartParam('summary_count') -->
+    <strong class="subtitle"><!-- ko i18n: 'Recently added item(s)' --><!-- /ko --></strong>
+    <div data-action="scroll" class="minicart-items-wrapper">
+        <ol id="mini-cart" class="minicart-items" data-bind="foreach: { data: getCartParam('items'), as: 'item' }">
+            <!-- ko foreach: $parent.getRegion($parent.getItemRenderer(item.product_type)) -->
+                <!-- ko template: {name: getTemplate(), data: item, afterRender: function() {$parents[1].initSidebar()}} --><!-- /ko -->
+            <!-- /ko -->
+        </ol>
+    </div>
+    <!-- /ko -->
+
+    <!-- ko ifnot: getCartParam('summary_count') -->
+        <div class="subtitle empty" data-bind="visible: closeSidebar()">
+			<h4><!-- ko i18n: 'No items in your cart' --><!-- /ko --></h4>
+            <p><!-- ko i18n: 'Your favourite items are just a click away.' --><!-- /ko --></p>
+        </div>
+        <!-- ko if: getCartParam('cart_empty_message') -->
+            <p class="minicart empty text"><!-- ko text: getCartParam('cart_empty_message') --><!-- /ko --></p>
+        <!-- /ko -->
+    <!-- /ko -->
+
+    <!-- ko if: getCartParam('cross_sell') -->
+		<div class="" data-bind="html: getCartParam('cross_sell')"></div>
+	<!-- /ko -->
+	
+
+    <div id="minicart-widgets" class="minicart-widgets">
+        <!-- ko foreach: getRegion('promotion') -->
+            <!-- ko template: getTemplate() --><!-- /ko -->
+        <!-- /ko -->
+    </div>
+
+</div>
+
+<!-- ko ifnot: getCartParam('summary_count') -->
+<div class="actions bottom blanks">
+	<div class="secondary">
+		<a class="action continue" href="/">
+			<span><!-- ko i18n: 'start shopping' --><!-- /ko --></span>
+		</a>
+	</div>
+</div>
+<!-- /ko -->	
+
+<!-- ko if: getCartParam('summary_count') -->
+	<!-- ko if: getCartParam('possible_onepage_checkout') -->
+	<div class="actions bottom">
+		<div class="secondary">
+			<button
+					id="top-cart-btn-checkout-validate"
+					type="button"
+					class="action continue checkout"
+					data-bind="attr: {title: $t('Proceed to Checkout')}">
+				<!-- ko i18n: 'Proceed to Checkout' --><!-- /ko -->
+				<span class="grand" data-bind="html: getCartParam('grand_total')"></span>
+			</button>
+			<div data-bind="html: getCartParam('extra_actions')"></div>
+		</div>
+	</div>
+	<!-- /ko -->
+	<!-- ko ifnot: getCartParam('possible_onepage_checkout') -->
+		<div class="actions bottom">
+			<div class="secondary">
+				<button
+						id="top-cart-btn-checkout-validate"
+						type="button"
+						class="action continue checkout"
+						data-bind="attr: {title: $t('Proceed to Checkout')}">
+					<!-- ko i18n: 'Proceed to Checkout' --><!-- /ko -->
+					<span class="grand" data-bind="html: getCartParam('grand_total')"></span>
+				</button>
+				<div data-bind="html: getCartParam('extra_actions')"></div>
+			</div>
+		</div>
+		<!-- /ko -->
+	<!-- /ko -->
+
+<!-- ko foreach: getRegion('sign-in-popup') -->
+<!-- ko template: getTemplate() --><!-- /ko -->
+<!-- /ko -->
+               
+	</div>
+</div>
+        <script>
+        window.checkout = {"shoppingCartUrl":"https:\/\/hummart.com\/checkout\/cart\/","checkoutUrl":"https:\/\/hummart.com\/checkout\/","updateItemQtyUrl":"https:\/\/hummart.com\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/hummart.com\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/hummart.com\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"customerLoginUrl":"https:\/\/hummart.com\/customer\/account\/login\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/hummart.com\/captcha\/refresh\/","isRequired":false},"guest_checkout":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"https:\/\/hummart.com\/media\/captcha\/base\/ecc04401804e995daaf543a68daa8624.png","refreshUrl":"https:\/\/hummart.com\/captcha\/refresh\/","isRequired":true}}};
+    </script>
+    <script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals","children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}}}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"uiComponent","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https://hummart.com/static/version1589452740/frontend/Smartwave/grocery/en_US/images/loader-1.gif"
+        },
+        ".minicart-wrapper": {
+            "Magento_Checkout/js/hum/minicart": {}
+        }
+    }
+    </script>
+</div>
+    <div class="block block-search">
+    <div class="block block-title"><strong>Search</strong></div>
+    <div class="block block-content">
+        <form class="form minisearch" id="search_mini_form" action="https://hummart.com/catalogsearch/result/" method="get">
+            <div class="field search">
+                <label class="label search-mobile" for="search" data-role="minisearch-label" style="display:none;">
+                    <span>Search</span>
+                </label>
+                <div class="control">
+                    <input id="search"
+                           data-mage-init='{"quickSearch":{
+                                "formSelector":"#search_mini_form",
+                                "url":"https://hummart.com/search/ajax/suggest/",
+                                "destinationSelector":"#search_autocomplete"}
+                           }'
+                           type="text"
+                           name="q"
+                           value=""
+                           placeholder="Search entire store here..."
+                           class="input-text"
+                           maxlength="128"
+                           role="combobox"
+                           aria-haspopup="false"
+                           aria-autocomplete="both"
+                           autocomplete="off"/>
+                    <div id="search_autocomplete" class="search-autocomplete"></div>
+                    <div class="nested">
+    <a class="action advanced" href="https://hummart.com/catalogsearch/advanced/" data-action="advanced-search">
+        Advanced Search    </a>
+</div>
+                </div>
+            </div>
+            <div class="actions">
+                <button type="submit"
+                        title="Search"
+                        class="action search">
+                    <span>Search</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+	    <div class="custom-block"><div id="HeaderGif1" class="custom-block"><a href="https://hummart.com/toys">
+<img src="https://hummart.com/media/wysiwyg/iconsforhomepage/Toys_Gif.gif"  style="margin-right: 156px;" alt=""  id="HeaderGif1" />
+</a></div>
+</div>    </div>
+        <div class="sections nav-sections">
+                <div class="section-items nav-sections-items" data-mage-init='{"tabs":{"openedState":"active"}}'>
+                                            <div class="section-item-title nav-sections-item-title" data-role="collapsible">
+                    <a class="nav-sections-item-switch" data-toggle="switch" href="#store.menu">Menu</a>
+					<button class="cross-bar"><a class="close">&times;</a></button>
+                </div>
+                <div class="section-item-content nav-sections-item-content" id="store.menu" data-role="content">
+<nav class="navigation sw-megamenu " role="navigation">
+    <ul>
+        <li class="ui-menu-item level0 fullwidth parent "><div class="open-children-toggle"></div><a href="https://hummart.com/pharmacy" class="level-top"><span>Pharmacy</span></a><div class="level0 submenu"><div class="row"></div></div></li><li class="ui-menu-item level0 fullwidth parent "><div class="open-children-toggle"></div><a href="https://hummart.com/noodles-sauces-instant-food" class="level-top"><span>Noodles Sauces & Frozen Foods</span></a><div class="level0 submenu"><div class="row"></div></div></li><li class="ui-menu-item level0 fullwidth parent "><div class="open-children-toggle"></div><a href="https://hummart.com/household-needs" class="level-top"><span>Household Needs</span></a><div class="level0 submenu"><div class="row"></div></div></li><li class="ui-menu-item level0 fullwidth parent "><div class="open-children-toggle"></div><a href="https://hummart.com/baby-kids" class="level-top"><span>Baby Kids & Toys</span></a><div class="level0 submenu"><div class="row"></div></div></li><li class="ui-menu-item level0 fullwidth parent "><div class="open-children-toggle"></div><a href="https://hummart.com/breakfast-dairy" class="level-top"><span>Breakfast & Dairy</span></a><div class="level0 submenu"><div class="row"></div></div></li><li class="ui-menu-item level0 fullwidth parent "><div class="open-children-toggle"></div><a href="https://hummart.com/biscuits-snacks-chocolates" class="level-top"><span>Biscuits Snacks & Chocolates</span></a><div class="level0 submenu"><div class="row"></div></div></li><li class="ui-menu-item level0 fullwidth parent more-cat"><a href="#" class="level-top"><span>More</span></a><div class="level0 submenu"><div class="row"><ul class="subchildmenu col-sm-12 mega-columns columns4"><li class="ui-menu-item level1 "><a href="https://hummart.com/grocery-and-staples"><span>Grocery & Staples</span></a></li><li class="ui-menu-item level1 "><a href="https://hummart.com/beverages"><span>Beverages</span></a></li><li class="ui-menu-item level1 "><a href="https://hummart.com/home-kitchen"><span>Home & Kitchen</span></a></li><li class="ui-menu-item level1 "><a href="https://hummart.com/furnishing-home-needs"><span>Furnishing & Home Needs</span></a></li><li class="ui-menu-item level1 "><a href="https://hummart.com/personal-care"><span>Personal Care</span></a></li><li class="ui-menu-item level1 "><a href="https://hummart.com/pet-care"><span>Pet Care</span></a></li><li class="ui-menu-item level1 "><a href="https://hummart.com/offers"><span>Offers </span></a></li><li class="ui-menu-item level1 "><a href="https://hummart.com/ice-creams"><span>Ice Creams</span></a></li></ul></div></div>    </ul>
+</nav>
+
+<script type="text/javascript">
+    require([
+        'jquery',
+        'Smartwave_Megamenu/js/sw_megamenu'
+    ], function ($) {
+        $(".sw-megamenu").swMegamenu();
+    });
+</script>
+</div>
+                                            <div class="section-item-title nav-sections-item-title" data-role="collapsible">
+                    <a class="nav-sections-item-switch" data-toggle="switch" href="#store.links">Account</a>
+					<button class="cross-bar"><a class="close">&times;</a></button>
+                </div>
+                <div class="section-item-content nav-sections-item-content" id="store.links" data-role="content"><!-- Account links --></div>
+                                    </div>
+    </div>
+		<script type="text/x-magento-init">
+		{
+			"*":
+			{
+				"Magento_Catalog/js/product/list/express-products":{ }
+			}
+			
+		}
+
+</script>
+</header><div class="breadcrumbs">
+    <ul class="items">
+                    <li class="item home">
+                            <a href="https://hummart.com/" title="Go to Home Page">Home</a>
+                        </li>
+                    <li class="item category77">
+                            <a href="https://hummart.com/noodles-sauces-instant-food" title="">Noodles Sauces &amp; Frozen Foods</a>
+                        </li>
+                    <li class="item category85">
+                            <a href="https://hummart.com/baking-dessert-items" title="">Baking &amp; Dessert Items</a>
+                        </li>
+                    <li class="item category324">
+                            <a href="https://hummart.com/baking-ingredients" title="">Baking Ingredients</a>
+                        </li>
+                    <li class="item product">
+                            <strong>Bakea Premium Cocoa Powder</strong>
+                        </li>
+            </ul>
+</div>
+<main id="maincontent" class="page-main"><div id="algolia-autocomplete-container"></div><a id="contentarea" tabindex="-1"></a>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <!-- ko if: cookieMessages && cookieMessages.length > 0 -->
+    <div role="alert" data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: message.text"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+    <!-- ko if: messages().messages && messages().messages.length > 0 -->
+    <div role="alert" data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: message.text"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><div class="columns"><div class="column main">    <div itemscope itemtype="http://schema.org/Product">
+        <meta itemprop="name" content="Bakea Premium Cocoa Powder" />
+        <meta itemprop="image" content="https://hummart.com/media/catalog/product/h/t/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg?width=265&height=265&canvas=265:265&quality=80&bg-color=255,255,255&fit=bounds" />
+        <meta itemprop="description" content="High energy and fat free jelly that gives you right amount of mango feel all year round. May it be  mango season or not, Rafhan mango jelly is the answer to your mango-call!" />
+        <meta itemprop="url" content="https://hummart.com/bakea-premium-cocoa-powder-100-gm.html" />
+        <meta itemprop="productID" content="6904542109400" />
+        <div itemtype="http://schema.org/AggregateRating" itemscope itemprop="aggregateRating">
+            <meta itemprop="worstRating" content="1" />
+            <meta itemprop="bestRating" content="5" />
+            <meta itemprop="ratingValue" content="1" />
+            <meta itemprop="reviewCount" content="1" />
+        </div>
+        <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="PKR" />
+            <meta itemprop="price" content="200" />
+                            <link itemprop="availability" href="http://schema.org/InStock" />In stock
+                    </div>
+    </div>
+<div class="custom-block"></div><div class="product-info-main"><div class="page-title-wrapper product">
+    <h1 class="page-title"
+                >
+        <span class="base" data-ui-id="page-title-wrapper" itemprop="name">Bakea Premium Cocoa Powder</span>    </h1>
+    </div>
+<div class="product-attribute-option">
+	100 gm</div>
+<div class="product-reviews-summary empty">
+    <div class="reviews-actions">
+        <a class="action add" href="https://hummart.com/bakea-premium-cocoa-powder-100-gm.html#review-form">
+            Be the first to review this product        </a>
+    </div>
+</div>
+<div class="product-info-price"><div class="price-box price-final_price" data-role="priceBox" data-product-id="20604">
+    
+
+<span class="price-container price-final_price tax weee"
+         itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        <span  id="product-price-20604"                data-price-amount="200"
+        data-price-type="finalPrice"
+        class="price-wrapper ">
+        <span class="price">Rs 200</span>    </span>
+                <meta itemprop="price" content="200" />
+        <meta itemprop="priceCurrency" content="PKR" />
+    </span>
+
+</div><div class="product-info-stock-sku">
+            <div class="stock available" title="Availability">
+            <span>In stock</span>
+        </div>
+    <div class="product attribute sku">
+    <strong class="type">SKU</strong>    <div class="value" itemprop="sku">6904542109400</div>
+</div>
+</div></div>
+
+<div class="product-add-form">
+    <form data-product-sku="6904542109400"
+          action="https://hummart.com/checkout/cart/add/uenc/aHR0cHM6Ly9odW1tYXJ0LmNvbS9iYWtlYS1wcmVtaXVtLWNvY29hLXBvd2Rlci0xMDAtZ20uaHRtbA%2C%2C/product/20604/" method="post"
+          id="product_addtocart_form">
+        <input type="hidden" name="product" value="20604" />
+        <input type="hidden" name="selected_configurable_option" value="" />
+        <input type="hidden" name="related_product" id="related-products-field" value="" />
+        <input name="form_key" type="hidden" value="Sl3kpgFe1pgiAi54" />                            <div class="box-tocart">
+    <div class="fieldset">
+                <div class="field qty">
+            <label class="label" for="qty"><span>Qty</span></label>
+            <div class="control">
+                <input type="number"
+                       name="qty"
+                       id="qty"
+                       maxlength="12"
+                       value="0"
+                       title="Qty" class="input-text qty"
+                       data-validate="{&quot;required-number&quot;:true,&quot;validate-item-quantity&quot;:{&quot;minAllowed&quot;:0}}"
+                       />
+            </div>
+            <div class="qty-changer prd-qty-6904542109400">
+                <a href="javascript:void(0)" class="qty-inc"><div class="errorplus error-6904542109400">Max 3 available</div><i class="porto-icon-up-dir"></i></a>
+                <a href="javascript:void(0)" class="qty-dec"><i class="porto-icon-down-dir"></i></a>
+            </div>
+        </div>
+                <div class="actions">
+            <button type="submit"
+                    title="Add to Cart"
+                    class="action primary tocart"
+                    id="product-addtocart-button">
+                <span>Add to Cart</span>
+            </button>
+                    </div>
+    </div>
+</div>
+<script>
+    require([
+        'jquery',
+        'mage/mage',
+        'Magento_Catalog/product/view/validation',
+        'Magento_Catalog/js/catalog-add-to-cart'
+    ], function ($) {
+        'use strict';
+
+        $('#product_addtocart_form').mage('validation', {
+            radioCheckboxClosest: '.nested',
+            submitHandler: function (form) {
+                var widget = $(form).catalogAddToCart({
+                    bindSubmit: false
+                });
+
+                widget.catalogAddToCart('submitForm', $(form));
+
+                return false;
+            }
+        });
+    });
+</script>
+<script>
+    require([
+        'jquery',
+		'Magento_Customer/js/customer-data',
+		'domReady!'
+    ], function ($, customerData) {
+        'use strict';
+		var sku = $("#product_addtocart_form").attr("data-product-sku");
+		if($('#subscribe_this_product').length > 0) {
+			$('#subscribe_this_product').attr('checked','true').change();
+			$('#md_subscription_content').show();
+		}
+		$(document).on('ajaxComplete', function (event, xhr, settings) {
+			var cart = customerData.get('cart');
+			var items = cart().items;
+			var found = 0;
+			var i;
+			for(i = 0;i < items.length; i++){
+				if(items[i].product_sku == sku){
+					$("#product_addtocart_form input[name=qty]").val(items[i].qty);
+					$("#product-addtocart-button").hide();
+					$(".catalog-product-view  .product-info-main #product_addtocart_form .box-tocart .fieldset .field.qty ").delay(500).show();
+					found = 1;
+					break;
+				}
+			}
+			if(found == 0){
+				$("#product_addtocart_form input[name=qty]").val(1);
+				$("#product-addtocart-button").show();
+				$(".catalog-product-view  .product-info-main #product_addtocart_form .box-tocart .fieldset .field.qty ").delay(500).hide();
+			}
+		});
+
+		$(document).on("click", ".qty-inc", function(e) {
+            // Stop acting like a button
+            e.preventDefault();
+			if($(this).hasClass("qty-inc") && $(this).hasClass("qtyerror"))
+				return;
+			if(typeof timeout !== "undefined"){
+			  clearTimeout(timeout);
+			}
+            // Get its current value
+            var currentVal = parseInt($(this).parents('form').find('input[name="qty"]').val());
+            // If is not undefined
+            if (!isNaN(currentVal)) {
+                // Increment
+                $(this).parents('form').find('input[name="qty"]').val(currentVal + 1);
+            } else {
+                // Otherwise put a 0 there
+                $(this).parents('form').find('input[name="qty"]').val(0);
+            }
+			if(jQuery("#product-addtocart-button").is(":visible")){
+				return;
+			}
+			// var sku = jQuery("#product_addtocart_form").attr("data-product-sku");
+			var update = jQuery("input[data-cart-item-id="+sku+"]").next();
+			var cartVal = jQuery("input[data-cart-item-id="+sku+"]").val();
+			jQuery("input[data-cart-item-id="+sku+"]").val(parseInt(currentVal) + 1);
+			var timeout = setTimeout(function(){ update.trigger('click'); }, 500);
+        });
+        // This button will decrement the value till 0
+        $(document).on("click", ".qty-dec", function(e) {
+            // Stop acting like a button
+            e.preventDefault();
+			if(typeof timeout !== "undefined"){
+			  clearTimeout(timeout);
+			}
+			
+			if(typeof timeout !== "undefined"){
+			  clearTimeout(timeout);
+			}
+            // Get the field name
+            //fieldName = $(this).attr('field');
+            // Get its current value
+            var currentVal = parseInt($(this).parents('form').find('input[name="qty"]').val());
+            // If it isn't undefined or its greater than 0
+            if (!isNaN(currentVal) && currentVal > 0) {
+                // Decrement one
+                $(this).parents('form').find('input[name="qty"]').val(currentVal - 1);
+            } else {
+                // Otherwise put a 0 there
+                $(this).parents('form').find('input[name="qty"]').val(0);
+				jQuery("#product-addtocart-button").show();
+            }
+			if(jQuery("#product-addtocart-button").is(":visible")){
+				return;
+			}
+			var sku = jQuery("#product_addtocart_form").attr("data-product-sku");
+			var update = jQuery("input[data-cart-item-id="+sku+"]").next();
+			var cartVal = jQuery("input[data-cart-item-id="+sku+"]").val();
+			jQuery("input[data-cart-item-id="+sku+"]").val(parseInt(currentVal) - 1);
+			var timeout = setTimeout(function(){ update.trigger('click'); }, 500);
+        });
+    });
+</script>        
+                    </form>
+</div>
+<script>
+    require([
+        'jquery',
+        'priceBox'
+    ], function($){
+        var dataPriceBoxSelector = '[data-role=priceBox]',
+            dataProductIdSelector = '[data-product-id=20604]',
+            priceBoxes = $(dataPriceBoxSelector + dataProductIdSelector);
+
+        priceBoxes = priceBoxes.filter(function(index, elem){
+            return !$(elem).find('.price-from').length;
+        });
+
+        priceBoxes.priceBox({'priceConfig': {"productId":"20604","priceFormat":{"pattern":"Rs %s","precision":2,"requiredPrecision":0,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":1}}});
+    });
+</script>
+<div class="product-social-links"><div class="product-addto-links" data-role="add-to-links">
+    <script type="text/x-magento-init">
+    {
+        "body": {
+            "addToWishlist": {"productType":"simple","giftcardInfo":"[id^=giftcard]"}        }
+    }
+</script>
+
+<a href="#" data-post='{"action":"https:\/\/hummart.com\/catalog\/product_compare\/add\/","data":{"product":"20604","uenc":"aHR0cHM6Ly9odW1tYXJ0LmNvbS9iYWtlYS1wcmVtaXVtLWNvY29hLXBvd2Rlci0xMDAtZ20uaHRtbA,,"}}'
+        data-role="add-to-links"
+        class="action tocompare"><span>Add to Compare</span></a>
+</div>
+    <a href="https://hummart.com/sendfriend/product/send/id/20604/cat_id/324/"
+       class="action mailto friend"><span>Email</span></a>
+</div></div><div class="product media"><a id="gallery-prev-area" tabindex="-1"></a>
+<div class="action-skip-wrapper"><a class="action skip gallery-next-area" href="#gallery-next-area"><span>Skip to the end of the images gallery</span></a>
+</div><div class="gallery-placeholder _block-content-loading" data-gallery-role="gallery-placeholder">
+    <div data-role="loader" class="loading-mask">
+        <div class="loader">
+            <img src="https://hummart.com/static/version1589452740/frontend/Smartwave/grocery/en_US/images/loader-1.gif"
+                 alt="Loading...">
+        </div>
+    </div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "[data-gallery-role=gallery-placeholder]": {
+            "mage/gallery/gallery": {
+                "mixins":["magnifier/magnify"],
+                "magnifierOpts": {"fullscreenzoom":"5","top":"","left":"","width":"","height":"","eventType":"hover","enabled":"false"},
+                "data": [{"thumb":"https:\/\/hummart.com\/media\/catalog\/product\/h\/t\/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg?width=88&height=116&canvas=88:116&quality=80&bg-color=255,255,255&fit=bounds","img":"https:\/\/hummart.com\/media\/catalog\/product\/h\/t\/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg?width=600&height=600&canvas=600:600&quality=80&bg-color=255,255,255&fit=bounds","full":"https:\/\/hummart.com\/media\/catalog\/product\/h\/t\/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],
+                "options": {
+                    "nav": "thumbs",
+                    "loop": true,
+                    "keyboard": true,
+                    "arrows": true,
+                    "allowfullscreen": false,
+                    "showCaption": false,
+                    "width": 600,
+                    "thumbwidth": 75,
+                    "thumbheight": 75,
+                                        "height": 600,
+                                        "transitionduration": 500,
+                    "transition": "slide",
+                    "navarrows": true,
+                    "navtype": "slides",
+                    "navdir": "horizontal"
+                },
+                "fullscreen": {
+                    "nav": "thumbs",
+                    "loop": true,
+                    "navdir": "horizontal",
+                    "arrows": false,
+                    "showCaption": false,
+                    "transitionduration": 500,
+                    "transition": "dissolve"
+                },
+                "breakpoints": {"mobile":{"conditions":{"max-width":"767px"},"options":{"options":{"nav":"dots"}}}}            }
+        }
+    }
+</script>
+<script type="text/javascript">
+require([
+    'jquery'
+], function ($) {
+    var loaded = false;
+    $('.product.media .gallery-placeholder').bind("DOMSubtreeModified",function(){
+        $('.product.media .fotorama').on('fotorama:ready', function (e, fotorama, extra) {
+            //console.log('fotorama is loaded');
+            loaded = false;
+            $('.product.media .fotorama').on('fotorama:load', function (e, fotorama, extra) {
+                if(!loaded){
+                    $('.product.media .fotorama__stage .fotorama__loaded--img').trigger('zoom.destroy');
+                    $('.product.media .fotorama__stage .fotorama__active').zoom({
+                        touch:false
+                    });
+                    loaded = true;
+                }
+            });
+            $('.product.media .fotorama').on('fotorama:showend', function (e, fotorama, extra) {
+                $('.product.media .fotorama__stage .fotorama__active').zoom({
+                    touch:false
+                });
+            });
+            $('.fotorama').off('fotorama:fullscreenenter').on('fotorama:fullscreenenter', function (e, fotorama, extra) {
+                $('.product.media .fotorama__stage .fotorama__loaded--img').trigger('zoom.destroy');
+                $('img.zoomImg').remove();
+            });
+            $('.fotorama').off('fotorama:fullscreenexit').on('fotorama:fullscreenexit', function (e, fotorama, extra) {
+                $('.product.media .fotorama__stage .fotorama__loaded--img').trigger('zoom.destroy');
+                $('img.zoomImg').remove();
+                $('img.fotorama__img').not('.fotorama__img--full').each(function(){
+                    $(this).after($(this).parent().children("img.fotorama__img--full"));
+                });
+                $('.product.media .fotorama__stage .fotorama__active').zoom({
+                    touch:false
+                });
+                $('.product.media .fotorama').off('fotorama:showend').on('fotorama:showend', function (e, fotorama, extra) {
+                    $('.product.media .fotorama__stage .fotorama__loaded--img').trigger('zoom.destroy');
+                    $('.product.media .fotorama__stage .fotorama__active').zoom({
+                        touch:false
+                    });
+                });
+            });
+        });
+    });
+});
+</script><script type="text/x-magento-init">
+    {
+        "[data-gallery-role=gallery-placeholder]": {
+            "Magento_ProductVideo/js/fotorama-add-video-events": {
+                "videoData": [{"mediaType":"image","videoUrl":null,"isBase":true}],
+                "videoSettings": [{"playIfBase":"0","showRelated":"0","videoAutoRestart":"0"}],
+                "optionsVideoData": []            }
+        }
+    }
+</script>
+<div class="action-skip-wrapper"><a class="action skip gallery-prev-area" href="#gallery-prev-area"><span>Skip to the beginning of the images gallery</span></a>
+</div><a id="gallery-next-area" tabindex="-1"></a>
+</div>                    <div class="product info detailed ">
+                                                    <div class="product data items" data-mage-init='{"tabs":{"openedState":"active"}}'>
+                                                                                <div class="data item title"
+                                 aria-labeledby="tab-label-product.info.description-title"
+                                 data-role="collapsible" id="tab-label-product.info.description">
+                                <a class="data switch"
+                                   tabindex="-1"
+                                   data-toggle="switch"
+                                   href="#product.info.description"
+                                   id="tab-label-product.info.description-title">
+                                    Details                                </a>
+                            </div>
+                            <div class="data item content" id="product.info.description" data-role="content">
+                                <div class="product attribute description">
+        <div class="value" >High energy and fat free jelly that gives you right amount of mango feel all year round. May it be  mango season or not, Rafhan mango jelly is the answer to your mango-call!</div>
+</div>
+                            </div>
+                                                                                <div class="data item title"
+                                 aria-labeledby="tab-label-additional-title"
+                                 data-role="collapsible" id="tab-label-additional">
+                                <a class="data switch"
+                                   tabindex="-1"
+                                   data-toggle="switch"
+                                   href="#additional"
+                                   id="tab-label-additional-title">
+                                    More Information                                </a>
+                            </div>
+                            <div class="data item content" id="additional" data-role="content">
+                                    <div class="additional-attributes-wrapper table-wrapper">
+        <table class="data table additional-attributes" id="product-attribute-specs-table">
+            <caption class="table-caption">More Information</caption>
+            <tbody>
+                            <tr>
+                    <th class="col label" scope="row">Option</th>
+                    <td class="col data" data-th="Option">100 gm</td>
+                </tr>
+                            <tr>
+                    <th class="col label" scope="row">Brand</th>
+                    <td class="col data" data-th="Brand">Bakea</td>
+                </tr>
+                            <tr>
+                    <th class="col label" scope="row">Sold By</th>
+                    <td class="col data" data-th="Sold By">HumMart</td>
+                </tr>
+                            <tr>
+                    <th class="col label" scope="row">Country of Manufacture</th>
+                    <td class="col data" data-th="Country of Manufacture">Pakistan</td>
+                </tr>
+                            <tr>
+                    <th class="col label" scope="row">Express Shipping</th>
+                    <td class="col data" data-th="Express Shipping">Yes</td>
+                </tr>
+                            <tr>
+                    <th class="col label" scope="row">Return Policy</th>
+                    <td class="col data" data-th="Return Policy">3 Day Return and Exchange</td>
+                </tr>
+                            <tr>
+                    <th class="col label" scope="row">Warranty</th>
+                    <td class="col data" data-th="Warranty">Not Applicable</td>
+                </tr>
+                        </tbody>
+        </table>
+    </div>
+                            </div>
+                                                                                <div class="data item title"
+                                 aria-labeledby="tab-label-reviews-title"
+                                 data-role="collapsible" id="tab-label-reviews">
+                                <a class="data switch"
+                                   tabindex="-1"
+                                   data-toggle="switch"
+                                   href="#reviews"
+                                   id="tab-label-reviews-title">
+                                    Reviews                                </a>
+                            </div>
+                            <div class="data item content" id="reviews" data-role="content">
+                                <div id="product-review-container" data-role="product-review"></div>
+<div class="block review-add">
+    <div class="block-title"><strong>Write Your Own Review</strong></div>
+<div class="block-content">
+<form action="https://hummart.com/review/product/post/id/20604/" class="review-form" method="post" id="review-form" data-role="product-review-form" data-bind="scope: 'review-form'">
+    <input name="form_key" type="hidden" value="Sl3kpgFe1pgiAi54" />        <fieldset class="fieldset review-fieldset" data-hasrequired="&#x2A;&#x20;Required&#x20;Fields">
+        <legend class="legend review-legend"><span>You&#039;re reviewing:</span><strong>Bakea Premium Cocoa Powder</strong></legend><br />
+                <span id="input-message-box"></span>
+        <fieldset class="field required review-field-ratings">
+            <legend class="label"><span>Your Rating</span></legend><br/>
+            <div class="control">
+                <div class="nested" id="product-review-table">
+                                            <div class="field choice review-field-rating">
+                            <label class="label" id="Rating_rating_label"><span>Rating</span></label>
+                            <div class="control review-control-vote">
+                                                                                        <input
+                                    type="radio"
+                                    name="ratings[4]"
+                                    id="Rating_1"
+                                    value="16"
+                                    class="radio"
+                                    data-validate="{ 'rating-required':true}"
+                                    aria-labelledby="Rating_rating_label Rating_1_label" />
+                                <label
+                                    class="rating-1"
+                                    for="Rating_1"
+                                    title="1&#x20;star"
+                                    id="Rating_1_label">
+                                    <span>1 star</span>
+                                </label>
+                                                                                        <input
+                                    type="radio"
+                                    name="ratings[4]"
+                                    id="Rating_2"
+                                    value="17"
+                                    class="radio"
+                                    data-validate="{ 'rating-required':true}"
+                                    aria-labelledby="Rating_rating_label Rating_2_label" />
+                                <label
+                                    class="rating-2"
+                                    for="Rating_2"
+                                    title="2&#x20;stars"
+                                    id="Rating_2_label">
+                                    <span>2 stars</span>
+                                </label>
+                                                                                        <input
+                                    type="radio"
+                                    name="ratings[4]"
+                                    id="Rating_3"
+                                    value="18"
+                                    class="radio"
+                                    data-validate="{ 'rating-required':true}"
+                                    aria-labelledby="Rating_rating_label Rating_3_label" />
+                                <label
+                                    class="rating-3"
+                                    for="Rating_3"
+                                    title="3&#x20;stars"
+                                    id="Rating_3_label">
+                                    <span>3 stars</span>
+                                </label>
+                                                                                        <input
+                                    type="radio"
+                                    name="ratings[4]"
+                                    id="Rating_4"
+                                    value="19"
+                                    class="radio"
+                                    data-validate="{ 'rating-required':true}"
+                                    aria-labelledby="Rating_rating_label Rating_4_label" />
+                                <label
+                                    class="rating-4"
+                                    for="Rating_4"
+                                    title="4&#x20;stars"
+                                    id="Rating_4_label">
+                                    <span>4 stars</span>
+                                </label>
+                                                                                        <input
+                                    type="radio"
+                                    name="ratings[4]"
+                                    id="Rating_5"
+                                    value="20"
+                                    class="radio"
+                                    data-validate="{ 'rating-required':true}"
+                                    aria-labelledby="Rating_rating_label Rating_5_label" />
+                                <label
+                                    class="rating-5"
+                                    for="Rating_5"
+                                    title="5&#x20;stars"
+                                    id="Rating_5_label">
+                                    <span>5 stars</span>
+                                </label>
+                                                                                    </div>
+                        </div>
+                                    </div>
+                <input type="hidden" name="validate_rating" class="validate-rating" value="" />
+            </div>
+        </fieldset>
+            <div class="field review-field-nickname required">
+            <label for="nickname_field" class="label"><span>Nickname</span></label>
+            <div class="control">
+                <input type="text" name="nickname" id="nickname_field" class="input-text" data-validate="{required:true}" data-bind="value: nickname()" />
+            </div>
+        </div>
+        <div class="field review-field-summary required">
+            <label for="summary_field" class="label"><span>Summary</span></label>
+            <div class="control">
+                <input type="text" name="title" id="summary_field" class="input-text" data-validate="{required:true}" data-bind="value: review().title" />
+            </div>
+        </div>
+        <div class="field review-field-text required">
+            <label for="review_field" class="label"><span>Review</span></label>
+            <div class="control">
+                <textarea name="detail" id="review_field" cols="5" rows="3" data-validate="{required:true}" data-bind="value: review().detail"></textarea>
+            </div>
+        </div>
+    </fieldset>
+    <div class="actions-toolbar review-form-actions">
+        <div class="primary actions-primary">
+            <button type="submit" class="action submit primary"><span>Submit Review</span></button>
+        </div>
+    </div>
+</form>
+<script type="text/x-magento-init">
+{
+    "[data-role=product-review-form]": {
+        "Magento_Ui/js/core/app": {"components":{"review-form":{"component":"Magento_Review\/js\/view\/review"}}}    },
+    "#review-form": {
+        "Magento_Review/js/error-placement": {},
+        "Magento_Review/js/validate-review": {}
+    }
+}
+</script>
+</div>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Review/js/process-reviews": {
+                "productReviewUrl": "https\u003A\u002F\u002Fhummart.com\u002Freview\u002Fproduct\u002FlistAjax\u002Fid\u002F20604\u002F",
+                "reviewsTabSelector": "#tab-label-reviews"
+            }
+        }
+    }
+</script>
+                            </div>
+                                                                    </div>
+                                <script type="text/javascript">
+                    require([
+                        'jquery'
+                    ], function ($) {
+                        $(document).ready(function(){
+                                                    });
+                    });
+                </script>
+                </div>
+    <div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+    <script>
+        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/hummart.com\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/hummart.com\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/hummart.com\/"};
+    </script>
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fhummart.com\u002Fstatic\u002Fversion1589452740\u002Ffrontend\u002FSmartwave\u002Fgrocery\u002Fen_US\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/section-config":{"sections":{"stores\/store\/switch":"*","directory\/currency\/switch":"*","customer\/account\/logout":["recently_viewed_product","recently_compared_product"],"customer\/account\/loginpost":"*","customer\/account\/createpost":"*","customer\/account\/editpost":"*","customer\/ajax\/login":["checkout-data","cart"],"*":["messages"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","checkout-data","last-ordered-items"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","checkout-data"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"authorizenet\/directpost_payment\/place":["cart","checkout-data"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"multishipping\/checkout\/overviewpost":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"review\/product\/post":["review"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"minicartvalidate\/cart\/index":["cart"],"\/otplogin\/customer\/create\/":["customer"]},"clientSideSections":["checkout-data","cart-data"],"baseUrls":["https:\/\/hummart.com\/"]}}}</script>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/customer-data":{"sectionLoadUrl":"https:\/\/hummart.com\/customer\/section\/load\/","expirableSectionLifetime":0,"expirableSectionNames":["cart"],"cookieLifeTime":"31622400","updateSessionUrl":"https:\/\/hummart.com\/customer\/account\/updateSession\/"}}}</script>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/invalidation-processor":{"invalidationRules":{"website-rule":{"Magento_Customer\/js\/invalidation-rules\/website-rule":{"scopeConfig":{"websiteId":1}}}}}}}</script>
+<input name="form_key" type="hidden" value="Sl3kpgFe1pgiAi54" /><script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/hummart.com\/page_cache\/block\/render\/id\/20604\/","handles":["default","catalog_product_view","catalog_product_view_id_20604","catalog_product_view_sku_6904542109400","catalog_product_view_type_simple","algolia_search_handle","algolia_search_handle_no_topsearch"],"originalRequest":{"route":"catalog","controller":"product","action":"view","uri":"\/bakea-premium-cocoa-powder-100-gm.html"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+<script type="text/x-magento-init">
+{"*":{"Magento_Banner\/js\/model\/banner":{"sectionLoadUrl":"https:\/\/hummart.com\/banner\/ajax\/load\/","cacheTtl":30000}}}</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "requireCookie": {"noCookieUrl":"https:\/\/hummart.com\/cookie\/index\/noCookies\/","triggers":[".review .action.submit"]}        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+                "Magento_Catalog/js/product/view/provider": {
+                    "data": {"items":{"20604":{"add_to_cart_button":{"post_data":"{\"action\":\"https:\\\/\\\/hummart.com\\\/checkout\\\/cart\\\/add\\\/uenc\\\/%25uenc%25\\\/product\\\/20604\\\/\",\"data\":{\"product\":\"20604\",\"uenc\":\"%uenc%\"}}","url":"https:\/\/hummart.com\/checkout\/cart\/add\/uenc\/%25uenc%25\/product\/20604\/","required_options":false},"add_to_compare_button":{"post_data":null,"url":"{\"action\":\"https:\\\/\\\/hummart.com\\\/catalog\\\/product_compare\\\/add\\\/\",\"data\":{\"product\":\"20604\",\"uenc\":\"aHR0cHM6Ly9odW1tYXJ0LmNvbS9iYWtlYS1wcmVtaXVtLWNvY29hLXBvd2Rlci0xMDAtZ20uaHRtbA,,\"}}","required_options":null},"price_info":{"final_price":200,"max_price":200,"max_regular_price":200,"minimal_regular_price":200,"special_price":null,"minimal_price":200,"regular_price":200,"formatted_prices":{"final_price":"<span class=\"price\">Rs 200<\/span>","max_price":"<span class=\"price\">Rs 200<\/span>","minimal_price":"<span class=\"price\">Rs 200<\/span>","max_regular_price":"<span class=\"price\">Rs 200<\/span>","minimal_regular_price":null,"special_price":null,"regular_price":"<span class=\"price\">Rs 200<\/span>"},"extension_attributes":{"msrp":{"msrp_price":"<span class=\"price\">Rs 0<\/span>","is_applicable":"","is_shown_price_on_gesture":"1","msrp_message":"","explanation_message":"Our price is lower than the manufacturer&#039;s &quot;minimum advertised price.&quot; As a result, we cannot show you the price in catalog or the product page. <br><br> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart."},"tax_adjustments":{"final_price":200,"max_price":200,"max_regular_price":200,"minimal_regular_price":200,"special_price":200,"minimal_price":200,"regular_price":200,"formatted_prices":{"final_price":"<span class=\"price\">Rs 200<\/span>","max_price":"<span class=\"price\">Rs 200<\/span>","minimal_price":"<span class=\"price\">Rs 200<\/span>","max_regular_price":"<span class=\"price\">Rs 200<\/span>","minimal_regular_price":null,"special_price":"<span class=\"price\">Rs 200<\/span>","regular_price":"<span class=\"price\">Rs 200<\/span>"}},"weee_attributes":[],"weee_adjustment":"<span class=\"price\">Rs 200<\/span>"}},"images":[{"url":"https:\/\/hummart.com\/media\/catalog\/product\/h\/t\/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg?width=240&height=300&canvas=240:300&quality=80&bg-color=255,255,255&fit=bounds","code":"recently_viewed_products_grid_content_widget","height":300,"width":240,"label":"Rafhan Mango Jelly -  80g","resized_width":240,"resized_height":300},{"url":"https:\/\/hummart.com\/media\/catalog\/product\/h\/t\/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg?width=270&height=340&canvas=270:340&quality=80&bg-color=255,255,255&fit=bounds","code":"recently_viewed_products_list_content_widget","height":340,"width":270,"label":"Rafhan Mango Jelly -  80g","resized_width":270,"resized_height":340},{"url":"https:\/\/hummart.com\/media\/catalog\/product\/h\/t\/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg?width=75&height=90&canvas=75:90&quality=80&bg-color=255,255,255&fit=bounds","code":"recently_viewed_products_images_names_widget","height":90,"width":75,"label":"Rafhan Mango Jelly -  80g","resized_width":75,"resized_height":90},{"url":"https:\/\/hummart.com\/media\/catalog\/product\/h\/t\/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg?width=240&height=300&canvas=240:300&quality=80&bg-color=255,255,255&fit=bounds","code":"recently_compared_products_grid_content_widget","height":300,"width":240,"label":"Rafhan Mango Jelly -  80g","resized_width":240,"resized_height":300},{"url":"https:\/\/hummart.com\/media\/catalog\/product\/h\/t\/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg?width=270&height=340&canvas=270:340&quality=80&bg-color=255,255,255&fit=bounds","code":"recently_compared_products_list_content_widget","height":340,"width":270,"label":"Rafhan Mango Jelly -  80g","resized_width":270,"resized_height":340},{"url":"https:\/\/hummart.com\/media\/catalog\/product\/h\/t\/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg?width=75&height=90&canvas=75:90&quality=80&bg-color=255,255,255&fit=bounds","code":"recently_compared_products_images_names_widget","height":90,"width":75,"label":"Rafhan Mango Jelly -  80g","resized_width":75,"resized_height":90}],"url":"https:\/\/hummart.com\/bakea-premium-cocoa-powder-100-gm.html","id":20604,"name":"Bakea Premium Cocoa Powder","type":"simple","is_salable":"1","store_id":1,"currency_code":"PKR","extension_attributes":{"wishlist_button":{"post_data":null,"url":"{\"action\":\"https:\\\/\\\/hummart.com\\\/wishlist\\\/index\\\/add\\\/\",\"data\":{\"product\":\"20604\",\"uenc\":\"aHR0cHM6Ly9odW1tYXJ0LmNvbS9iYWtlYS1wcmVtaXVtLWNvY29hLXBvd2Rlci0xMDAtZ20uaHRtbA,,\"}}","required_options":null},"review_html":"<div class=\"product-reviews-summary short empty\">\n    <div class=\"reviews-actions\">\n        <a class=\"action add\" href=\"https:\/\/hummart.com\/bakea-premium-cocoa-powder-100-gm.html#review-form\">\n            Be the first to review this product        <\/a>\n    <\/div>\n<\/div>\n"}}},"store":"1","currency":"PKR"}            }
+        }
+    }
+</script>
+    <script data-role="msrp-popup-template" type="text/x-magento-template">
+    <div id="map-popup-click-for-price" class="map-popup">
+        <div class="popup-header">
+            <strong class="title" id="map-popup-heading-price"></strong>
+        </div>
+        <div class="popup-content">
+            <div class="map-info-price" id="map-popup-content">
+                <div class="price-box">
+                    <div class="map-msrp" id="map-popup-msrp-box">
+                        <span class="label">Price</span>
+                        <span class="old-price map-old-price" id="map-popup-msrp">
+                            <span class="price"></span>
+                        </span>
+                    </div>
+                    <div class="map-price" id="map-popup-price-box">
+                        <span class="label">Actual Price</span>
+                        <span id="map-popup-price" class="actual-price"></span>
+                    </div>
+                </div>
+                <form action="" method="POST" id="product_addtocart_form_from_popup" class="map-form-addtocart">
+                    <input type="hidden" name="product" class="product_id" value="" id="map-popup-product-id"/>
+                    <button type="button"
+                            title="Add to Cart"
+                            class="action tocart primary"
+                            id="map-popup-button">
+                        <span>Add to Cart</span>
+                    </button>
+                    <div class="additional-addtocart-box">
+                                            </div>
+                </form>
+            </div>
+            <div class="map-text" id="map-popup-text">
+                Our price is lower than the manufacturer&#039;s &quot;minimum advertised price.&quot; As a result, we cannot show you the price in catalog or the product page. <br><br> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart.            </div>
+        </div>
+    </div>
+    </script>
+    <script data-role="msrp-info-template" type="text/x-magento-template">
+    <div id="map-popup-what-this" class="map-popup">
+        <div class="popup-header">
+            <strong class="title" id="map-popup-heading-what-this"></strong>
+        </div>
+        <div class="popup-content">
+            <div class="map-help-text" id="map-popup-text-what-this">
+                Our price is lower than the manufacturer&#039;s &quot;minimum advertised price.&quot; As a result, we cannot show you the price in catalog or the product page. <br><br> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart.            </div>
+        </div>
+    </div>
+    </script>
+
+</div><div class="sidebar sidebar-additional"><div class="custom-block custom-block-1">
+  <div>
+    <i class="porto-icon-shipped"></i><h3>FREE<br>SHIPPING</h3>
+  </div>
+  <div>
+    <i class="porto-icon-us-dollar"></i><h3>100% MONEY<br>BACK GUARANTEE</h3>
+  </div>
+  <div>
+    <i class="porto-icon-online-support"></i><h3>ONLINE<br>SUPPORT 24/7</h3>
+  </div>
+</div>
+<div class="custom-block">
+  <img src="https://hummart.com/media/wysiwyg/smartwave/porto/product/sidebar-banner.jpg" class="img-responsive" alt="" />
+</div>
+</div></div></main><footer class="page-footer"><div class="footer">
+    <div class="footer-middle footer-middle-2">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-3"><div class="block">
+    <div class="block-title"><strong>HumMart</strong></div>
+    <div class="block-content">
+        <ul class="links">
+            <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/about-us" title="About us">About us</a></li>
+            <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/careers" title="My Account">Careers</a></li>
+            <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/hummart-vendor" title="Sell on HumMart">Sell on HumMart</a></li>
+            <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/terms-and-conditions" title="Contact us">Terms & Conditions</a></li>
+            <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/privacy-policy" title="Contact us">Privacy Policy</a></li>
+        </ul>
+    </div>
+</div></div><div class="col-sm-3"><div class="block">
+    <div class="block-title"><strong>Help</strong></div>
+    <div class="block-content">
+        <ul class="links">
+            <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/faqs" title="FAQs">FAQs</a></li>
+            <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/how-to-order" title="How to Order">How to Order</a></li>
+            <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/how-to-pay" title="How to Pay">How to Pay</a></li>
+        <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/returns-and-refunds" title="Return & Refunds">Return & Refunds</a></li>
+            <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/contact" title="Contact us">Contact us</a></li>
+            <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/delivery" title="Delivery">Delivery</a></li>
+            <li><em class="porto-icon-right-dir theme-color"></em><a href="https://hummart.com/easy-paisa" title="Easy Paisa">Easy Paisa</a></li>
+            </ul>
+    </div>
+</div></div><div class="col-sm-3"><div class="block">
+    <div class="block-title"><strong>Contact Information</strong></div>
+    <div class="block-content">
+         <ul class="contact-info" style="padding-top: 7px;">
+            <li><p><b style="color: #fff;text-transform:uppercase;">Phone</b><br/>(021) 111 116 278</p></li>
+            <li><p><b style="color: #fff;text-transform:uppercase;">Email</b><br/><a href="mailto:customer@hummart.com">customer@hummart.com</a></p></li>
+            <li><p><b style="color: #fff;text-transform:uppercase;">Working Days/Hours</b><br/>Mon - Sun / 9:00AM - 9:00PM</p></li>
+        </ul>
+<div class="social-icons" style="float:left;margin-top: 15px;">
+        <a href="https://www.facebook.com/Hummartcom" title="Facebook" target="_blank"><i class="porto-icon-facebook"></i></a>
+        <a href="https://twitter.com/HumMartcom" title="Twitter" target="_blank"><i class="porto-icon-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/11490591/" title="Linkedin" target="_blank"><i class="porto-icon-linkedin-squared"></i></a>
+        <a href="https://www.instagram.com/hummartcom" title="Instagram" target="_blank"><i class="porto-icon-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCYEd6CXnkcaeYRC9P5mDJzg" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+        <a href="https://plus.google.com/100579042247346028474" title="Google Plus" target="_blank"><i class="fa fa-google-plus"></i></a>
+      </div>
+    
+</div>
+</div></div><div class="col-sm-3"><div class="block">
+    <div class="block-title"><strong>Mobile Apps</strong></div>
+    <div class="block-content">
+    
+
+ <a href="https://play.google.com/store/apps/details?id=com.matechco.hummart">
+<p><!-- <img src="https://hummart.com/media/wysiwyg/Footer/google-play.png" alt="HumMart Play Store Android App" /> --> <span class="playstore-app-icon">
+</span></p>
+</a><br>
+
+ <a href="https://itunes.apple.com/pk/app/hummart/id1397370689?mt=8">
+<!-- <img src="https://hummart.com/media/wysiwyg/Footer/iphone.png" alt="HumMart App Store iPhone App" /> --> <span class="apple-app-icon"></span>
+</a>
+    
+</div>
+</div></div>            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+                        <div class="custom-block f-right"><!-- <img src="https://hummart.com/media/wysiwyg/Footer/cash-on-delivery_1.png" alt="Pay by Cash on Delivery Payment Method on hummart.com" /> -->
+<span class="footer-cash-icon"></span>
+
+<img src="https://hummart.com/media/wysiwyg/Footer/easy.png" alt="Pay by Credit Card, Debit Card, Easy Paisa Payment Method on hummart.com" />
+
+<img src="https://hummart.com/media/wysiwyg/Footer/jazz-cash_revised.png" alt="Pay by Jazz Cash on hummart.com" />
+
+<img src="https://hummart.com/media/wysiwyg/Footer/VISA.png" alt="Pay by VISA Cards on hummart.com" /> 
+
+<img src="https://hummart.com/media/wysiwyg/Footer/mastercard.png" alt="Pay by VISA Cards on hummart.com" /> 
+</div>            <address>© Hummart.com 2020. All Rights Reserved <span style="     display: block;     padding-left: 15px;line-height: 5px; ">Powered By <a href="https://www.matechco.com/" target="_blank" style=" ">Matech CO</a></span></address>
+                    </div>
+    </div>
+</div>
+<a href="javascript:void(0)" id="totop"><em class="porto-icon-up-open"></em></a></footer><script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" :
+                                         {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/hummart.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/hummart.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/hummart.com\/rest\/default\/V1\/products-render-info"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script>
+
+
+
+
+
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_GoogleTagManager/js/actions/product-detail": {
+                "id": "6904542109400",
+                "name": "Bakea\u0020Premium\u0020Cocoa\u0020Powder",
+                "brand": "Bakea",
+                "CategoryName": "Baking\u0020Ingredients",
+                "CategoryId": "324",
+				"Unit": "100\u0020gm",
+				"Quantity": "3",
+				"Price": "200.0000",
+				"SpecialPrice": "",
+				"Discount": "false",
+				"Currency": "PKR",
+				"ProductURL": "https\u003A\u002F\u002Fhummart.com\u002Fbakea\u002Dpremium\u002Dcocoa\u002Dpowder\u002D100\u002Dgm.html",
+				"ImagePath": "https://hummart.com/media/catalog/product/h/t/httpphpstack-299729-917918.cloudwaysapps.comimages6904542109400.jpg",
+				"avaibilty": "1"
+            }
+        }
+    }
+</script>
+
+<!-- Product hit template -->
+<script type="text/template" id="autocomplete_products_template">
+    <a class="algoliasearch-autocomplete-hit" href="{{url}}">
+        {{#thumbnail_url}}
+        <div class="thumb"><img src="{{thumbnail_url}}" /></div>
+        {{/thumbnail_url}}
+	</a>
+        <div class="info">
+		<div class="name_algoliasearch">
+		<div class="brand_algoliasearch">
+		{{#brand}}
+		<span class="brand_algoliasearch">
+						{{brand}}
+		</span>
+		{{/brand}}
+		{{^brand}}
+		<span class="brand_algoliasearch">
+				
+		</span>
+		{{/brand}}
+		</div>
+		<span class="name_searchalgolia">
+			<a class="algoliasearch-autocomplete-hit-name" href="{{url}}">
+				{{{_highlightResult.name.value}}}
+			</a>
+		</span>
+		</div>
+		</div>
+			{{#option}}
+						<span class="product-attribute-option-searchbar algoliasearchoption-searchbar">
+						{{option}}
+						</span>
+			{{/option}}
+			{{^option}}
+							<span class="product-attribute-option-searchbar algoliasearchoption-searchbar"> </span>
+			{{/option}}
+			
+	
+			<div class="algoliasearch-autocomplete-price">
+                    <span class="after_special
+                                {{#price.PKR.default_original_formated}}
+                                    promotion
+                                {{/price.PKR.default_original_formated}}">
+                        {{price.PKR.default_formated}}
+                    </span>
+
+                {{#price.PKR.default_original_formated}}
+                    <span class="before_special">
+                        {{price.PKR.default_original_formated}}
+                    </span>
+                {{/price.PKR.default_original_formated}}
+                {{#price.PKR.default_tier_formated}}
+                    <span class="tier_price">
+                        As low as                        <span class="tier_value">{{price.PKR.default_tier_formated}}</span>
+                    </span>
+                {{/price.PKR.default_tier_formated}}
+            </div>
+			
+			{{#express_shipping}}
+					   <span class="express_and_standard">
+							<span><i class='fa fa-motorcycle' aria-hidden='true'></i></span>
+					   </span>	
+					   {{/express_shipping}}	
+					   {{^express_shipping}}
+					   <span class="express_and_standard">
+							<span><i class='fa fa-truck' aria-hidden='true'></i></span>
+							<span></span>							
+					   </span>	
+					   {{/express_shipping}}
+					<div class="addtocart_dropdown">
+			
+			
+                        {{#in_stock}}
+                        <form data-role="tocart-form-topsearch" data-product-sku="{{sku}}" action="{{ addToCart.action }}{{#bundleOptions}}{{bundleOptions}}{{/bundleOptions}}" method="post">
+                            <input type="hidden" name="product" value="{{objectID}}">
+                            <input type="hidden" name="uenc" value="{{ addToCart.uenc }}">
+                            <input name="form_key" type="hidden" value="{{ addToCart.formKey }}">
+							<span class="qty-text-cs">Qty</span><input type="number" name="qty" data-item="{{objectID}}" data-item-sku="{{sku}}" id="autoqty-{{sku}}" maxlength="12" value="1" title="Qty" class="input-text qty autoqty" data-validate=""/>
+							
+							<button type="submit" title="Add to Cart"  id="topsearch-{{sku}}" class="action tocart primary autoadd" data-objectid="{{objectID}}" data-position="{{__position}}" style="display:{{#is_in_cart}}none{{/is_in_cart}}{{^is_in_cart}}block{{/is_in_cart}}">
+                                <span>Add to Cart</span>
+                            </button>
+														
+
+							
+                        </form>
+                        {{/in_stock}}
+                        
+			
+			
+					 </div>
+			</script>
+
+
+
+ 
+ 
+ 
+ <!-- Category hit template -->
+<script type="text/template" id="autocomplete_categories_template">
+    <a class="algoliasearch-autocomplete-hit" href="{{url}}">
+        {{#image_url}}
+        <div class="thumb">
+            <img src="{{image_url}}" />
+        </div>
+        {{/image_url}}
+
+        {{#image_url}}
+        <div class="info">
+            {{/image_url}}
+            {{^image_url}}
+            <div class="info-without-thumb">
+                {{#_highlightResult.path}}
+                {{{_highlightResult.path.value}}}
+                {{/_highlightResult.path}}
+                {{^_highlightResult.path}}
+                {{{path}}}
+                {{/_highlightResult.path}}
+
+                {{#product_count}}
+                <small>({{product_count}})</small>
+                {{/product_count}}
+
+            </div>
+            <div class="algolia-clearfix"></div>
+            {{/image_url}}
+        </div>
+    </a>
+</script><!-- Page hit template -->
+<script type="text/template" id="autocomplete_pages_template">
+    <a class="algoliasearch-autocomplete-hit" href="{{url}}">
+        <div class="info-without-thumb">
+            {{{_highlightResult.name.value}}}
+            {{#content}}
+            <div class="details">
+                {{{content}}}
+            </div>
+            {{/content}}
+        </div>
+        <div class="algolia-clearfix"></div>
+    </a>
+</script><!-- Extra attribute hit template -->
+<script type="text/template" id="autocomplete_extra_template">
+    <a class="algoliasearch-autocomplete-hit" href="{{url}}">
+        <div class="info-without-thumb">
+            {{{_highlightResult.value.value}}}
+        </div>
+        <div class="algolia-clearfix"></div>
+    </a>
+</script>
+<!-- Suggestion hit template -->
+<script type="text/template" id="autocomplete_suggestions_template">
+    <a class="algoliasearch-autocomplete-hit" href="{{url}}">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             class="algolia-glass-suggestion magnifying-glass"
+             width="24"
+             height="24"
+             viewBox="0 0 128 128">
+            <g transform="scale(2.5)">
+                <path stroke-width="3" d="M19.5 19.582l9.438 9.438"></path>
+                <circle stroke-width="3" cx="12" cy="12" r="10.5" fill="none"></circle>
+                <path d="M23.646 20.354l-3.293 3.293c-.195.195-.195.512 0 .707l7.293 7.293c.195.195.512.195.707
+                0l3.293-3.293c.195-.195.195-.512 0-.707l-7.293-7.293c-.195-.195-.512-.195-.707 0z" ></path>
+            </g>
+        </svg>
+        <div class="info-without-thumb">
+            {{{_highlightResult.query.value}}}
+
+            {{#category}}
+                <span class="text-muted">in</span>
+                <span class="category-tag">{{category}}</span>
+            {{/category}}
+        </div>
+        <div class="algolia-clearfix"></div>
+    </a>
+</script>
+<script type="text/template" id="menu-template">
+    <div class="autocomplete-wrapper">
+        <div class="col9">
+            <div class="aa-dataset-products"></div>
+        </div>
+        <div class="col3">
+            <div class="other-sections">
+                <div class="aa-dataset-suggestions"></div>
+                                    <div class="aa-dataset-0"></div>
+                                    <div class="aa-dataset-1"></div>
+                                    <div class="aa-dataset-2"></div>
+                                    <div class="aa-dataset-3"></div>
+                                    <div class="aa-dataset-4"></div>
+                                    <div class="aa-dataset-5"></div>
+                                    <div class="aa-dataset-6"></div>
+                                    <div class="aa-dataset-7"></div>
+                                    <div class="aa-dataset-8"></div>
+                                    <div class="aa-dataset-9"></div>
+                            </div>
+        </div>
+    </div>
+</script>
+<!-- Wrapping template -->
+<script type="text/template" id="instant_wrapper_template">
+    {{#findAutocomplete}}
+        <div id="algolia-autocomplete-container"></div>
+    {{/findAutocomplete}}
+
+    <div id="algolia_instant_selector"
+         class=" with-facets">
+        <div class="row">
+            <div class="col-md-3" id="algolia-left-container">
+                <div id="refine-toggle" class="visible-xs visible-sm">
+                    + Refine                </div>
+                <div class="hidden-xs hidden-sm" id="instant-search-facets-container">
+                    <div id="current-refinements"></div>
+                </div>
+            </div>
+
+            <div class="col-md-9" id="algolia-right-container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div>
+                            {{#second_bar}}
+                            <div id="instant-search-bar-container">
+                                <div id="instant-search-box">
+                                    <div class="instant-search-bar-label">
+                                        <span>Current search</span>
+                                    </div>
+                                    <div class="instant-search-bar-wrapper">
+                                        <label for="instant-search-bar">
+                                            Search :                                        </label>
+
+                                        <input placeholder="Search for products"
+                                               id="instant-search-bar"
+                                               type="text"
+                                               autocomplete="off"
+                                               spellcheck="false"
+                                               autocorrect="off"
+                                               autocapitalize="off" />
+                                    </div>
+                                </div>
+                            </div>
+                            {{/second_bar}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div>
+                        <div itemscope itemtype="http://schema.org/ItemList" class="hits">
+                            <div class="infos">
+                                <div class="pull-left" id="algolia-stats"></div>
+                                <div class="pull-right">
+                                    <div class="sort-by-label pull-left">
+                                        SORT BY                                    </div>
+                                    <div class="pull-left" id="algolia-sorts"></div>
+                                </div>
+                                <div class="algolia-clearfix"></div>
+                            </div>
+                            <div id="instant-search-results-container"></div>
+                        </div>
+                    </div>
+                    <div class="algolia-clearfix"></div>
+                </div>
+
+                <div class="text-center">
+                    <div id="instant-search-pagination-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="instant-hit-template">
+    <div class="col-md-4 col-sm-6">
+        <div class="result-wrapper" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
+            <div class="result">
+                <div class="result-content">
+				<a itemprop="url" href="{{url}}" class="result" data-objectid="{{objectID}}" data-position="{{__position}}">
+                    <div class="result-thumbnail">
+                        {{#image_url}}<img itemprop="image" src="{{{ image_url }}}" />{{/image_url}}
+                        {{^image_url}}<span class="no-image"></span>{{/image_url}}
+                    </div>
+					</a>
+					{{#discount_percent}}
+					<div class="discount_percent">{{discount_percent}} % OFF</div>
+					{{/discount_percent}}
+                    <div class="result-sub-content">
+                       <a href="{{url}}"><h3 itemprop="name" class="result-title text-ellipsis algoliasearchname">
+                            {{{ _highlightResult.name.value }}}
+                        </h3>
+						</a>
+						{{#option}}
+							<div class="product-attribute-option algoliasearchoption">
+							{{option}}
+							</div>
+						{{/option}}
+						{{^option}}
+							<div class="product-attribute-option algoliasearchoption"> </div>
+						{{/option}}
+					
+						<div class="dekstop-express-hide">
+					   {{#express_shipping}}
+					   
+					   <div class="express_and_standard">
+							<div><i class='fa fa-motorcycle' aria-hidden='true'></i>Express: Same Day Delivery</div>
+							<div><i class='fa fa-truck' aria-hidden='true'></i>Standard: Next Day Delivery</div>
+					   </div>	
+					   {{/express_shipping}}	
+					   {{^express_shipping}}
+					   <div class="express_and_standard">
+							<div><i class='fa fa-truck' aria-hidden='true'></i>Standard: Next Day Delivery</div>
+							<div></div>							
+					   </div>	
+					   
+					   {{/express_shipping}}
+					   </div>
+
+							<div class="ratings dekstop-express-hide">
+								<div class="result-sub-content">
+									<div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer" class="price">
+										<div class="price-wrapper">
+											<div class="price-wrapper-inner">
+												<span itemprop="lowPrice" class="after_special
+														{{#price.PKR.default_original_formated}}
+															promotion
+														{{/price.PKR.default_original_formated}}">
+													{{price.PKR.default_formated}}
+												</span>
+												{{#price.PKR.default_original_formated}}
+													<span itemprop="highPrice" class="before_special">
+														{{price.PKR.default_original_formated}}
+													</span>
+												{{/price.PKR.default_original_formated}}
+												{{#price.PKR.default_tier_formated}}
+													<span class="tier_price">
+														As low as														<span class="tier_value">{{price.PKR.default_tier_formated}}</span>
+													</span>
+												{{/price.PKR.default_tier_formated}}
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						
+						<div class="express-mobile-hide">
+						   
+					   <div class="ratings">
+								<div class="result-sub-content">
+									<div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer" class="price">
+										<div class="price-wrapper">
+											<div class="price-wrapper-inner">
+												<span itemprop="lowPrice" class="after_special
+														{{#price.PKR.default_original_formated}}
+															promotion
+														{{/price.PKR.default_original_formated}}">
+													{{price.PKR.default_formated}}
+												</span>
+												{{#price.PKR.default_original_formated}}
+													<span itemprop="highPrice" class="before_special">
+														{{price.PKR.default_original_formated}}
+													</span>
+												{{/price.PKR.default_original_formated}}
+												{{#price.PKR.default_tier_formated}}
+													<span class="tier_price">
+														As low as														<span class="tier_value">{{price.PKR.default_tier_formated}}</span>
+													</span>
+												{{/price.PKR.default_tier_formated}}
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						
+					   
+					   
+						</div>
+						
+						{{#isAddToCartEnabled}}
+                        {{#in_stock}}
+                        <form data-role="tocart-form" data-product-sku="{{sku}}" action="{{ addToCart.action }}{{#bundleOptions}}{{bundleOptions}}{{/bundleOptions}}" method="post">
+                            <input type="hidden" name="product" value="{{objectID}}">
+                            <input type="hidden" name="uenc" value="{{ addToCart.uenc }}">
+                            <input name="form_key" type="hidden" value="{{ addToCart.formKey }}">
+							<div class="qty-box" style="display:{{#is_in_cart}}block{{/is_in_cart}}{{^is_in_cart}}none{{/is_in_cart}}">
+								<a href="javascript:void(0)" class="qtyminus algolia"><i class="porto-icon-minus"></i></a>
+								<input type="hidden" id = "maxqty-{{sku}}" name="maxqty" value="{{stock_qty}}" />
+								<input type="text" name="qty" data-item="{{objectID}}" data-item-sku="{{sku}}" id="newqty-{{sku}}" maxlength="12" value="{{#cart_qty}}{{cart_qty}}{{/cart_qty}}{{^cart_qty}}1{{/cart_qty}}" title="Qty" class="input-text qty" data-validate=""/>
+								<a href="javascript:void(0)" class="qtyplus{{#error_qty}} qtyerror{{/error_qty}} algolia"><div class="errorplus error-{{sku}}">Max {{stock_qty}} available</div><i class="porto-icon-plus"></i></a>
+							</div>
+                            <button type="submit" title="Add to Cart" class="action tocart primary" id="addcartalgolia-{{sku}}" data-objectid="{{objectID}}" data-position="{{__position}}" style="display:{{#is_in_cart}}none{{/is_in_cart}}{{^is_in_cart}}block{{/is_in_cart}}">
+                                <span>Add to Cart</span>
+                            </button>
+                        </form>
+                        {{/in_stock}}
+                        {{/isAddToCartEnabled}}
+						<div class="express-mobile-hide express-cs">
+							{{#express_shipping}}
+					   <div class="express_and_standard">
+							<div class="express-delivery"><i class='fa fa-motorcycle' aria-hidden='true'></i>Same Day Delivery</div>
+							<div><i class='fa fa-truck' aria-hidden='true'></i>Standard: Next Day Delivery</div>
+					   </div>	
+					   {{/express_shipping}}	
+					   {{^express_shipping}}
+					   <div class="express_and_standard">
+							<div><i class='fa fa-truck' aria-hidden='true'></i>Standard: Next Day Delivery</div>
+							<div></div>							
+					   </div>	
+					   
+					   {{/express_shipping}}
+					   </div>
+						
+                        <div class="result-description text-ellipsis">{{{ _highlightResult.description.value }}}</div>
+
+                        
+                    </div>
+                </div>
+                <div class="algolia-clearfix"></div>
+            </div>
+        </div>
+    </div>
+</script>
+			<script>
+	jQuery(document).on('click', '.qtyplus.algolia', function(e) {
+		e.preventDefault();
+		if(jQuery(this).hasClass("qtyerror"))
+			return;
+		if(typeof timeout !== "undefined"){
+			clearTimeout(timeout);
+		}
+		var qty =  jQuery(this).siblings('input[name=qty]');
+		var cqty =  parseInt(jQuery(this).siblings('input[name=qty]').val())+1;
+		var maxqty =  parseInt(jQuery(this).siblings('input[name=maxqty]').val());
+		if(cqty > maxqty){
+			//setTimeout(jQuery(this).addClass("qtyerror"), 2000)
+			//jQuery(this).addClass("qtyerror");
+			jQuery(this).siblings('input[name=qty]').val(maxqty);
+		}
+	});
+	
+	jQuery(document).on('click', '.qtyminus.algolia', function(e) {
+		e.preventDefault();
+		if(typeof timeout !== "undefined"){
+			clearTimeout(timeout);
+		}
+		var qty = jQuery(this).siblings('input[name=qty]');
+		if(qty.val() == 0) {
+			return false;
+		}
+		var cqty =  parseInt(jQuery(this).siblings('input[name=qty]').val()-1);
+		var maxqty =  parseInt(jQuery(this).siblings('input[name=maxqty]').val());
+		if(cqty < maxqty){
+			jQuery(this).next().next().next().removeClass("qtyerror");
+		}
+	});	
+</script><script type="text/template" id="instant-stats-template">
+    {{#hasOneResult}}<strong>1</strong> result found{{/hasOneResult}}
+
+    {{#hasManyResults}}
+        {{^hasNoResults}}{{first}}-{{last}} out of{{/hasNoResults}}
+        <strong>
+            <span itemprop="numberOfItems">{{#helpers.formatNumber}}{{nbHits}}{{/helpers.formatNumber}}</span>
+            results found        </strong>
+    {{/hasManyResults}}
+
+    in {{seconds}} seconds</script><script type="text/template" id="refinements-lists-item-template">
+    <div class="{{cssClasses.label}} {{#isRefined}}checked{{/isRefined}}">
+        <input class="{{cssClasses.checkbox}}" {{#isRefined}}checked{{/isRefined}} type="checkbox">
+        {{value}}
+        <span class="{{cssClasses.count}}">{{count}}</span>
+    </div>
+</script><script type="text/template" id="current-refinements-template">
+    <div class="cross-wrapper">
+        <span class="clear-cross clear-refinement"></span>
+    </div>
+    <div class="current-refinement-wrapper">
+        {{#label}}
+        <span class="current-refinement-label">{{label}}{{^operator}}:{{/operator}}</span>
+        {{/label}}
+        {{#operator}}
+        {{{displayOperator}}}
+        {{/operator}}
+        {{#exclude}}-{{/exclude}}
+        <span class="current-refinement-name">{{name}}</span>
+    </div>
+</script></div>    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"df69bf159d","applicationID":"337667020","transactionName":"MV0GYxdVX0ACU01QWggXJVQRXV5dTFNYTVQKVwMYFUZeVxZTTRZDD10T","queueTime":0,"applicationTime":1282,"atts":"HRoRFV9PTB9BURsDThtF","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
