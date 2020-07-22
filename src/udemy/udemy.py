@@ -155,14 +155,14 @@ class UdemyScraper(scrapy.Spider):
                 'price_detail': '',
             }
             
-            # try to extract discount price
+            # try to extract price
             try:
                 features['price'] = course_prices[str(course['id'])]['price']['price_string']
             
             except:
                 pass
             
-            # try to extract discount price
+            # try to extract list price
             try:
                 features['list_price'] = course_prices[str(course['id'])]['list_price']['price_string']
             
@@ -176,7 +176,7 @@ class UdemyScraper(scrapy.Spider):
             except:
                 pass
             
-            # try to extract discount price
+            # try to extract price details
             try:
                 features['price_detail'] = course_prices[str(course['id'])]['price_detail']['price_string']
             
